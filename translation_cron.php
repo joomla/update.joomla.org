@@ -5,7 +5,7 @@
  *
  * @copyright Copyright (c) 2011 Jan Erik Zassenhaus
  * @license GNU General Public License version 3, or later
- * @version 1.2 (2011-11-20)
+ * @version 1.3 (2012-04-26)
  *
  *
  * This script useses a soap class from Samuel Moffatt.
@@ -15,7 +15,7 @@
  * @version 374
  */
 // Protect from unauthorized access via the browser
-(PHP_SAPI !== 'cli') ? die('Only command line!') : '';
+//(PHP_SAPI !== 'cli') ? die('Only command line!') : '';
 
 $translationCron = new TranslationCron();
 $translationCron->setDetailsXmlUrl('http://update.joomla.org/details/');
@@ -195,8 +195,6 @@ final class TranslationCron
      */
     private function createXmls()
     {
-        $output = array();
-
         require_once 'libraries/user_config.php';
         require_once 'libraries/gforgeconnector.php';
 
@@ -220,7 +218,7 @@ final class TranslationCron
                 $releases = $client->getFrsReleases($package->frs_package_id);
 
                 $biggest_jversion = '';
-                $biggest_tiny_version = '';
+                //$biggest_tiny_version = '';
                 foreach ($releases as $release)
                 {
                     $files = $client->getFilesystems('frsrelease', $release->frs_release_id);
@@ -272,6 +270,7 @@ final class TranslationCron
                                 }
                             }
 
+                            /*
                             if (preg_match('/^' . $lang_tag . '_TinyMCE_[0-9]{1,2}.[0-9]{1,2}v[0-9]{1,2}.zip/', $file->file_name) > 0)
                             {
                                 $file_explode = explode('_', $file->file_name);
@@ -314,6 +313,7 @@ final class TranslationCron
                                     $targetplatform->addAttribute('version', $target_version);
                                 }
                             }
+                            */
                         }
                     }
 
@@ -340,6 +340,7 @@ final class TranslationCron
                     $extension->addAttribute('detailsurl', $this->detailsXmlUrl . $lang_tag . '_details.xml');
                 }
 
+                /*
                 if (!empty($biggest_tiny_version))
                 {
                     $extension = $translationlist_xml->addChild('extension');
@@ -350,6 +351,7 @@ final class TranslationCron
                     $extension->addAttribute('version', $biggest_tiny_version);
                     $extension->addAttribute('detailsurl', $this->detailsXmlUrl . $lang_tag . '_details.xml');
                 }
+                */
             }
         }
         $translationlist_dom = new DOMDocument('1.0');
