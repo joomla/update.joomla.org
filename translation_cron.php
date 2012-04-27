@@ -15,7 +15,7 @@
  * @version 374
  */
 // Protect from unauthorized access via the browser
-//(PHP_SAPI !== 'cli') ? die('Only command line!') : '';
+(PHP_SAPI !== 'cli') ? die('Only command line!') : '';
 
 $translationCron = new TranslationCron();
 $translationCron->setDetailsXmlUrl('http://update.joomla.org/details/');
