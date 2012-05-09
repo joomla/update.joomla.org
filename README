@@ -1,3 +1,7 @@
 A small PHP script to generate update xmls for the Joomla! core translations.
 
-Modified by Mark Dexter
+To use:
+
+1. Copy the file user_config.php-dist to user_config.php.
+2. Add the required login credentials for joomlacode.org update.joomla.org.
+3. At the command line, run: php translation_cron.php.

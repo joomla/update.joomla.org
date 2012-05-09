@@ -112,8 +112,6 @@ final class TranslationCron
 		}
 	}
 
-
-
 	/**
 	 * With this function the save paths can be set different.
 	 * The filename will be added automaticaly! Please use a closing slash at the end!
@@ -128,8 +126,6 @@ final class TranslationCron
 		$this->savePathTranslationlist = $translationlist;
 	}
 
-
-
 	/**
 	 * With this function the URL to the details.xml can be changed.
 	 * "xx-XX_details.xml" will be added automaticaly at the end. Please use a closing slash at the end!
@@ -142,8 +138,6 @@ final class TranslationCron
 		$this->detailsXmlUrl = $url;
 	}
 
-
-
 	/**
 	 * This is the main methode to run the cron.
 	 *
@@ -154,8 +148,6 @@ final class TranslationCron
 		$this->createXmls();
 		$this->ftpFiles();
 	}
-
-
 
 	private function checkFolders()
 	{
@@ -178,8 +170,6 @@ final class TranslationCron
 		}
 	}
 
-
-
 	private function checkFiles()
 	{
 		if (!is_file($this->draftsPath . self::DS . 'translationlist.xml'))
@@ -194,8 +184,6 @@ final class TranslationCron
 		}
 	}
 
-
-
 	/**
 	 * Create the XMLs and write them to the disk.
 	 *
@@ -203,21 +191,6 @@ final class TranslationCron
 	 */
 	private function createXmls()
 	{
-		$tempNames = array('German_de-DE',
-// 				'Afrikaans_af-ZA',
-// 				'Arabic_Unitag_ar-AA',
-// 				'Bulgarian_bg-BG',
-// 				'Bosnian_bs-BA',
-// 				'German_de-DE',
-// 				'Greek_el-GR',
-// 				'Spanish_es-ES',
-// 				'Persian_fa-IR',
-// 				'French_fr-FR',
-// 				'Croatian_hr-HR',
-// 				'Khmer_km-KH',
-				'Norwegian-BokmÃ¥l_nb-NO',
-				);
-
 		$config = new Config();
 		$client = new GForgeConnector($config->site, $config->soap_options);
 		$client->login($config->username, $config->password);
@@ -239,9 +212,7 @@ final class TranslationCron
 			$name = implode(' ', $name_explode);
 
 			$details_xml = simplexml_load_file('drafts/xx-XX_details.xml');
-			if ($package->is_public === true && $package->status_id === 1 && $package->require_login === false
-					/*&& in_array($package->package_name, $tempNames)*/)
-
+			if ($package->is_public === true && $package->status_id === 1 && $package->require_login === false)
 			{
 				$releases = $client->getFrsReleases($package->frs_package_id);
 
@@ -253,10 +224,10 @@ final class TranslationCron
 				}
 
 				$biggest_jversion = '';
-				//$biggest_tiny_version = '';
 				foreach ($releases as $release)
 				{
 					$files = $client->getFilesystems('frsrelease', $release->frs_release_id);
+
 					// Check that some files were found
 					if ($files === false)
 					{
@@ -281,7 +252,6 @@ final class TranslationCron
 
 								if (version_compare($target_version, '1.7', '>='))
 								{
-
 									if (empty($biggest_jversion))
 									{
 										$biggest_jversion = $version;
@@ -311,51 +281,6 @@ final class TranslationCron
 									$targetplatform->addAttribute('version', $target_version);
 								}
 							}
-
-							/*
-							 if (preg_match('/^' . $lang_tag . '_TinyMCE_[0-9]{1,2}.[0-9]{1,2}v[0-9]{1,2}.zip/', $file->file_name) > 0)
-							 {
-							$file_explode = explode('_', $file->file_name);
-
-							$version_with_v = substr(array_pop($file_explode), 0, -4);
-							$version = str_replace('v', '.', $version_with_v);
-
-							$target_version_explode = explode('v', $version_with_v);
-							$target_version = substr($target_version_explode[0], 0, 3);
-
-							if (version_compare($target_version, '1.7', '>='))
-							{
-
-							if (empty($biggest_tiny_version))
-							{
-							$biggest_tiny_version = $version;
-							}
-							else
-							{
-							if (version_compare($biggest_tiny_version, $version, '<'))
-							{
-							$biggest_tiny_version = $version;
-							}
-							}
-
-							$updates = $details_xml->addChild('update');
-							$updates->addChild('name', $name . ' TinyMCE');
-							$updates->addChild('description', $name . ' Translation of TinyMCE for Joomla!');
-							$updates->addChild('element', 'file_tinymce_' . $lang_tag);
-							$updates->addChild('type', 'file');
-							$updates->addChild('version', $version);
-
-							$downloads = $updates->addChild('downloads');
-							$downloadurl = $downloads->addChild('downloadurl', 'http://joomlacode.org' . $file->download_url);
-							$downloadurl->addAttribute('type', 'full');
-							$downloadurl->addAttribute('format', 'zip');
-
-							$targetplatform = $updates->addChild('targetplatform');
-							$targetplatform->addAttribute('name', 'joomla');
-							$targetplatform->addAttribute('version', $target_version);
-							}
-							}
-							*/
 						}
 					}
 
@@ -390,19 +315,6 @@ final class TranslationCron
 					$extension->addAttribute('version', $biggest_jversion);
 					$extension->addAttribute('detailsurl', $this->detailsXmlUrl . $lang_tag . '_details.xml');
 				}
-
-				/*
-				 if (!empty($biggest_tiny_version))
-				 {
-				$extension = $translationlist_xml->addChild('extension');
-				$extension->addAttribute('name', $name . ' TinyMCE');
-				$extension->addAttribute('element', 'file_tinymce_' . $lang_tag);
-				$extension->addAttribute('type', 'file');
-
-				$extension->addAttribute('version', $biggest_tiny_version);
-				$extension->addAttribute('detailsurl', $this->detailsXmlUrl . $lang_tag . '_details.xml');
-				}
-				*/
 			}
 		}
 		$translationlist_dom = new DOMDocument('1.0');
@@ -437,7 +349,6 @@ final class TranslationCron
 			$this->error = "FTP error: could not log in\n";
 			$this->__destruct();
 		}
-// 		ftp_pasv($connectionId, true);
 
 		// Copy translationlist.xml
 		if (!ftp_chdir($connectionId, '/public_html/language'))
@@ -448,10 +359,6 @@ final class TranslationCron
 
 		echo "Copying translationlist.xml\n";
 		$copy = @ftp_put($connectionId, 'translationlist.xml', 'translationlist.xml', FTP_BINARY);
-// 		{
-// 			$this->error = 'FTP copy error';
-// 			$this->__destruct();
-// 		}
 
 		// Copy detail files
 		$ftpDestination = dirname($this->detailsXmlUrl);
@@ -467,16 +374,8 @@ final class TranslationCron
 			$toFile = basename($fromFile);
 			echo "Copying $toFile\n";
 			$copy = @ftp_put($connectionId, $toFile, $fromFile, FTP_BINARY);
-// 			if (!ftp_put($connectionId, $toFile, $fromFile, FTP_BINARY))
-// 			{
-// 				$this->error = 'FTP copy error';
-// 				$this->__destruct();
-// 			}
 		}
 		ftp_close($connectionId);
 		echo "end of file transfer\n";
 	}
-
 }
-
-?>
