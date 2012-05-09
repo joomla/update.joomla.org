@@ -17,353 +17,466 @@
 // Protect from unauthorized access via the browser
 (PHP_SAPI !== 'cli') ? die('Only command line!') : '';
 
+require_once 'libraries/user_config.php';
+require_once 'libraries/gforgeconnector.php';
+
 $translationCron = new TranslationCron();
-$translationCron->setDetailsXmlUrl('http://update.joomla.org/details/');
+$translationCron->setDetailsXmlUrl('http://update.joomla.org/language/details/');
 $translationCron->setSavePaths('', 'details/');
 $translationCron->runCron();
 
 final class TranslationCron
 {
-    /**
-     * Get the right directory seperator.
-     */
-    const DS = DIRECTORY_SEPARATOR;
+	/**
+	 * Get the right directory seperator.
+	 */
+	const DS = DIRECTORY_SEPARATOR;
 
-    /**
-     * @var string
-     * @access private
-     */
-    private $error = '';
+	/**
+	 * @var string
+	 * @access private
+	 */
+	private $error = '';
 
-    /**
-     * @var string
-     * @access private
-     */
-    private $absolutePath = '';
+	/**
+	 * @var string
+	 * @access private
+	 */
+	private $absolutePath = '';
 
-    /**
-     * @var string
-     * @access private
-     */
-    private $detailsPath = '';
+	/**
+	 * @var string
+	 * @access private
+	 */
+	private $detailsPath = '';
 
-    /**
-     * @var string
-     * @access private
-     */
-    private $draftsPath = '';
+	/**
+	 * @var string
+	 * @access private
+	 */
+	private $draftsPath = '';
 
-    /**
-     *
-     * @var string
-     * @access private
-     */
-    private $savePathTranslationlist = '';
+	/**
+	 *
+	 * @var string
+	 * @access private
+	 */
+	private $savePathTranslationlist = '';
 
-    /**
-     *
-     * @var string
-     * @access private
-     */
-    private $savePathDetails = '';
+	/**
+	 *
+	 * @var string
+	 * @access private
+	 */
+	private $savePathDetails = '';
 
-    /**
-     * @var string
-     * @access private
-     */
-    private $detailsXmlUrl = '';
+	/**
+	 * @var string
+	 * @access private
+	 */
+	private $detailsXmlUrl = '';
 
+	/**
+	 * @var array
+	 * @access private
+	 */
+	private $detailFileNames = array();
 
+	/**
+	 * Initialise some varibales and check files and folders
+	 *
+	 * @access public
+	 */
+	public function __construct()
+	{
+		$this->absolutePath = dirname(__FILE__);
+		$this->detailsPath = $this->absolutePath . self::DS . 'details';
+		$this->draftsPath = $this->absolutePath . self::DS . 'drafts';
 
-    /**
-     * Initialise some varibales and check files and folders
-     *
-     * @access public
-     */
-    public function __construct()
-    {
-        $this->absolutePath = dirname(__FILE__);
-        $this->detailsPath = $this->absolutePath . self::DS . 'details';
-        $this->draftsPath = $this->absolutePath . self::DS . 'drafts';
-
-        $this->checkFolders();
-        $this->checkFiles();
-    }
-
-
-
-    /**
-     * If we have errors return them.
-     *
-     * @access public
-     */
-    public function __destruct()
-    {
-        if (!empty($this->error))
-        {
-            exit($this->error);
-        }
-    }
+		$this->checkFolders();
+		$this->checkFiles();
+	}
 
 
 
-    /**
-     * With this function the save paths can be set different.
-     * The filename will be added automaticaly! Please use a closing slash at the end!
-     *
-     * @param string $translationlist The translationlist.xml save path on disk.
-     * @param string $details The details.xml save path on disk.
-     * @access public
-     */
-    public function setSavePaths($translationlist = '', $details = '')
-    {
-        $this->savePathDetails = $details;
-        $this->savePathTranslationlist = $translationlist;
-    }
+	/**
+	 * If we have errors return them.
+	 *
+	 * @access public
+	 */
+	public function __destruct()
+	{
+		if (!empty($this->error))
+		{
+			exit($this->error);
+		}
+	}
 
 
 
-    /**
-     * With this function the URL to the details.xml can be changed.
-     * "xx-XX_details.xml" will be added automaticaly at the end. Please use a closing slash at the end!
-     *
-     * @param string $url The url to use for the details.xml
-     * @access public
-     */
-    public function setDetailsXmlUrl($url)
-    {
-        $this->detailsXmlUrl = $url;
-    }
+	/**
+	 * With this function the save paths can be set different.
+	 * The filename will be added automaticaly! Please use a closing slash at the end!
+	 *
+	 * @param string $translationlist The translationlist.xml save path on disk.
+	 * @param string $details The details.xml save path on disk.
+	 * @access public
+	 */
+	public function setSavePaths($translationlist = '', $details = '')
+	{
+		$this->savePathDetails = $details;
+		$this->savePathTranslationlist = $translationlist;
+	}
 
 
 
-    /**
-     * This is the main methode to run the cron.
-     *
-     * @access public
-     */
-    public function runCron()
-    {
-        $this->createXmls();
-    }
+	/**
+	 * With this function the URL to the details.xml can be changed.
+	 * "xx-XX_details.xml" will be added automaticaly at the end. Please use a closing slash at the end!
+	 *
+	 * @param string $url The url to use for the details.xml
+	 * @access public
+	 */
+	public function setDetailsXmlUrl($url)
+	{
+		$this->detailsXmlUrl = $url;
+	}
 
 
 
-    private function checkFolders()
-    {
-        if (!is_dir($this->draftsPath))
-        {
-            if (!mkdir($this->draftsPath))
-            {
-                $this->error = 'Cannot create the "' . $this->draftsPath . '" folder!';
-                $this->__destruct();
-            }
-        }
-
-        if (!is_dir($this->detailsPath))
-        {
-            if (!mkdir($this->detailsPath))
-            {
-                $this->error = 'Cannot create the "' . $this->detailsPath . '" folder!';
-                $this->__destruct();
-            }
-        }
-    }
+	/**
+	 * This is the main methode to run the cron.
+	 *
+	 * @access public
+	 */
+	public function runCron()
+	{
+		$this->createXmls();
+		$this->ftpFiles();
+	}
 
 
 
-    private function checkFiles()
-    {
-        if (!is_file($this->draftsPath . self::DS . 'translationlist.xml'))
-        {
-            $this->error = 'The "translationlist.xml" cannot be found in "' . $this->draftsPath . '" folder!';
-            $this->__destruct();
-        }
-        elseif (!is_file($this->draftsPath . self::DS . 'xx-XX_details.xml'))
-        {
-            $this->error = 'The "xx-XX_details.xml" cannot be found in "' . $this->draftsPath . '" folder!';
-            $this->__destruct();
-        }
-    }
+	private function checkFolders()
+	{
+		if (!is_dir($this->draftsPath))
+		{
+			if (!mkdir($this->draftsPath))
+			{
+				$this->error = 'Cannot create the "' . $this->draftsPath . '" folder!';
+				$this->__destruct();
+			}
+		}
+
+		if (!is_dir($this->detailsPath))
+		{
+			if (!mkdir($this->detailsPath))
+			{
+				$this->error = 'Cannot create the "' . $this->detailsPath . '" folder!';
+				$this->__destruct();
+			}
+		}
+	}
 
 
 
-    /**
-     * Create the XMLs and write them to the disk.
-     *
-     * @access private
-     */
-    private function createXmls()
-    {
-        require_once 'libraries/user_config.php';
-        require_once 'libraries/gforgeconnector.php';
+	private function checkFiles()
+	{
+		if (!is_file($this->draftsPath . self::DS . 'translationlist.xml'))
+		{
+			$this->error = 'The "translationlist.xml" cannot be found in "' . $this->draftsPath . '" folder!';
+			$this->__destruct();
+		}
+		elseif (!is_file($this->draftsPath . self::DS . 'xx-XX_details.xml'))
+		{
+			$this->error = 'The "xx-XX_details.xml" cannot be found in "' . $this->draftsPath . '" folder!';
+			$this->__destruct();
+		}
+	}
 
-        $config = new Config();
-        $client = new GForgeConnector($config->site, $config->soap_options);
-        $client->login($config->username, $config->password);
 
-        $project = $client->getProject('jtranslation1_6');
-        $packages = $client->getFrsPackages($project->project_id);
 
-        $translationlist_xml = simplexml_load_file('drafts/translationlist.xml');
-        foreach ($packages as $package)
-        {
-            $name_explode = explode('_', $package->package_name);
-            $lang_tag = array_pop($name_explode);
-            $name = implode(' ', $name_explode);
+	/**
+	 * Create the XMLs and write them to the disk.
+	 *
+	 * @access private
+	 */
+	private function createXmls()
+	{
+		$tempNames = array('German_de-DE',
+// 				'Afrikaans_af-ZA',
+// 				'Arabic_Unitag_ar-AA',
+// 				'Bulgarian_bg-BG',
+// 				'Bosnian_bs-BA',
+// 				'German_de-DE',
+// 				'Greek_el-GR',
+// 				'Spanish_es-ES',
+// 				'Persian_fa-IR',
+// 				'French_fr-FR',
+// 				'Croatian_hr-HR',
+// 				'Khmer_km-KH',
+				'Norwegian-BokmÃ¥l_nb-NO',
+				);
 
-            $details_xml = simplexml_load_file('drafts/xx-XX_details.xml');
-            if ($package->is_public === true && $package->status_id === 1 && $package->require_login === false) // && $package->package_name === 'German_de-DE'
-            {
-                $releases = $client->getFrsReleases($package->frs_package_id);
+		$config = new Config();
+		$client = new GForgeConnector($config->site, $config->soap_options);
+		$client->login($config->username, $config->password);
 
-                $biggest_jversion = '';
-                //$biggest_tiny_version = '';
-                foreach ($releases as $release)
-                {
-                    $files = $client->getFilesystems('frsrelease', $release->frs_release_id);
+		$project = $client->getProject('jtranslation1_6');
+		$packages = $client->getFrsPackages($project->project_id);
 
-                    foreach ($files as $file)
-                    {
-                        if ($file->deleted === false && substr($file->file_name, -3) === 'zip')
-                        {
-                            if (preg_match('/^' . $lang_tag . '_joomla_lang_full_[0-9]{1,2}.[0-9]{1,2}.[0-9]{1,2}v[0-9]{1,2}.zip/', $file->file_name) > 0)
-                            {
-                                $file_explode = explode('_', $file->file_name);
+		if ($packages === false)
+		{
+			$this->error = 'No packages found for project.';
+			$this->__destruct();
+		}
 
-                                $version_with_v = substr(array_pop($file_explode), 0, -4);
-                                $version = str_replace('v', '.', $version_with_v);
+		$translationlist_xml = simplexml_load_file('drafts/translationlist.xml');
+		foreach ($packages as $package)
+		{
+			$name_explode = explode('_', $package->package_name);
+			$lang_tag = array_pop($name_explode);
+			$name = implode(' ', $name_explode);
 
-                                $joomla_version_explode = explode('v', $version_with_v);
-                                $target_version = substr($joomla_version_explode[0], 0, 3);
+			$details_xml = simplexml_load_file('drafts/xx-XX_details.xml');
+			if ($package->is_public === true && $package->status_id === 1 && $package->require_login === false
+					/*&& in_array($package->package_name, $tempNames)*/)
 
-                                if (version_compare($target_version, '1.7', '>='))
-                                {
+			{
+				$releases = $client->getFrsReleases($package->frs_package_id);
 
-                                    if (empty($biggest_jversion))
-                                    {
-                                        $biggest_jversion = $version;
-                                    }
-                                    else
-                                    {
-                                        if (version_compare($biggest_jversion, $version, '<'))
-                                        {
-                                            $biggest_jversion = $version;
-                                        }
-                                    }
+				// Check that some releases were found
+				if ($releases === false)
+				{
+					echo "No releases found for " . $package->package_name . "\n";
+					continue;
+				}
 
-                                    $updates = $details_xml->addChild('update');
-                                    $updates->addChild('name', $name);
-                                    $updates->addChild('description', $name . ' Translation of Joomla!');
-                                    $updates->addChild('element', 'pkg_' . $lang_tag);
-                                    $updates->addChild('type', 'package');
-                                    $updates->addChild('version', $version);
+				$biggest_jversion = '';
+				//$biggest_tiny_version = '';
+				foreach ($releases as $release)
+				{
+					$files = $client->getFilesystems('frsrelease', $release->frs_release_id);
+					// Check that some files were found
+					if ($files === false)
+					{
+						echo "No files found for " . $release->release_name . "\n";
+						continue;
+					}
 
-                                    $downloads = $updates->addChild('downloads');
-                                    $downloadurl = $downloads->addChild('downloadurl', 'http://joomlacode.org' . $file->download_url);
-                                    $downloadurl->addAttribute('type', 'full');
-                                    $downloadurl->addAttribute('format', 'zip');
+					foreach ($files as $file)
+					{
+						if ($file->deleted === false && substr($file->file_name, -3) === 'zip')
+						{
+							if (preg_match('/^' . $lang_tag . '_joomla_lang_full_[0-9]{1,2}.[0-9]{1,2}.[0-9]{1,2}v[0-9]{1,2}.zip/', $file->file_name) > 0)
+							{
+								echo "Starting work on " . $file->file_name . "\n";
+								$file_explode = explode('_', $file->file_name);
 
-                                    $targetplatform = $updates->addChild('targetplatform');
-                                    $targetplatform->addAttribute('name', 'joomla');
-                                    $targetplatform->addAttribute('version', $target_version);
-                                }
-                            }
+								$version_with_v = substr(array_pop($file_explode), 0, -4);
+								$version = str_replace('v', '.', $version_with_v);
 
-                            /*
-                            if (preg_match('/^' . $lang_tag . '_TinyMCE_[0-9]{1,2}.[0-9]{1,2}v[0-9]{1,2}.zip/', $file->file_name) > 0)
-                            {
-                                $file_explode = explode('_', $file->file_name);
+								$joomla_version_explode = explode('v', $version_with_v);
+								$target_version = substr($joomla_version_explode[0], 0, 3);
 
-                                $version_with_v = substr(array_pop($file_explode), 0, -4);
-                                $version = str_replace('v', '.', $version_with_v);
+								if (version_compare($target_version, '1.7', '>='))
+								{
 
-                                $target_version_explode = explode('v', $version_with_v);
-                                $target_version = substr($target_version_explode[0], 0, 3);
+									if (empty($biggest_jversion))
+									{
+										$biggest_jversion = $version;
+									}
+									else
+									{
+										if (version_compare($biggest_jversion, $version, '<'))
+										{
+											$biggest_jversion = $version;
+										}
+									}
 
-                                if (version_compare($target_version, '1.7', '>='))
-                                {
+									$updates = $details_xml->addChild('update');
+									$updates->addChild('name', $name);
+									$updates->addChild('description', $name . ' Translation of Joomla!');
+									$updates->addChild('element', 'pkg_' . $lang_tag);
+									$updates->addChild('type', 'package');
+									$updates->addChild('version', $version);
 
-                                    if (empty($biggest_tiny_version))
-                                    {
-                                        $biggest_tiny_version = $version;
-                                    }
-                                    else
-                                    {
-                                        if (version_compare($biggest_tiny_version, $version, '<'))
-                                        {
-                                            $biggest_tiny_version = $version;
-                                        }
-                                    }
+									$downloads = $updates->addChild('downloads');
+									$downloadurl = $downloads->addChild('downloadurl', 'http://joomlacode.org' . $file->download_url);
+									$downloadurl->addAttribute('type', 'full');
+									$downloadurl->addAttribute('format', 'zip');
 
-                                    $updates = $details_xml->addChild('update');
-                                    $updates->addChild('name', $name . ' TinyMCE');
-                                    $updates->addChild('description', $name . ' Translation of TinyMCE for Joomla!');
-                                    $updates->addChild('element', 'file_tinymce_' . $lang_tag);
-                                    $updates->addChild('type', 'file');
-                                    $updates->addChild('version', $version);
+									$targetplatform = $updates->addChild('targetplatform');
+									$targetplatform->addAttribute('name', 'joomla');
+									$targetplatform->addAttribute('version', $target_version);
+								}
+							}
 
-                                    $downloads = $updates->addChild('downloads');
-                                    $downloadurl = $downloads->addChild('downloadurl', 'http://joomlacode.org' . $file->download_url);
-                                    $downloadurl->addAttribute('type', 'full');
-                                    $downloadurl->addAttribute('format', 'zip');
+							/*
+							 if (preg_match('/^' . $lang_tag . '_TinyMCE_[0-9]{1,2}.[0-9]{1,2}v[0-9]{1,2}.zip/', $file->file_name) > 0)
+							 {
+							$file_explode = explode('_', $file->file_name);
 
-                                    $targetplatform = $updates->addChild('targetplatform');
-                                    $targetplatform->addAttribute('name', 'joomla');
-                                    $targetplatform->addAttribute('version', $target_version);
-                                }
-                            }
-                            */
-                        }
-                    }
+							$version_with_v = substr(array_pop($file_explode), 0, -4);
+							$version = str_replace('v', '.', $version_with_v);
 
-                    if (!empty($details_xml))
-                    {
-                        $details_dom = new DOMDocument('1.0');
-                        $details_dom->preserveWhiteSpace = false;
-                        $details_dom->formatOutput = true;
-                        $details_dom->loadXML($details_xml->asXML());
+							$target_version_explode = explode('v', $version_with_v);
+							$target_version = substr($target_version_explode[0], 0, 3);
 
-                        // Save XML to file
-                        $details_dom->save($this->savePathDetails . $lang_tag . '_details.xml');
-                    }
-                }
+							if (version_compare($target_version, '1.7', '>='))
+							{
 
-                if (!empty($biggest_jversion))
-                {
-                    $extension = $translationlist_xml->addChild('extension');
-                    $extension->addAttribute('name', $name);
-                    $extension->addAttribute('element', 'pkg_' . $lang_tag);
-                    $extension->addAttribute('type', 'package');
+							if (empty($biggest_tiny_version))
+							{
+							$biggest_tiny_version = $version;
+							}
+							else
+							{
+							if (version_compare($biggest_tiny_version, $version, '<'))
+							{
+							$biggest_tiny_version = $version;
+							}
+							}
 
-                    $extension->addAttribute('version', $biggest_jversion);
-                    $extension->addAttribute('detailsurl', $this->detailsXmlUrl . $lang_tag . '_details.xml');
-                }
+							$updates = $details_xml->addChild('update');
+							$updates->addChild('name', $name . ' TinyMCE');
+							$updates->addChild('description', $name . ' Translation of TinyMCE for Joomla!');
+							$updates->addChild('element', 'file_tinymce_' . $lang_tag);
+							$updates->addChild('type', 'file');
+							$updates->addChild('version', $version);
 
-                /*
-                if (!empty($biggest_tiny_version))
-                {
-                    $extension = $translationlist_xml->addChild('extension');
-                    $extension->addAttribute('name', $name . ' TinyMCE');
-                    $extension->addAttribute('element', 'file_tinymce_' . $lang_tag);
-                    $extension->addAttribute('type', 'file');
+							$downloads = $updates->addChild('downloads');
+							$downloadurl = $downloads->addChild('downloadurl', 'http://joomlacode.org' . $file->download_url);
+							$downloadurl->addAttribute('type', 'full');
+							$downloadurl->addAttribute('format', 'zip');
 
-                    $extension->addAttribute('version', $biggest_tiny_version);
-                    $extension->addAttribute('detailsurl', $this->detailsXmlUrl . $lang_tag . '_details.xml');
-                }
-                */
-            }
-        }
-        $translationlist_dom = new DOMDocument('1.0');
-        $translationlist_dom->preserveWhiteSpace = false;
-        $translationlist_dom->formatOutput = true;
-        $translationlist_dom->loadXML($translationlist_xml->asXML());
+							$targetplatform = $updates->addChild('targetplatform');
+							$targetplatform->addAttribute('name', 'joomla');
+							$targetplatform->addAttribute('version', $target_version);
+							}
+							}
+							*/
+						}
+					}
 
-        // Save XML to file
-        $translationlist_dom->save($this->savePathTranslationlist . 'translationlist.xml');
+					if (!empty($details_xml))
+					{
+						$details_dom = new DOMDocument('1.0');
+						$details_dom->preserveWhiteSpace = false;
+						$details_dom->formatOutput = true;
+						$details_dom->loadXML($details_xml->asXML());
 
-        $client->logout();
-    }
+						// Save XML to file
+						$fileName = $this->savePathDetails . $lang_tag . '_details.xml';
+						if (!$details_dom->save($fileName))
+						{
+							echo "Could not save $fileName\n";
+						}
+						else
+						{
+							$this->detailFileNames[$fileName] = true;
+						}
+
+					}
+				}
+
+				if (!empty($biggest_jversion))
+				{
+					$extension = $translationlist_xml->addChild('extension');
+					$extension->addAttribute('name', $name);
+					$extension->addAttribute('element', 'pkg_' . $lang_tag);
+					$extension->addAttribute('type', 'package');
+
+					$extension->addAttribute('version', $biggest_jversion);
+					$extension->addAttribute('detailsurl', $this->detailsXmlUrl . $lang_tag . '_details.xml');
+				}
+
+				/*
+				 if (!empty($biggest_tiny_version))
+				 {
+				$extension = $translationlist_xml->addChild('extension');
+				$extension->addAttribute('name', $name . ' TinyMCE');
+				$extension->addAttribute('element', 'file_tinymce_' . $lang_tag);
+				$extension->addAttribute('type', 'file');
+
+				$extension->addAttribute('version', $biggest_tiny_version);
+				$extension->addAttribute('detailsurl', $this->detailsXmlUrl . $lang_tag . '_details.xml');
+				}
+				*/
+			}
+		}
+		$translationlist_dom = new DOMDocument('1.0');
+		$translationlist_dom->preserveWhiteSpace = false;
+		$translationlist_dom->formatOutput = true;
+		$translationlist_dom->loadXML($translationlist_xml->asXML());
+
+		// Save XML to file
+		$fileName = $this->savePathTranslationlist . 'translationlist.xml';
+		$translationlist_dom->save($fileName);
+
+		$client->logout();
+	}
+
+	/**
+	 * FTP the files to the update server
+	 *
+	 * @access private
+	 */
+	private function ftpFiles()
+	{
+		$config = new Config();
+		// Get list of detail files
+		$files = array_keys($this->detailFileNames);
+
+		// Connect to FTP destination
+
+		$connectionId = ftp_connect($config->ftpSite);
+		$login = ftp_login($connectionId, $config->ftpUser, $config->ftpPassword);
+		if (!$connectionId || !$login)
+		{
+			$this->error = "FTP error: could not log in\n";
+			$this->__destruct();
+		}
+// 		ftp_pasv($connectionId, true);
+
+		// Copy translationlist.xml
+		if (!ftp_chdir($connectionId, '/public_html/language'))
+		{
+			$this->error = "FTP cannot change directory to language\n";
+			$this->__destruct();
+		}
+
+		echo "Copying translationlist.xml\n";
+		$copy = @ftp_put($connectionId, 'translationlist.xml', 'translationlist.xml', FTP_BINARY);
+// 		{
+// 			$this->error = 'FTP copy error';
+// 			$this->__destruct();
+// 		}
+
+		// Copy detail files
+		$ftpDestination = dirname($this->detailsXmlUrl);
+		if (!ftp_chdir($connectionId, '/public_html/language/details'))
+		{
+			$this->error = "FTP cannot change directory to details\n";
+			$this->__destruct();
+		}
+
+		foreach ($files as $fromFile)
+		{
+			$fromFile = './' . $fromFile;
+			$toFile = basename($fromFile);
+			echo "Copying $toFile\n";
+			$copy = @ftp_put($connectionId, $toFile, $fromFile, FTP_BINARY);
+// 			if (!ftp_put($connectionId, $toFile, $fromFile, FTP_BINARY))
+// 			{
+// 				$this->error = 'FTP copy error';
+// 				$this->__destruct();
+// 			}
+		}
+		ftp_close($connectionId);
+		echo "end of file transfer\n";
+	}
+
 }
 
 ?>
