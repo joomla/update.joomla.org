@@ -1,3 +1,4 @@
+#! /usr/local/bin/php
 <?php
 
 /**
@@ -20,7 +21,8 @@
 require_once 'libraries/user_config.php';
 require_once 'libraries/gforgeconnector.php';
 
-$translationCron = new TranslationCron();
+echo date('Y-m-d H:m:s') . ": Starting Translation Cron Job.\n";
+$translationCron = new TranslationCron($argv);
 $translationCron->setDetailsXmlUrl('http://update.joomla.org/language/details/');
 $translationCron->setSavePaths('', 'details/');
 $translationCron->runCron();
@@ -83,18 +85,29 @@ final class TranslationCron
 	private $detailFileNames = array();
 
 	/**
+	 * Whether we have a CLI argument -v for verbose
+	 * @var boolean
+	 * @access private
+	 */
+	private $verbose = false;
+
+	/**
 	 * Initialise some varibales and check files and folders
 	 *
 	 * @access public
 	 */
-	public function __construct()
+	public function __construct($argv)
 	{
+
 		$this->absolutePath = dirname(__FILE__);
 		$this->detailsPath = $this->absolutePath . self::DS . 'details';
 		$this->draftsPath = $this->absolutePath . self::DS . 'drafts';
 
 		$this->checkFolders();
 		$this->checkFiles();
+
+		// Set $verbose
+		$this->verbose = (isset($argv[1]) && ($argv[1] == '-v'));
 	}
 
 
@@ -219,7 +232,6 @@ final class TranslationCron
 				// Check that some releases were found
 				if ($releases === false)
 				{
-					echo "No releases found for " . $package->package_name . "\n";
 					continue;
 				}
 
@@ -231,7 +243,6 @@ final class TranslationCron
 					// Check that some files were found
 					if ($files === false)
 					{
-						echo "No files found for " . $release->release_name . "\n";
 						continue;
 					}
 
@@ -241,7 +252,7 @@ final class TranslationCron
 						{
 							if (preg_match('/^' . $lang_tag . '_joomla_lang_full_[0-9]{1,2}.[0-9]{1,2}.[0-9]{1,2}v[0-9]{1,2}.zip/', $file->file_name) > 0)
 							{
-								echo "Starting work on " . $file->file_name . "\n";
+								if ($this->verbose) echo "Starting work on " . $file->file_name . "\n";
 								$file_explode = explode('_', $file->file_name);
 
 								$version_with_v = substr(array_pop($file_explode), 0, -4);
@@ -295,7 +306,7 @@ final class TranslationCron
 						$fileName = $this->savePathDetails . $lang_tag . '_details.xml';
 						if (!$details_dom->save($fileName))
 						{
-							echo "Could not save $fileName\n";
+							if ($this->verbose) echo "Could not save $fileName\n";
 						}
 						else
 						{
@@ -337,6 +348,7 @@ final class TranslationCron
 	private function ftpFiles()
 	{
 		$config = new Config();
+		$fileCount = 0;
 		// Get list of detail files
 		$files = array_keys($this->detailFileNames);
 
@@ -357,8 +369,13 @@ final class TranslationCron
 			$this->__destruct();
 		}
 
-		echo "Copying translationlist.xml\n";
 		$copy = @ftp_put($connectionId, 'translationlist.xml', 'translationlist.xml', FTP_BINARY);
+		if ($copy)
+		{
+			if ($this->verbose) echo "Copy of translationlist.xml was successful.\n";
+			$fileCount++;
+		}
+
 
 		// Copy detail files
 		$ftpDestination = dirname($this->detailsXmlUrl);
@@ -372,10 +389,16 @@ final class TranslationCron
 		{
 			$fromFile = './' . $fromFile;
 			$toFile = basename($fromFile);
-			echo "Copying $toFile\n";
+
 			$copy = @ftp_put($connectionId, $toFile, $fromFile, FTP_BINARY);
+			if ($copy)
+			{
+				if ($this->verbose) echo "Copy of $toFile was successful.\n";
+				$fileCount++;
+			}
 		}
 		ftp_close($connectionId);
-		echo "end of file transfer\n";
+		if ($this->verbose) echo "end of file transfer\n";
+		echo date('Y-m-d H:m:s') . ": $fileCount files copied to update server.\n";
 	}
 }
