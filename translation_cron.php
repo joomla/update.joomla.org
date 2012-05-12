@@ -24,7 +24,7 @@ require_once 'libraries/gforgeconnector.php';
 echo date('Y-m-d H:m:s') . ": Starting Translation Cron Job.\n";
 $translationCron = new TranslationCron($argv);
 $translationCron->setDetailsXmlUrl('http://update.joomla.org/language/details/');
-$translationCron->setSavePaths('', 'details/');
+$translationCron->setSavePaths(dirname(__FILE__) . '/', 'details/');
 $translationCron->runCron();
 
 final class TranslationCron
@@ -159,6 +159,9 @@ final class TranslationCron
 	public function runCron()
 	{
 		$this->createXmls();
+
+		// sleep command is needed to avoid errors in the ftp_chdir command. Not sure why.
+		sleep(10);
 		$this->ftpFiles();
 	}
 
@@ -217,14 +220,14 @@ final class TranslationCron
 			$this->__destruct();
 		}
 
-		$translationlist_xml = simplexml_load_file('drafts/translationlist.xml');
+		$translationlist_xml = simplexml_load_file($this->draftsPath . '/translationlist.xml');
 		foreach ($packages as $package)
 		{
 			$name_explode = explode('_', $package->package_name);
 			$lang_tag = array_pop($name_explode);
 			$name = implode(' ', $name_explode);
 
-			$details_xml = simplexml_load_file('drafts/xx-XX_details.xml');
+			$details_xml = simplexml_load_file($this->draftsPath . '/xx-XX_details.xml');
 			if ($package->is_public === true && $package->status_id === 1 && $package->require_login === false)
 			{
 				$releases = $client->getFrsReleases($package->frs_package_id);
@@ -303,7 +306,7 @@ final class TranslationCron
 						$details_dom->loadXML($details_xml->asXML());
 
 						// Save XML to file
-						$fileName = $this->savePathDetails . $lang_tag . '_details.xml';
+						$fileName = $this->detailsPath . '/' . $lang_tag . '_details.xml';
 						if (!$details_dom->save($fileName))
 						{
 							if ($this->verbose) echo "Could not save $fileName\n";
@@ -387,9 +390,7 @@ final class TranslationCron
 
 		foreach ($files as $fromFile)
 		{
-			$fromFile = './' . $fromFile;
 			$toFile = basename($fromFile);
-
 			$copy = @ftp_put($connectionId, $toFile, $fromFile, FTP_BINARY);
 			if ($copy)
 			{
