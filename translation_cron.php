@@ -158,6 +158,8 @@ final class TranslationCron
 	 */
 	public function runCron()
 	{
+		// Remove all old files before starting
+		$this->deleteXMLFiles();
 		$this->createXmls();
 
 		// sleep command is needed to avoid errors in the ftp_chdir command. Not sure why.
@@ -343,6 +345,23 @@ final class TranslationCron
 		$client->logout();
 	}
 
+
+	/**
+	 * Delete the old files
+	 *
+	 * @access private
+	 */
+	private function deleteXMLFiles()
+	{
+		// Delete all details files
+		foreach(glob($this->detailsPath . '/*.xml') as $v)
+		{
+			unlink($v);
+		}
+		// Delete translation list file
+		unlink($this->savePathTranslationlist . 'translationlist.xml');
+	}
+
 	/**
 	 * FTP the files to the update server
 	 *
@@ -372,13 +391,12 @@ final class TranslationCron
 			$this->__destruct();
 		}
 
-		$copy = @ftp_put($connectionId, 'translationlist.xml', 'translationlist.xml', FTP_BINARY);
+		$copy = @ftp_put($connectionId, 'translationlist.xml', $this->savePathTranslationlist . 'translationlist.xml', FTP_BINARY);
 		if ($copy)
 		{
 			if ($this->verbose) echo "Copy of translationlist.xml was successful.\n";
 			$fileCount++;
 		}
-
 
 		// Copy detail files
 		$ftpDestination = dirname($this->detailsXmlUrl);
