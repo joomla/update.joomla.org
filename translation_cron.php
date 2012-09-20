@@ -217,7 +217,7 @@ final class TranslationCron
 		$client = new GForgeConnector($config->site, $config->soap_options);
 		$client->login($config->username, $config->password);
 
-		$project = $client->getProject('jtranslation1_6');
+		$project = $client->getProject($this->versionConfig->project);
 		$packages = $client->getFrsPackages($project->project_id);
 
 		if ($packages === false)
