@@ -23,8 +23,6 @@ require_once 'libraries/gforgeconnector.php';
 
 echo date('Y-m-d H:m:s') . ": Starting Translation Cron Job.\n";
 $translationCron = new TranslationCron($argv);
-$translationCron->setDetailsXmlUrl('http://update.joomla.org/language/details/');
-$translationCron->setSavePaths(dirname(__FILE__) . '/', 'details/');
 $translationCron->runCron();
 
 final class TranslationCron
@@ -66,13 +64,6 @@ final class TranslationCron
 	private $savePathTranslationlist = '';
 
 	/**
-	 *
-	 * @var string
-	 * @access private
-	 */
-	private $savePathDetails = '';
-
-	/**
 	 * @var string
 	 * @access private
 	 */
@@ -98,7 +89,7 @@ final class TranslationCron
 	 * @var VersionConfig object
 	 * @access private
 	 */
-	private $versionConfig = null;
+	public $versionConfig = null;
 
 	/**
 	 * Initialise some varibales and check files and folders
@@ -109,16 +100,19 @@ final class TranslationCron
 	{
 
 		$this->absolutePath = dirname(__FILE__);
-		$this->detailsPath = $this->absolutePath . self::DS . 'details';
-		$this->draftsPath = $this->absolutePath . self::DS . 'drafts';
-
-		$this->checkFolders();
-		$this->checkFiles();
+		$this->draftsPath = $this->absolutePath . '/' . 'drafts';
 
 		// Set $verbose
 		require_once $this->absolutePath . '/libraries/' . $argv[1];
 		$this->versionConfig = new VersionConfig();
+		$this->setDetailsXmlUrl($this->versionConfig->updateFolder);
+		$this->setSavePaths(dirname(__FILE__) . '/', $this->absolutePath . '/' . $this->versionConfig->detailsFolder . '/');
+// 		$this->detailsPath = $this->absolutePath . '/' . 'details';
+
 		$this->verbose = (isset($argv[2]) && ($argv[2] == '-v'));
+
+		$this->checkFolders();
+		$this->checkFiles();
 	}
 
 
@@ -146,7 +140,7 @@ final class TranslationCron
 	 */
 	public function setSavePaths($translationlist = '', $details = '')
 	{
-		$this->savePathDetails = $details;
+		$this->detailsPath = $details;
 		$this->savePathTranslationlist = $translationlist;
 	}
 
@@ -201,12 +195,12 @@ final class TranslationCron
 
 	private function checkFiles()
 	{
-		if (!is_file($this->draftsPath . self::DS . 'translationlist.xml'))
+		if (!is_file($this->draftsPath . '/' . 'translationlist.xml'))
 		{
 			$this->error = 'The "translationlist.xml" cannot be found in "' . $this->draftsPath . '" folder!';
 			$this->__destruct();
 		}
-		elseif (!is_file($this->draftsPath . self::DS . 'xx-XX_details.xml'))
+		elseif (!is_file($this->draftsPath . '/' . 'xx-XX_details.xml'))
 		{
 			$this->error = 'The "xx-XX_details.xml" cannot be found in "' . $this->draftsPath . '" folder!';
 			$this->__destruct();
