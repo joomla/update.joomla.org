@@ -92,6 +92,15 @@ final class TranslationCron
 	private $verbose = false;
 
 	/**
+	 * Configuration with different values for different Joomla versions
+	 * Selected in the CLI argument
+	 *
+	 * @var VersionConfig object
+	 * @access private
+	 */
+	private $versionConfig = null;
+
+	/**
 	 * Initialise some varibales and check files and folders
 	 *
 	 * @access public
@@ -107,7 +116,9 @@ final class TranslationCron
 		$this->checkFiles();
 
 		// Set $verbose
-		$this->verbose = (isset($argv[1]) && ($argv[1] == '-v'));
+		require_once $this->absolutePath . '/libraries/' . $argv[1];
+		$this->versionConfig = new VersionConfig();
+		$this->verbose = (isset($argv[2]) && ($argv[2] == '-v'));
 	}
 
 
