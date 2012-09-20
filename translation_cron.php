@@ -133,7 +133,7 @@ final class TranslationCron
 	 * With this function the save paths can be set different.
 	 * The filename will be added automaticaly! Please use a closing slash at the end!
 	 *
-	 * @param string $translationlist The translationlist.xml save path on disk.
+	 * @param string $translationlist The translationlist xml save path on disk.
 	 * @param string $details The details.xml save path on disk.
 	 * @access public
 	 */
@@ -194,9 +194,9 @@ final class TranslationCron
 
 	private function checkFiles()
 	{
-		if (!is_file($this->draftsPath . '/' . 'translationlist.xml'))
+		if (!is_file($this->draftsPath . '/' . $this->versionConfig->xmlFile))
 		{
-			$this->error = 'The "translationlist.xml" cannot be found in "' . $this->draftsPath . '" folder!';
+			$this->error = 'The "' . $this->versionConfig->xmlFile . '" cannot be found in "' . $this->draftsPath . '" folder!';
 			$this->__destruct();
 		}
 		elseif (!is_file($this->draftsPath . '/' . 'xx-XX_details.xml'))
@@ -226,7 +226,7 @@ final class TranslationCron
 			$this->__destruct();
 		}
 
-		$translationlist_xml = simplexml_load_file($this->draftsPath . '/translationlist.xml');
+		$translationlist_xml = simplexml_load_file($this->draftsPath . $this->versionConfig->xmlFile);
 		foreach ($packages as $package)
 		{
 			$name_explode = explode('_', $package->package_name);
@@ -343,7 +343,7 @@ final class TranslationCron
 		$translationlist_dom->loadXML($translationlist_xml->asXML());
 
 		// Save XML to file
-		$fileName = $this->savePathTranslationlist . 'translationlist.xml';
+		$fileName = $this->savePathTranslationlist . $this->versionConfig->xmlFile;
 		$translationlist_dom->save($fileName);
 
 		$client->logout();
@@ -363,7 +363,7 @@ final class TranslationCron
 			unlink($v);
 		}
 		// Delete translation list file
-		unlink($this->savePathTranslationlist . 'translationlist.xml');
+		unlink($this->savePathTranslationlist . $this->versionConfig->xmlFile);
 	}
 
 	/**
@@ -388,17 +388,17 @@ final class TranslationCron
 			$this->__destruct();
 		}
 
-		// Copy translationlist.xml
+		// Copy the translationlist xml file
 		if (!ftp_chdir($connectionId, '/public_html/language'))
 		{
 			$this->error = "FTP cannot change directory to language\n";
 			$this->__destruct();
 		}
 
-		$copy = @ftp_put($connectionId, 'translationlist.xml', $this->savePathTranslationlist . 'translationlist.xml', FTP_BINARY);
+		$copy = @ftp_put($connectionId, $this->versionConfig->xmlFile, $this->savePathTranslationlist . $this->versionConfig->xmlFile, FTP_BINARY);
 		if ($copy)
 		{
-			if ($this->verbose) echo "Copy of translationlist.xml was successful.\n";
+			if ($this->verbose) echo "Copy of ' . $this->versionConfig->xmlFile . ' was successful.\n";
 			$fileCount++;
 		}
 
