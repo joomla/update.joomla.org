@@ -194,9 +194,9 @@ final class TranslationCron
 
 	private function checkFiles()
 	{
-		if (!is_file($this->draftsPath . '/' . $this->versionConfig->xmlFile))
+		if (!is_file($this->draftsPath . '/' . 'translationlist.xml'))
 		{
-			$this->error = 'The "' . $this->versionConfig->xmlFile . '" cannot be found in "' . $this->draftsPath . '" folder!';
+			$this->error = 'The "translationlist.xml" cannot be found in "' . $this->draftsPath . '" folder!';
 			$this->__destruct();
 		}
 		elseif (!is_file($this->draftsPath . '/' . 'xx-XX_details.xml'))
@@ -226,7 +226,7 @@ final class TranslationCron
 			$this->__destruct();
 		}
 
-		$translationlist_xml = simplexml_load_file($this->draftsPath . $this->versionConfig->xmlFile);
+		$translationlist_xml = simplexml_load_file($this->draftsPath . '/translationlist.xml');
 		foreach ($packages as $package)
 		{
 			$name_explode = explode('_', $package->package_name);
@@ -398,7 +398,7 @@ final class TranslationCron
 		$copy = @ftp_put($connectionId, $this->versionConfig->xmlFile, $this->savePathTranslationlist . $this->versionConfig->xmlFile, FTP_BINARY);
 		if ($copy)
 		{
-			if ($this->verbose) echo "Copy of ' . $this->versionConfig->xmlFile . ' was successful.\n";
+			if ($this->verbose) echo "Copy of " . $this->versionConfig->xmlFile . " was successful.\n";
 			$fileCount++;
 		}
 
