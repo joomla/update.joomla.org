@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extensionset name="Accredited Joomla! Translations" description="Accredited Joomla! Translations Updates">
+  <extension name="French" element="pkg_fr-FR" type="package" version="3.0.0.1" detailsurl="http://update.joomla.org/language/details3fr-FR_details.xml"/>
+</extensionset>
