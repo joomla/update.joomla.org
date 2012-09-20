@@ -107,7 +107,6 @@ final class TranslationCron
 		$this->versionConfig = new VersionConfig();
 		$this->setDetailsXmlUrl($this->versionConfig->updateFolder);
 		$this->setSavePaths(dirname(__FILE__) . '/', $this->absolutePath . '/' . $this->versionConfig->detailsFolder . '/');
-// 		$this->detailsPath = $this->absolutePath . '/' . 'details';
 
 		$this->verbose = (isset($argv[2]) && ($argv[2] == '-v'));
 
@@ -405,9 +404,9 @@ final class TranslationCron
 
 		// Copy detail files
 		$ftpDestination = dirname($this->detailsXmlUrl);
-		if (!ftp_chdir($connectionId, '/public_html/language/details'))
+		if (!ftp_chdir($connectionId, '/public_html/language/' . $this->versionConfig->detailsFolder))
 		{
-			$this->error = "FTP cannot change directory to details\n";
+			$this->error = "FTP cannot change directory to " . $this->versionConfig->detailsFolder . "\n";
 			$this->__destruct();
 		}
 
