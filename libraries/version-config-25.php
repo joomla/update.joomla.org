@@ -16,5 +16,5 @@ class VersionConfig
 	var $project = 'jtranslation1_6';
 
 	// Name of folder on update site where detail XML files are found for each language
-	var $updateFolder = 'http://update.joomla.org/language/details';
+	var $updateFolder = 'http://update.joomla.org/language/details/';
 }
