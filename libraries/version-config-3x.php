@@ -17,4 +17,7 @@ class VersionConfig
 
 	// Name of folder on update site where detail XML files are found for each language
 	var $updateFolder = 'http://update.joomla.org/language/details3/';
+
+	// Optional range of versions for the targetplatform attribute suffix
+	var $targetPlatformSuffix = '[012345]';
 }

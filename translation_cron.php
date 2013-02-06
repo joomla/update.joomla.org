@@ -269,6 +269,10 @@ final class TranslationCron
 
 								$joomla_version_explode = explode('v', $version_with_v);
 								$target_version = substr($joomla_version_explode[0], 0, 3);
+								if (isset($this->versionConfig->targetPlatformSuffix))
+								{
+									$target_version = substr($target_version, 0, 2) . $this->versionConfig->targetPlatformSuffix;
+								}
 
 								if (version_compare($target_version, '1.7', '>='))
 								{
