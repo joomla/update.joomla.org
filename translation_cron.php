@@ -393,11 +393,12 @@ final class TranslationCron
 		}
 
 		// Copy the translationlist xml file
-		if (!ftp_chdir($connectionId, '/public_html/language'))
-		{
-			$this->error = "FTP cannot change directory to language\n";
-			$this->__destruct();
-		}
+		// 2013-04-28 : These lines commented out. Now the login goes directly to the language folder and chdir not allowed
+//		if (!ftp_chdir($connectionId, '/public_html/language'))
+//		{
+//			$this->error = "FTP cannot change directory to language\n";
+//			$this->__destruct();
+//		}
 
 		$copy = @ftp_put($connectionId, $this->versionConfig->xmlFile, $this->savePathTranslationlist . $this->versionConfig->xmlFile, FTP_BINARY);
 		if ($copy)
@@ -408,7 +409,7 @@ final class TranslationCron
 
 		// Copy detail files
 		$ftpDestination = dirname($this->detailsXmlUrl);
-		if (!ftp_chdir($connectionId, '/public_html/language/' . $this->versionConfig->detailsFolder))
+		if (!ftp_chdir($connectionId, '/' . $this->versionConfig->detailsFolder))
 		{
 			$this->error = "FTP cannot change directory to " . $this->versionConfig->detailsFolder . "\n";
 			$this->__destruct();
