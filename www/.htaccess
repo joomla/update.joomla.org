@@ -1,0 +1,6 @@
+<FilesMatch "\.(txt|xml|zip|html|gif|jpeg|png|flv|swf|ico)$">
+Header set Cache-Control: "max-age=600"
+</FilesMatch>
+
+IndexIgnore *
+Options +FollowSymLinks All -Indexes
