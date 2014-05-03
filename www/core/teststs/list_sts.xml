@@ -1,5 +1,8 @@
 <extensionset name="Joomla Core" description="Joomla! Core">
-	<extension name="Joomla" element="joomla" type="file" version="3.1.3" targetplatformversion="3.1.2" detailsurl="http://update.joomla.org/core/teststs/extension_sts.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.2.4-dev" detailsurl="http://update.joomla.org/core/teststs/extension_sts.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.3.0.rc" detailsurl="http://update.joomla.org/core/teststs/extension_sts.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.1.3" targetplatformversion="3.1.2" detailsurl="http://update.joomla.org/core/sts/extension_sts.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.2.4" targetplatformversion="3.0" detailsurl="http://update.joomla.org/core/sts/extension_sts.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.2.4" targetplatformversion="3.1" detailsurl="http://update.joomla.org/core/sts/extension_sts.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.2.4" targetplatformversion="3.2" detailsurl="http://update.joomla.org/core/sts/extension_sts.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.3.1-dev" targetplatformversion="3.3" detailsurl="http://update.joomla.org/core/teststs/extension_sts.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.3.1-dev" targetplatformversion="3.2" detailsurl="http://update.joomla.org/core/teststs/extension_sts.xml" />
 </extensionset>
