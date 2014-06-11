@@ -1,42 +1,6 @@
 <?xml version="1.0" ?>
 <updates>
 	<update>
-		<name>Joomla! 1.7</name>
-		<description>Joomla! CMS</description>
-		<element>joomla</element>
-		<type>file</type>
-		<version>1.7.0</version>
-		<infourl title="Joomla!">http://www.joomla.org/</infourl>
-		<downloads>
-			<downloadurl type="full" format="zip">http://joomlacode.org/gf/download/frsrelease/15901/68959/Joomla_1.6.x_to_1.7.0_Package.zip</downloadurl>
-		</downloads>
-		<tags>
-			<tag>stable</tag>
-		</tags>
-		<maintainer>Joomla! PLT</maintainer>
-		<maintainerurl>http://www.joomla.org</maintainerurl>
-		<section>STS</section>
-		<targetplatform name="joomla" version="1.6" />
-	</update>
-	<update>
-		<name>Joomla! 2.5</name>
-		<description>Joomla! CMS</description>
-		<element>joomla</element>
-		<type>file</type>
-		<version>2.5.20</version>
-		<infourl title="Joomla!">http://www.joomla.org/</infourl>
-		<downloads>
-			<downloadurl type="full" format="zip">http://joomlacode.org/gf/download/frsrelease/19396/158846/Joomla_2.5.20-Stable-Update_Package.zip</downloadurl>
-		</downloads>
-		<tags>
-			<tag>stable</tag>
-		</tags>
-		<maintainer>Joomla! PLT</maintainer>
-		<maintainerurl>http://www.joomla.org</maintainerurl>
-		<section>LTS</section>
-		<targetplatform name="joomla" version="1.7" />
-	</update>
-	<update>
 		<name>Joomla! 3.1</name>
 		<description>Joomla! CMS</description>
 		<element>joomla</element>
@@ -149,10 +113,10 @@
 		<description>Joomla! 3.3 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.3.0</version>
+		<version>3.3.1</version>
 		<infourl title="Joomla!">http://www.joomla.org/</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">http://joomlacode.org/gf/download/frsrelease/19394/158837/Joomla_3.3.0-Stable-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">http://joomlacode.org/gf/download/frsrelease/19525/159420/Joomla_3.3.1-Stable-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -168,10 +132,10 @@
 		<description>Joomla! 3.3 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.3.0</version>
+		<version>3.3.1</version>
 		<infourl title="Joomla!">http://www.joomla.org/</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">http://joomlacode.org/gf/download/frsrelease/19394/158837/Joomla_3.3.0-Stable-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">http://joomlacode.org/gf/download/frsrelease/19525/159420/Joomla_3.3.1-Stable-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -187,10 +151,10 @@
 		<description>Joomla! 3.3 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.3.0</version>
+		<version>3.3.1</version>
 		<infourl title="Joomla!">http://www.joomla.org/</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">http://joomlacode.org/gf/download/frsrelease/19394/158837/Joomla_3.3.0-Stable-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">http://joomlacode.org/gf/download/frsrelease/19525/159418/Joomla_3.3.x_to_3.3.1-Stable-Patch_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
