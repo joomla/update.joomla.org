@@ -1,6 +1,5 @@
 #! /usr/local/bin/php
 <?php
-
 /**
  * A quick and dirty translation cron to generate Joomla! update xmls for TTs
  *
@@ -18,8 +17,8 @@
 // Protect from unauthorized access via the browser
 (PHP_SAPI !== 'cli') ? die('Only command line!') : '';
 
-require_once 'libraries/user_config.php';
-require_once 'libraries/gforgeconnector.php';
+require_once __DIR__ . '/libraries/user_config.php';
+require_once __DIR__ . '/libraries/gforgeconnector.php';
 
 echo date('Y-m-d H:m:s') . ": Starting Translation Cron Job.\n";
 $translationCron = new TranslationCron($argv);
@@ -28,57 +27,44 @@ $translationCron->runCron();
 final class TranslationCron
 {
 	/**
-	 * Get the right directory seperator.
-	 */
-	const DS = DIRECTORY_SEPARATOR;
-
-	/**
 	 * @var string
-	 * @access private
 	 */
 	private $error = '';
 
 	/**
 	 * @var string
-	 * @access private
 	 */
 	private $absolutePath = '';
 
 	/**
 	 * @var string
-	 * @access private
 	 */
 	private $detailsPath = '';
 
 	/**
 	 * @var string
-	 * @access private
 	 */
 	private $draftsPath = '';
 
 	/**
-	 *
 	 * @var string
-	 * @access private
 	 */
 	private $savePathTranslationlist = '';
 
 	/**
 	 * @var string
-	 * @access private
 	 */
 	private $detailsXmlUrl = '';
 
 	/**
 	 * @var array
-	 * @access private
 	 */
 	private $detailFileNames = array();
 
 	/**
 	 * Whether we have a CLI argument -v for verbose
+	 *
 	 * @var boolean
-	 * @access private
 	 */
 	private $verbose = false;
 
@@ -86,35 +72,30 @@ final class TranslationCron
 	 * Configuration with different values for different Joomla versions
 	 * Selected in the CLI argument
 	 *
-	 * @var VersionConfig object
-	 * @access private
+	 * @var VersionConfig
 	 */
 	public $versionConfig = null;
 
 	/**
-	 * Initialise some varibales and check files and folders
-	 *
-	 * @access public
+	 * Initialise some variables and check files and folders
 	 */
 	public function __construct($argv)
 	{
-
-		$this->absolutePath = dirname(__FILE__);
-		$this->draftsPath = $this->absolutePath . '/' . 'drafts';
+		$this->absolutePath = __DIR__;
+		$this->webRoot      = dirname(__DIR__) . '/public_html';
+		$this->draftsPath   = $this->absolutePath . '/drafts';
 
 		// Set $verbose
 		require_once $this->absolutePath . '/libraries/' . $argv[1];
 		$this->versionConfig = new VersionConfig();
 		$this->setDetailsXmlUrl($this->versionConfig->updateFolder);
-		$this->setSavePaths(dirname(__FILE__) . '/', $this->absolutePath . '/' . $this->versionConfig->detailsFolder . '/');
+		$this->setSavePaths($this->absolutePath, $this->absolutePath . '/' . $this->versionConfig->detailsFolder);
 
 		$this->verbose = (isset($argv[2]) && ($argv[2] == '-v'));
 
 		$this->checkFolders();
 		$this->checkFiles();
 	}
-
-
 
 	/**
 	 * If we have errors return them.
@@ -135,7 +116,6 @@ final class TranslationCron
 	 *
 	 * @param string $translationlist The translationlist xml save path on disk.
 	 * @param string $details The details.xml save path on disk.
-	 * @access public
 	 */
 	public function setSavePaths($translationlist = '', $details = '')
 	{
@@ -148,7 +128,6 @@ final class TranslationCron
 	 * "xx-XX_details.xml" will be added automaticaly at the end. Please use a closing slash at the end!
 	 *
 	 * @param string $url The url to use for the details.xml
-	 * @access public
 	 */
 	public function setDetailsXmlUrl($url)
 	{
@@ -156,9 +135,7 @@ final class TranslationCron
 	}
 
 	/**
-	 * This is the main methode to run the cron.
-	 *
-	 * @access public
+	 * This is the main method to run the cron.
 	 */
 	public function runCron()
 	{
@@ -166,9 +143,10 @@ final class TranslationCron
 		$this->deleteXMLFiles();
 		$this->createXmls();
 
-		// sleep command is needed to avoid errors in the ftp_chdir command. Not sure why.
-		sleep(10);
-		$this->ftpFiles();
+		// Get list of detail files
+		$files = array_keys($this->detailFileNames);
+
+		$this->moveFiles();
 	}
 
 	private function checkFolders()
@@ -194,12 +172,12 @@ final class TranslationCron
 
 	private function checkFiles()
 	{
-		if (!is_file($this->draftsPath . '/' . 'translationlist.xml'))
+		if (!is_file($this->draftsPath . '/translationlist.xml'))
 		{
 			$this->error = 'The "translationlist.xml" cannot be found in "' . $this->draftsPath . '" folder!';
 			$this->__destruct();
 		}
-		elseif (!is_file($this->draftsPath . '/' . 'xx-XX_details.xml'))
+		elseif (!is_file($this->draftsPath . '/xx-XX_details.xml'))
 		{
 			$this->error = 'The "xx-XX_details.xml" cannot be found in "' . $this->draftsPath . '" folder!';
 			$this->__destruct();
@@ -208,8 +186,6 @@ final class TranslationCron
 
 	/**
 	 * Create the XMLs and write them to the disk.
-	 *
-	 * @access private
 	 */
 	private function createXmls()
 	{
@@ -347,86 +323,77 @@ final class TranslationCron
 		$translationlist_dom->loadXML($translationlist_xml->asXML());
 
 		// Save XML to file
-		$fileName = $this->savePathTranslationlist . $this->versionConfig->xmlFile;
+		$fileName = $this->savePathTranslationlist . '/' . $this->versionConfig->xmlFile;
 		$translationlist_dom->save($fileName);
 
 		$client->logout();
 	}
 
-
 	/**
 	 * Delete the old files
-	 *
-	 * @access private
 	 */
 	private function deleteXMLFiles()
 	{
 		// Delete all details files
 		foreach(glob($this->detailsPath . '/*.xml') as $v)
 		{
-			unlink($v);
+			@unlink($v);
 		}
+
 		// Delete translation list file
-		unlink($this->savePathTranslationlist . $this->versionConfig->xmlFile);
+		if (file_exists($this->savePathTranslationlist . '/' . $this->versionConfig->xmlFile))
+		{
+			@unlink($this->savePathTranslationlist . '/' . $this->versionConfig->xmlFile);
+		}
 	}
 
 	/**
-	 * FTP the files to the update server
+	 * Move files to the web root
 	 *
-	 * @access private
+	 * @return void
 	 */
-	private function ftpFiles()
+	private function moveFiles()
 	{
-		$config = new Config();
 		$fileCount = 0;
-		// Get list of detail files
-		$files = array_keys($this->detailFileNames);
 
-		// Connect to FTP destination
+		// Move the translationlist
+		$src = $this->savePathTranslationlist . '/' . $this->versionConfig->xmlFile;
+		$dest = str_replace($this->savePathTranslationlist, $this->webRoot . '/language', $src);
 
-		$connectionId = ftp_connect($config->ftpSite);
-		$login = ftp_login($connectionId, $config->ftpUser, $config->ftpPassword);
-		if (!$connectionId || !$login)
+		if (@rename($src, $dest))
 		{
-			$this->error = "FTP error: could not log in\n";
-			$this->__destruct();
-		}
+			if ($this->verbose)
+			{
+				echo "Moving of $dest was successful.\n";
+			}
 
-		// Copy the translationlist xml file
-		// 2013-04-28 : These lines commented out. Now the login goes directly to the language folder and chdir not allowed
-//		if (!ftp_chdir($connectionId, '/public_html/language'))
-//		{
-//			$this->error = "FTP cannot change directory to language\n";
-//			$this->__destruct();
-//		}
-
-		$copy = @ftp_put($connectionId, $this->versionConfig->xmlFile, $this->savePathTranslationlist . $this->versionConfig->xmlFile, FTP_BINARY);
-		if ($copy)
-		{
-			if ($this->verbose) echo "Copy of " . $this->versionConfig->xmlFile . " was successful.\n";
 			$fileCount++;
 		}
 
-		// Copy detail files
-		$ftpDestination = dirname($this->detailsXmlUrl);
-		if (!ftp_chdir($connectionId, '/' . $this->versionConfig->detailsFolder))
-		{
-			$this->error = "FTP cannot change directory to " . $this->versionConfig->detailsFolder . "\n";
-			$this->__destruct();
-		}
+		// Get list of detail files
+		$files = array_keys($this->detailFileNames);
 
-		foreach ($files as $fromFile)
+		foreach ($files as $file)
 		{
-			$toFile = basename($fromFile);
-			$copy = @ftp_put($connectionId, $toFile, $fromFile, FTP_BINARY);
-			if ($copy)
+			$src  = $file;
+			$dest = str_replace($this->absolutePath, $this->webRoot . '/language', $file);
+
+			if (@rename($src, $dest))
 			{
-				if ($this->verbose) echo "Copy of $toFile was successful.\n";
+				if ($this->verbose)
+				{
+					echo "Moving of $dest was successful.\n";
+				}
+
 				$fileCount++;
 			}
 		}
-		ftp_close($connectionId);
-		if ($this->verbose) echo "end of file transfer\n";
+
+		if ($this->verbose)
+		{
+			echo "Finished moving files\n";
+		}
+
 		echo date('Y-m-d H:m:s') . ": $fileCount files copied to update server.\n";
 	}
 }
