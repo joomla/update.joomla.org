@@ -6,4 +6,5 @@
 	<extension name="Joomla" element="joomla" type="file" version="3.3.6" targetplatformversion="3.2" detailsurl="http://update.joomla.org/core/sts/extension_sts.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="3.2.7" targetplatformversion="3.2" detailsurl="http://update.joomla.org/core/sts/extension_sts.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="3.3.6" targetplatformversion="3.3" detailsurl="http://update.joomla.org/core/sts/extension_sts.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.4.0" targetplatformversion="3.4" detailsurl="http://update.joomla.org/core/sts/extension_sts.xml" />
 </extensionset>
