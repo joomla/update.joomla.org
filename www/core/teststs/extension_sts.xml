@@ -14,7 +14,7 @@
 			<tag>stable</tag>
 		</tags>
 		<maintainer>Joomla! PLT</maintainer>
-		<maintainerurl>http://www.joomla.org</maintainerurl>
+		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
 		<targetplatform name="joomla" version="3.2" min_dev_level="2" />
 		<php_minimum>5.3.10</php_minimum>
@@ -33,7 +33,7 @@
 			<tag>stable</tag>
 		</tags>
 		<maintainer>Joomla! PLT</maintainer>
-		<maintainerurl>http://www.joomla.org</maintainerurl>
+		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
 		<targetplatform name="joomla" version="3.3" />
 		<php_minimum>5.3.10</php_minimum>
@@ -52,7 +52,7 @@
 			<tag>stable</tag>
 		</tags>
 		<maintainer>Joomla! PLT</maintainer>
-		<maintainerurl>http://www.joomla.org</maintainerurl>
+		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
 		<targetplatform name="joomla" version="3.4" max_dev_level="3" />
 		<php_minimum>5.3.10</php_minimum>
@@ -71,7 +71,7 @@
 			<tag>stable</tag>
 		</tags>
 		<maintainer>Joomla! PLT</maintainer>
-		<maintainerurl>http://www.joomla.org</maintainerurl>
+		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
 		<targetplatform name="joomla" version="3.4" min_dev_level="4" />
 		<php_minimum>5.3.10</php_minimum>
