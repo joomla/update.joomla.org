@@ -192,7 +192,7 @@
    		<version>3.4.7</version>
 		<infourl title="Joomla!">https://www.joomla.org/announcements/release-news/5643-joomla-3-4-7-released.html</infourl>
    		<downloads>
-   			<downloadurl type="fu ll" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.4.7/Joomla_3.4.5_to_3.4.7-Stable-Patch_Package.zip</downloadurl>
+   			<downloadurl type="fu ll" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.4.7/Joomla_3.4.6_to_3.4.7-Stable-Patch_Package.zip</downloadurl>
    		</downloads>
    		<tags>
    			<tag>stable</tag>
