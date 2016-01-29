@@ -32,7 +32,7 @@
 			<tag>stable</tag>
 		</tags>
 		<maintainer>Joomla! PLT</maintainer>
-		<maintainerurl>httpss://www.joomla.org</maintainerurl>
+		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
 		<targetplatform name="joomla" version="3.0"/>
 	</update>
