@@ -19,5 +19,5 @@ class VersionConfig
 	var $updateFolder = 'https://update.joomla.org/language/details3/';
 
 	// Optional range of versions for the targetplatform attribute suffix
-	var $targetPlatformSuffix = '[012345]';
+	var $targetPlatformSuffix = '[0123456]';
 }
