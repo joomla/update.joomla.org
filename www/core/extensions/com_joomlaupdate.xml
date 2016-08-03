@@ -16,6 +16,6 @@
     	</tags>
     	<maintainer>Joomla! PLT</maintainer>
     	<maintainerurl>https://www.joomla.org</maintainerurl>
-    	<targetplatform name="joomla" version="3.*"/>
+    	<targetplatform name="joomla" version="3.6"/>
     </update>
 </updates>
