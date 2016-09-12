@@ -1,0 +1,5 @@
+<extensionset name="Joomla Core" description="Joomla! Core">
+	<extension name="Joomla" element="joomla" type="file" version="3.6.3-dev2" targetplatformversion="3.4" detailsurl="https://update.joomla.org/core/nightlies/next_version_extension.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.6.3-dev2" targetplatformversion="3.5" detailsurl="https://update.joomla.org/core/nightlies/next_version_extension.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.6.3-dev2" targetplatformversion="3.6" detailsurl="https://update.joomla.org/core/nightlies/next_version_extension.xml" />
+</extensionset>
