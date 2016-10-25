@@ -109,8 +109,8 @@
 		<targetplatform name="joomla" version="3.2" min_dev_level="6" />
 	</update>
 	<update>
-		<name>Joomla! 3.6</name>
-		<description>Joomla! 3.6 CMS</description>
+		<name>Joomla! 3.5</name>
+		<description>Joomla! 3.5 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
 		<version>3.5.1</version>
