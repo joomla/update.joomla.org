@@ -3,10 +3,10 @@
 	<extension name="Joomla" element="joomla" type="file" version="3.5.1" targetplatformversion="2.5" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="3.2.7" targetplatformversion="3.0" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="3.2.7" targetplatformversion="3.1" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.6.3" targetplatformversion="3.2" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.6.4" targetplatformversion="3.2" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="3.2.7" targetplatformversion="3.2" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.6.3" targetplatformversion="3.3" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.6.3" targetplatformversion="3.4" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.6.3" targetplatformversion="3.5" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.6.3" targetplatformversion="3.6" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.6.4" targetplatformversion="3.3" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.6.4" targetplatformversion="3.4" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.6.4" targetplatformversion="3.5" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.6.4" targetplatformversion="3.6" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
 </extensionset>
