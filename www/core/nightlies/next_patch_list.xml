@@ -1,5 +1,5 @@
 <extensionset name="Joomla! Core Nightly Builds" description="Joomla! Core Next Patch Nightly Builds">
-	<extension name="Joomla" element="joomla" type="file" version="3.6.3-rc3" targetplatformversion="3.4" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.6.3-rc3" targetplatformversion="3.5" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.6.3-rc3" targetplatformversion="3.6" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.6.5-dev1" targetplatformversion="3.4" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.6.5-dev1" targetplatformversion="3.5" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.6.5-dev1" targetplatformversion="3.6" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
 </extensionset>
