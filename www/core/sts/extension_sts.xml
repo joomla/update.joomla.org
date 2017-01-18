@@ -143,7 +143,7 @@
 		<maintainer>Joomla! PLT</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
-		<targetplatform name="joomla" version="3.[23456]" />
+		<targetplatform name="joomla" version="3.[234567]" />
 		<php_minimum>5.3.10</php_minimum>
 	</update>
 </updates>
