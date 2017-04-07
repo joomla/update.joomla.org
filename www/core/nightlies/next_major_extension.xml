@@ -15,7 +15,7 @@
 		</tags>
 		<maintainer>Joomla! PLT</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
-		<targetplatform name="joomla" version="3.[4567]" />
+		<targetplatform name="joomla" version="3.[456789]" />
 	</update>
 	<update>
 		<name>Joomla! 4.0.0 Nightly Build</name>

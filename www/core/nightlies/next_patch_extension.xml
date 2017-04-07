@@ -1,21 +1,21 @@
 <?xml version="1.0" ?>
 <updates>
 	<update>
-		<name>Joomla! 3.6.4 Nightly Build</name>
+		<name>Joomla! 3.7.1 Nightly Build</name>
 		<description>Joomla! CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.6.6-dev1</version>
+		<version>3.7.1-dev</version>
 		<infourl title="Joomla! Nightly Builds">https://developer.joomla.org/nightly-builds.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://developer.joomla.org/nightlies/Joomla_3.6.4-dev-Development-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://developer.joomla.org/nightlies/Joomla_3.7.1-dev-Development-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
 		<maintainer>Joomla! PLT</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
-		<targetplatform name="joomla" version="3.[456]" />
+		<targetplatform name="joomla" version="3.[4567]" />
 	</update>
 </updates>
 
