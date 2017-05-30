@@ -276,6 +276,12 @@ final class TranslationCron
 									$downloadurl->addAttribute('type', 'full');
 									$downloadurl->addAttribute('format', 'zip');
 
+									// Set packages for 4.0
+									if ($this->versionConfig->detailsFolder === 'details3' && in_array($lang_tag, array('de-DE', 'fr-FR', 'fa-IR')))
+									{
+										$target_version = '[34].' . $this->versionConfig->targetPlatformSuffix;
+									}
+
 									$targetplatform = $updates->addChild('targetplatform');
 									$targetplatform->addAttribute('name', 'joomla');
 									$targetplatform->addAttribute('version', $target_version);
