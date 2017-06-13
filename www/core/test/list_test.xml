@@ -1,7 +1,7 @@
 <extensionset name="Joomla Core Test Updateserver" description="The Joomla Core Update Server for Tests of Alpha, Beta and RC Releases">
-	<extension name="Joomla" element="joomla" type="file" version="3.7.1-rc1" targetplatformversion="3.3" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.7.1-rc1" targetplatformversion="3.4" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.7.1-rc1" targetplatformversion="3.5" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.7.1-rc1" targetplatformversion="3.6" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.7.1-rc1" targetplatformversion="3.7" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.7.3-beta" targetplatformversion="3.3" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.7.3-beta" targetplatformversion="3.4" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.7.3-beta" targetplatformversion="3.5" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.7.3-beta" targetplatformversion="3.6" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.7.3-beta" targetplatformversion="3.7" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
 </extensionset>
