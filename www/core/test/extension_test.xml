@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <updates>
 	<update>
-		<name>Joomla! 3.7</name>
-		<description>Joomla! 3.7 CMS</description>
+		<name>Joomla! 3.8</name>
+		<description>Joomla! 3.8 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
 		<version>3.8.0-beta2</version>
