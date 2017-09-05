@@ -1,7 +1,7 @@
 <extensionset name="Joomla! Core Nightly Builds" description="Joomla! Core Next Minor Nightly Builds">
-	<extension name="Joomla" element="joomla" type="file" version="3.8.0-rc2-dev" targetplatformversion="3.4" detailsurl="https://update.joomla.org/core/nightlies/next_minor_extension.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.8.0-rc2-dev" targetplatformversion="3.5" detailsurl="https://update.joomla.org/core/nightlies/next_minor_extension.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.8.0-rc2-dev" targetplatformversion="3.6" detailsurl="https://update.joomla.org/core/nightlies/next_minor_extension.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.8.0-rc2-dev" targetplatformversion="3.7" detailsurl="https://update.joomla.org/core/nightlies/next_minor_extension.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.8.0-rc2-dev" targetplatformversion="3.8" detailsurl="https://update.joomla.org/core/nightlies/next_minor_extension.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.8.0-rc3-dev" targetplatformversion="3.4" detailsurl="https://update.joomla.org/core/nightlies/next_minor_extension.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.8.0-rc3-dev" targetplatformversion="3.5" detailsurl="https://update.joomla.org/core/nightlies/next_minor_extension.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.8.0-rc3-dev" targetplatformversion="3.6" detailsurl="https://update.joomla.org/core/nightlies/next_minor_extension.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.8.0-rc3-dev" targetplatformversion="3.7" detailsurl="https://update.joomla.org/core/nightlies/next_minor_extension.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.8.0-rc3-dev" targetplatformversion="3.8" detailsurl="https://update.joomla.org/core/nightlies/next_minor_extension.xml" />
 </extensionset>
