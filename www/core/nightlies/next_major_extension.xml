@@ -13,9 +13,11 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
+		<supported_databases mysql="5.5.3" postgresql="9.2" />
+		<php_minimum>7.0.0</php_minimum>
 		<maintainer>Joomla! PLT</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
-		<targetplatform name="joomla" version="3.[456789]" />
+		<targetplatform name="joomla" version="3.[789]" />
 	</update>
 	<update>
 		<name>Joomla! 4.0.0 Nightly Build</name>
@@ -30,6 +32,8 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
+		<supported_databases mysql="5.5.3" postgresql="9.2" />
+		<php_minimum>7.0.0</php_minimum>
 		<maintainer>Joomla! PLT</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="4.[01]" />
