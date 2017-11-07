@@ -8,7 +8,7 @@
 		<version>4.0.0-alpha</version>
 		<infourl title="Joomla! 4.0 Alpha">https://developer.joomla.org/alpha-blogpost-url.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://developer.joomla.org/nightlies/Joomla_4.0.0-dev-Development-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.0.0-alpha/Joomla_4.0.0-Alpha-Update_Package.zip</downloadurl>
 		</downloads>
 		<supported_databases mysql="5.5.3" postgresql="9.2" />
 		<php_minimum>7.0.0</php_minimum>
