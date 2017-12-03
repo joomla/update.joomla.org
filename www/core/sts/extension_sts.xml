@@ -174,6 +174,8 @@
 		<infourl title="Joomla!">https://www.joomla.org/announcements/release-news/5717-joomla-3-8-3-release.html</infourl>
 		<downloads>
 			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-8-3/Joomla_3.8.3-Stable-Update_Package.zip</downloadurl>
+			<downloadsource type="full" format="zip">https://developer.joomla.org/not-defined-yet.zip</downloadsource>
+			<downloadsource type="full" format="zip">https://update.joomla.org/not-defined-yet.zip</downloadsource>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
