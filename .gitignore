@@ -4,6 +4,3 @@
 .settings
 .DS_Store
 .idea
-
-# Downloads mirroring #
-/www/releases
