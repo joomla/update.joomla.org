@@ -17,6 +17,8 @@
 	Header always set Referrer-Policy "no-referrer-when-downgrade"
 	# Strict-Transport-Security
 	Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+	# Content Security Policy
+	Header always set Content-Security-Policy "default-src 'self'"
 </IfModule>
 
 <FilesMatch "\.(txt|zip|html|gif|jpeg|png|flv|swf|ico)$">
