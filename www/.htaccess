@@ -1,3 +1,24 @@
+##
+# @copyright  Copyright (C) 2014 - 2018 Open Source Matters, Inc. All rights reserved.
+# @license    http://www.gnu.org/licenses/gpl-2.0.txt GNU General Public License Version 2 or Later
+##
+
+###########################################
+# ======= Set basic Security header =======
+
+<IfModule mod_headers.c>
+	# X-XSS-Protection
+	Header always set X-XSS-Protection "1; mode=block"
+	# X-Frame-Options
+	Header always set X-Frame-Options DENY
+	# X-Content-Type nosniff
+	Header always set X-Content-Type-Options nosniff
+	# Referrer Policy
+	Header always set Referrer-Policy "no-referrer-when-downgrade"
+	# Strict-Transport-Security
+	Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
+
 <FilesMatch "\.(txt|zip|html|gif|jpeg|png|flv|swf|ico)$">
 Header set Cache-Control: "max-age=600"
 </FilesMatch>
