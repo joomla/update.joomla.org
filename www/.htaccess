@@ -18,7 +18,7 @@
 	# Strict-Transport-Security
 	Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
 	# Content Security Policy
-	Header always set Content-Security-Policy "default-src 'self'"
+	Header always set Content-Security-Policy "default-src 'self'; report-uri https://community.joomla.org/scripts/csp-reporter.php?source=update.joomla.org"
 </IfModule>
 
 <FilesMatch "\.(txt|zip|html|gif|jpeg|png|flv|swf|ico)$">
