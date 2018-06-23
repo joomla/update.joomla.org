@@ -1,0 +1,3 @@
+<extensionset name="Joomla Core next major Updateserver" description="The Joomla Core Update Server for the next major update">
+	<extension name="Joomla" element="joomla" type="file" version="4.0.0-alpha" targetplatformversion="4.0" detailsurl="https://update.joomla.org/core/test/next_major_extension.xml" />
+</extensionset>
