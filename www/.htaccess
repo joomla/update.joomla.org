@@ -20,6 +20,7 @@
 	Header always set Content-Security-Policy "default-src 'self'; style-src 'sha256-+DU9sPRqEitE7XVlE+lj+PHklv5FZNUL7m9mEUQWWD8=' 'sha256-nx7T2vM3FG2GqDCK5NErQR6tT6iOS/rBjaBaUvmACC0=' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-+4NT+OrdhKuuzPsYfY1xAagRSTagGDc0vRVIzQrnWbE='; script-src res://edgehtml.dll; report-uri https://community.joomla.org/scripts/csp-reporter.php?source=update.joomla.org"
 	# Allow CORS
 	Header always set Access-Control-Allow-Origin "*"
+	Header always set Access-Control-Allow-Methods "GET"
 	Header always set Access-Control-Allow-Headers "*"
 </IfModule>
 ##################### Security Header #####################
