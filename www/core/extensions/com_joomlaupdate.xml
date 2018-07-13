@@ -1,21 +1,21 @@
 <?xml version="1.0" ?>
 <updates>
-    <update>
-    	<name>Joomla! Update Component Update</name>
-    	<description>Joomla Update Component</description>
-    	<element>com_joomlaupdate</element>
-    	<type>component</type>
-    	<client>administrator</client>
-    	<version>3.6.1</version>
-    	<infourl title="Joomla!">https://www.joomla.org/</infourl>
-    	<downloads>
-    		<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.6.1/com_joomlaupdate-3.6.1.zip</downloadurl>
-    	</downloads>
-    	<tags>
-    		<tag>stable</tag>
-    	</tags>
-    	<maintainer>Joomla! PLT</maintainer>
-    	<maintainerurl>https://www.joomla.org</maintainerurl>
-    	<targetplatform name="joomla" version="3.6"/>
-    </update>
+	<update>
+		<name>Joomla! Update Component Update</name>
+		<description>Joomla Update Component</description>
+		<element>com_joomlaupdate</element>
+		<type>component</type>
+		<client>administrator</client>
+		<version>3.6.1</version>
+		<infourl title="Joomla!">https://www.joomla.org/</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.6.1/com_joomlaupdate-3.6.1.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer>Joomla! PLT</maintainer>
+		<maintainerurl>https://www.joomla.org</maintainerurl>
+		<targetplatform name="joomla" version="3.6"/>
+	</update>
 </updates>
