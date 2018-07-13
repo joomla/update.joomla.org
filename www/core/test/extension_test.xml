@@ -13,7 +13,7 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<maintainer>Joomla! PLT</maintainer>
+		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.6.5"/>
 		<php_minimum>5.3.10</php_minimum>
@@ -31,7 +31,7 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<maintainer>Joomla! PLT</maintainer>
+		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.[78]"/>
 		<php_minimum>5.3.10</php_minimum>
