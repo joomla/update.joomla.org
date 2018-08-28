@@ -15,7 +15,7 @@
 		</tags>
 		<supported_databases mysql="5.5.3" postgresql="9.2" />
 		<php_minimum>7.0.0</php_minimum>
-		<maintainer>Joomla! PLT</maintainer>
+		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.[789]" />
 	</update>
@@ -34,7 +34,7 @@
 		</tags>
 		<supported_databases mysql="5.5.3" postgresql="9.2" />
 		<php_minimum>7.0.0</php_minimum>
-		<maintainer>Joomla! PLT</maintainer>
+		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="4.[01]" />
 	</update>

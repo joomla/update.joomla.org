@@ -13,7 +13,7 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<maintainer>Joomla! PLT</maintainer>
+		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>LTS</section>
 		<targetplatform name="joomla" version="2.5" />
