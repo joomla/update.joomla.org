@@ -15,6 +15,6 @@
 		</tags>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
-		<targetplatform name="joomla" version="3.[456789]" />
+		<targetplatform name="joomla" version="3.[789]" />
 	</update>
 </updates>
