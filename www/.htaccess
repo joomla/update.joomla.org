@@ -34,4 +34,5 @@ Header set Cache-Control: "max-age=300"
 </FilesMatch>
 
 IndexIgnore *
-Options +FollowSymLinks All -Indexes
+Options +FollowSymLinks
+Options -Indexes
