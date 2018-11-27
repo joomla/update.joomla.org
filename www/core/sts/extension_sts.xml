@@ -159,9 +159,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>needs-to-be-corrected</sha256>
-		<sha384>needs-to-be-corrected</sha384>
-		<sha512>needs-to-be-corrected</sha512>
+		<sha256>d834954bb1bc8985759bf1697019d798095871f8922d6fa286f13207a8c94b82</sha256>
+		<sha384>9372c93ec200e950eabb3f6c65bd37dabbcc8e48dd8e90a980cc8e584c1f3b1bdffc7498cfb4296f299579c07b994412</sha384>
+		<sha512>7b8df24a9be12c642f258ccb2f34e85dd4c29123a6e9d641ab4663246443e1278515a9587b45218c19e1cf450e3153260c6032808653519900709a0498d3ce9f</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
@@ -183,9 +183,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>needs-to-be-corrected</sha256>
-		<sha384>needs-to-be-corrected</sha384>
-		<sha512>needs-to-be-corrected</sha512>
+		<sha256>d834954bb1bc8985759bf1697019d798095871f8922d6fa286f13207a8c94b82</sha256>
+		<sha384>9372c93ec200e950eabb3f6c65bd37dabbcc8e48dd8e90a980cc8e584c1f3b1bdffc7498cfb4296f299579c07b994412</sha384>
+		<sha512>7b8df24a9be12c642f258ccb2f34e85dd4c29123a6e9d641ab4663246443e1278515a9587b45218c19e1cf450e3153260c6032808653519900709a0498d3ce9f</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
