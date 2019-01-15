@@ -151,17 +151,17 @@
 		<description>Joomla! 3.9 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.9.1</version>
-		<infourl title="Joomla!">https://www.joomla.org/announcements/release-news/5751-joomla-3-9-1-release.html</infourl>
+		<version>3.9.2</version>
+		<infourl title="Joomla!">https://www.joomla.org/announcements/release-news/5755-joomla-3-9-2-release.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-9-1/Joomla_3.9.1-Stable-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-9-2/Joomla_3.9.2-Stable-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>d834954bb1bc8985759bf1697019d798095871f8922d6fa286f13207a8c94b82</sha256>
-		<sha384>9372c93ec200e950eabb3f6c65bd37dabbcc8e48dd8e90a980cc8e584c1f3b1bdffc7498cfb4296f299579c07b994412</sha384>
-		<sha512>7b8df24a9be12c642f258ccb2f34e85dd4c29123a6e9d641ab4663246443e1278515a9587b45218c19e1cf450e3153260c6032808653519900709a0498d3ce9f</sha512>
+		<sha256>d78f4ba2eb19c6b1f6cb23dea070572804b3169e00c97d457bb1d7c92947cb9b</sha256>
+		<sha384>b11a170fa25c5891ce1de36ca4eeb9b620211547106026fa192120c5fc8efe3d338bce05074bc20f486e27104083f322</sha384>
+		<sha512>43701e5f90b84c08d5ffe1070df1ada798198c37158dcdacc03d6869277aefd3b4971931897ce166e8d7583eddb78369f9604a858f38ce360b85af2c5936e570</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
@@ -173,19 +173,19 @@
 		<description>Joomla! 3.9 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.9.1</version>
-		<infourl title="Joomla!">https://www.joomla.org/announcements/release-news/5751-joomla-3-9-1-release.html</infourl>
+		<version>3.9.2</version>
+		<infourl title="Joomla!">https://www.joomla.org/announcements/release-news/5755-joomla-3-9-2-release.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-9-1/Joomla_3.9.1-Stable-Update_Package.zip</downloadurl>
-			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.9.1/Joomla_3.9.1-Stable-Update_Package.zip</downloadsource>
-			<downloadsource type="full" format="zip">https://update.joomla.org/releases/3.9.1/Joomla_3.9.1-Stable-Update_Package.zip</downloadsource>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-9-2/Joomla_3.9.2-Stable-Update_Package.zip</downloadurl>
+			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.9.2/Joomla_3.9.2-Stable-Update_Package.zip</downloadsource>
+			<downloadsource type="full" format="zip">https://update.joomla.org/releases/3.9.2/Joomla_3.9.2-Stable-Update_Package.zip</downloadsource>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>d834954bb1bc8985759bf1697019d798095871f8922d6fa286f13207a8c94b82</sha256>
-		<sha384>9372c93ec200e950eabb3f6c65bd37dabbcc8e48dd8e90a980cc8e584c1f3b1bdffc7498cfb4296f299579c07b994412</sha384>
-		<sha512>7b8df24a9be12c642f258ccb2f34e85dd4c29123a6e9d641ab4663246443e1278515a9587b45218c19e1cf450e3153260c6032808653519900709a0498d3ce9f</sha512>
+		<sha256>d78f4ba2eb19c6b1f6cb23dea070572804b3169e00c97d457bb1d7c92947cb9b</sha256>
+		<sha384>b11a170fa25c5891ce1de36ca4eeb9b620211547106026fa192120c5fc8efe3d338bce05074bc20f486e27104083f322</sha384>
+		<sha512>43701e5f90b84c08d5ffe1070df1ada798198c37158dcdacc03d6869277aefd3b4971931897ce166e8d7583eddb78369f9604a858f38ce360b85af2c5936e570</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
