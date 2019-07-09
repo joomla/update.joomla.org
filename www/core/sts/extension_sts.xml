@@ -151,10 +151,10 @@
 		<description>Joomla! 3.9 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.9.8</version>
-		<infourl title="Joomla!">https://www.joomla.org/announcements/release-news/5771-joomla-3-9-8-release.html</infourl>
+		<version>3.9.9</version>
+		<infourl title="Joomla!">https://www.joomla.org/announcements/release-news/5772-joomla-3-9-9-release.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-9-8/Joomla_3.9.8-Stable-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-9-9/Joomla_3.9.9-Stable-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -170,19 +170,19 @@
 		<description>Joomla! 3.9 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.9.8</version>
-		<infourl title="Joomla!">https://www.joomla.org/announcements/release-news/5771-joomla-3-9-8-release.html</infourl>
+		<version>3.9.9</version>
+		<infourl title="Joomla!">https://www.joomla.org/announcements/release-news/5772-joomla-3-9-9-release.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-9-8/Joomla_3.9.8-Stable-Update_Package.zip</downloadurl>
-			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.9.8/Joomla_3.9.8-Stable-Update_Package.zip</downloadsource>
-			<downloadsource type="full" format="zip">https://update.joomla.org/releases/3.9.8/Joomla_3.9.8-Stable-Update_Package.zip</downloadsource>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-9-9/Joomla_3.9.9-Stable-Update_Package.zip</downloadurl>
+			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.9.9/Joomla_3.9.9-Stable-Update_Package.zip</downloadsource>
+			<downloadsource type="full" format="zip">https://update.joomla.org/releases/3.9.9/Joomla_3.9.9-Stable-Update_Package.zip</downloadsource>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>e3f5c1923aea06eee4fe6bdde4bdca4d2c7fd38537518a045d651096b94f7494</sha256>
-		<sha384>3a77a2a0f537fc75e448b5811c7982a6660d5d71a74da74be51f6b8c801ffc0bf428e4937fbedaeb1e38d9d8d2fefbd8</sha384>
-		<sha512>76db0a02e89724146f68826dc7d3da759f7d5393774be26f422d09282ac0ddf6c65fae4302a8e04fc4d3c90bf5a428478d6d64acf18a0bf3f19d39fa858345bd</sha512>
+		<sha256>43834508ac1f35cc114858e63d9d38b8a94ff49a4706e6a4c07c281d018717df</sha256>
+		<sha384>cb3c96a8810520be148d794b230943723faebf5cd3b8b7a4196e4420dfd8b9626c312d94be597d4254ef672457b0abdd</sha384>
+		<sha512>1f659b24c4db67b3b08e9cc2db95e7196ee2fdff63badb2cfa487b42f6ff2158add7ace1a6803dc7bf0bae15bfc6df56f31f0b35c066cd00ce3c4a147e8c401e</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
