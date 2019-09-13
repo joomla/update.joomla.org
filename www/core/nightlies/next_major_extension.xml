@@ -17,7 +17,7 @@
 		<php_minimum>7.2.0</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
-		<targetplatform name="joomla" version="3.10" />
+		<targetplatform name="joomla" version="3.(9|10)" />
 	</update>
 	<update>
 		<name>Joomla! 4.0.0 Nightly Build</name>
