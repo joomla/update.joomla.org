@@ -31,9 +31,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>pleaseupdate</sha256>
-		<sha384>pleaseupdate</sha384>
-		<sha512>pleaseupdate</sha512>
+		<sha256>314e16fab4848b1f734996154dcd6a7c3a81226b696ee63717b6d1f48b207aa9</sha256>
+		<sha384>128c91430caf54f792b8b1d8371fec3e11a3e905b75dc6fc664e19550d8fc7c209af510ba6928bb0976f13e051ae8481</sha384>
+		<sha512>cc76597ee63b5cd91f9c2047ae6b04e8339bc04d8b80ea60d6e72d5e2b5674fb8c3c2b4adfc30861a04c2253bfe9327887b7b2b602e690d94b8e8e5e1a3cdb09</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.[789]"/>
