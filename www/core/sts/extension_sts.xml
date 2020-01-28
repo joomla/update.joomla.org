@@ -180,9 +180,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>pleaseupdate</sha256>
-		<sha384>pleaseupdate</sha384>
-		<sha512>pleaseupdate</sha512>
+		<sha256>e8887f359e2e989c8477486380a1d69affdb7cc21e54f7ff0b0fa50962448a8c</sha256>
+		<sha384>c9333cd1a5bbe62a0c2ae73d69cfd662b90c020f68f5b3923776f647b266ce15fcc7a6a4ba68d670f32dd4e769cfc55c</sha384>
+		<sha512>ba1cb2460d3f123a97eb140c14e701dd25044c518b1d34dda7f3da3bc3cdea1983bd1cf810274bfa02ebe4465c60a43200464d0bddadcb97145820a42f122881</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
