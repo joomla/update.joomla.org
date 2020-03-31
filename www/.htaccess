@@ -16,8 +16,6 @@
 	Header always set Referrer-Policy "no-referrer-when-downgrade"
 	# Strict-Transport-Security
 	Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
-	# Feature-Policy
-	Header always set Feature-Policy "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'"
 	# Content Security Policy
 	Header always set Content-Security-Policy "default-src 'self'; style-src 'unsafe-inline'; script-src res://edgehtml.dll; report-uri https://joomla.report-uri.com/r/t/csp/enforce"
 	# Allow CORS
