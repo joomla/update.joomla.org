@@ -152,7 +152,7 @@
 		<element>joomla</element>
 		<type>file</type>
 		<version>3.9.20</version>
-		<infourl title="Joomla 3.9.20 Release">https://www.joomla.org/announcements/release-news/XXXX-joomla-3-9-20.html</infourl>
+		<infourl title="Joomla 3.9.20 Release">https://www.joomla.org/announcements/release-news/5814-joomla-3-9-20.html</infourl>
 		<downloads>
 			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-9-20/Joomla_3.9.20-Stable-Update_Package.zip</downloadurl>
 		</downloads>
@@ -164,14 +164,14 @@
 		<section>STS</section>
 		<targetplatform name="joomla" version="3.6.5" />
 		<php_minimum>5.3.10</php_minimum>
-	</update>
+	</update>projects
 	<update>
 		<name>Joomla! 3.9</name>
 		<description>Joomla! 3.9 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
 		<version>3.9.20</version>
-		<infourl title="Joomla 3.9.20 Release">https://www.joomla.org/announcements/release-news/XXXX-joomla-3-9-20.html</infourl>
+		<infourl title="Joomla 3.9.20 Release">https://www.joomla.org/announcements/release-news/5814-joomla-3-9-20.html</infourl>
 		<downloads>
 			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-9-20/Joomla_3.9.20-Stable-Update_Package.zip</downloadurl>
 			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.9.20/Joomla_3.9.20-Stable-Update_Package.zip</downloadsource>
@@ -180,9 +180,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>pleaseupdate</sha256>
-		<sha384>pleaseupdate</sha384>
-		<sha512>pleaseupdate</sha512>
+		<sha256>5cc888af7b7e31065126ec28be9db4880a914674f0e4d8216b230a6a0f6afa4c</sha256>
+		<sha384>ebf63087c796339946c4e7abf5e98515aa72981246598747feae5eaab52c049d9ca8676540bf636fdd48dfbcf1a81b96</sha384>
+		<sha512>33a77faf1dc81a4d386231ededc63ad8dc4c23b60237ef1bee51c17c8e7a1df8dbe32a4572fe2574827a090c187aab7ef07c3b14b30c85dadf26c8b511bc29bd</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
