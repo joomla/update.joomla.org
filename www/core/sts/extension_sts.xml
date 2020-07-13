@@ -164,7 +164,7 @@
 		<section>STS</section>
 		<targetplatform name="joomla" version="3.6.5" />
 		<php_minimum>5.3.10</php_minimum>
-	</update>projects
+	</update>
 	<update>
 		<name>Joomla! 3.9</name>
 		<description>Joomla! 3.9 CMS</description>
