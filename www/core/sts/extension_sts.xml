@@ -151,10 +151,10 @@
 		<description>Joomla! 3.9 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.9.19</version>
-		<infourl title="Joomla 3.9.19 Release">https://www.joomla.org/announcements/release-news/5812-joomla-3-9-19.html</infourl>
+		<version>3.9.20</version>
+		<infourl title="Joomla 3.9.20 Release">https://www.joomla.org/announcements/release-news/5814-joomla-3-9-20.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-9-19/Joomla_3.9.19-Stable-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-9-20/Joomla_3.9.20-Stable-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -170,19 +170,19 @@
 		<description>Joomla! 3.9 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.9.19</version>
-		<infourl title="Joomla 3.9.19 Release">https://www.joomla.org/announcements/release-news/5812-joomla-3-9-19.html</infourl>
+		<version>3.9.20</version>
+		<infourl title="Joomla 3.9.20 Release">https://www.joomla.org/announcements/release-news/5814-joomla-3-9-20.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-9-19/Joomla_3.9.19-Stable-Update_Package.zip</downloadurl>
-			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.9.19/Joomla_3.9.19-Stable-Update_Package.zip</downloadsource>
-			<downloadsource type="full" format="zip">https://update.joomla.org/releases/3.9.19/Joomla_3.9.19-Stable-Update_Package.zip</downloadsource>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-9-20/Joomla_3.9.20-Stable-Update_Package.zip</downloadurl>
+			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.9.20/Joomla_3.9.20-Stable-Update_Package.zip</downloadsource>
+			<downloadsource type="full" format="zip">https://update.joomla.org/releases/3.9.20/Joomla_3.9.20-Stable-Update_Package.zip</downloadsource>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>fcc6b18e8718140b221cca164318370c00d43a0bc4dda3a6d4db43bc3f8c7646</sha256>
-		<sha384>cafd1a93db5f58562db9be8e89a868522937d7127cf2cd9c7e689ff5497a8236498a6060b74ce3cef07db554657a50e5</sha384>
-		<sha512>7e847fbca0e0b1ca8062cfeb6609c78928d04bf8c5421668aced9a70c962f89c0a4a429a8ce35525eb6239973816347c57955c0667170decb40116edff087487</sha512>
+		<sha256>844e9f961451784efdcc83c232300f5a5ad67daf59074d1fd9e5a273b1088b02</sha256>
+		<sha384>40998834838579c6e80d9cafbe2d77b7fcfab0fcf81378f9186b27b28ec47ea24d0ee3df1bddff786aaa2cd316247dbd</sha384>
+		<sha512>61c373e930a50decbe92d9c16baa2c8786db34375d29cfbe83dcd925f84efe11d2efac40d6c890224f9d41de22877f0216ceb8c63532f34735f5e72e9bb3fb6c</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
