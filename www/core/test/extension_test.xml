@@ -44,17 +44,17 @@
 		<description>Joomla! 3.10 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.10.0-alpha1</version>
-		<infourl title="Joomla 3.10.0-alpha1 Release">https://www.joomla.org/announcements/release-news/5816-joomla-4-0-0-beta3-and-joomla-3-10-alpha1.html</infourl>
+		<version>3.10.0-alpha2</version>
+		<infourl title="Joomla 3.10.0-alpha2 Release">https://www.joomla.org/announcements/release-news/XXXX-joomla-4-0-0-beta4-and-joomla-3-10-alpha2.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.0-alpha1/Joomla_3.10.0-alpha1-Alpha-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.0-alpha2/Joomla_3.10.0-alpha2-Alpha-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>alpha</tag>
 		</tags>
-		<sha256>a3fe8581acae30ccd341fce61ed5d780de1f74a0e60576d0322e191a1faacb6d</sha256>
-		<sha384>d674fccd815bc0acad80316111e3af20169933c94828ed8986bba9d50f91b286f756374c3006e69d0ddc0d11afb36d8b</sha384>
-		<sha512>19b1bd2dc58e247f24ab698bb3eb8e13a3c9126f09c8032fe1144a8a582891a55904a4a32cef677a8ee63add60b305ed3aa4df0816a1b10884faceb444a373b2</sha512>
+		<sha256>pleaseupdate</sha256>
+		<sha384>pleaseupdate</sha384>
+		<sha512>pleaseupdate</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.(9|10)" />
@@ -65,17 +65,17 @@
 		<description>Joomla! 4.0 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.0.0-beta3</version>
-		<infourl title="Joomla 4.0.0-beta3 Release">https://www.joomla.org/announcements/release-news/5816-joomla-4-0-0-beta3-and-joomla-3-10-alpha1.html</infourl>
+		<version>4.0.0-beta4</version>
+		<infourl title="Joomla 4.0.0-beta4 Release">https://www.joomla.org/announcements/release-news/XXXX-joomla-4-0-0-beta4-and-joomla-3-10-alpha2.html</infourl>
 		<downloads>
 			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.0.0-beta3/Joomla_4.0.0-beta3-Beta-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>beta</tag>
 		</tags>
-		<sha256>d2d6f7686878481c9627587532dfb23d7c344b60223879514a549feb456dc43a</sha256>
-		<sha384>7970a595c7535634720df6c2852203769ea2b6b75d6bbeb718be1fafa6ecb68b279e65303046df6f57d759599329ee56</sha384>
-		<sha512>71c77a7a4bf6094568c5ed5f3e367eb20ab5c5c4f15956f0dba8b589be9e614a84f0d4fa9b3fb6ff2d7ba597a080a69da0de6bd0cd98d92794719bd9d8e40ef4</sha512>
+		<sha256>pleaseupdate</sha256>
+		<sha384>pleaseupdate</sha384>
+		<sha512>pleaseupdate</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
