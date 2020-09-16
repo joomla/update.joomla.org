@@ -68,7 +68,7 @@
 		<version>4.0.0-beta4</version>
 		<infourl title="Joomla 4.0.0-beta4 Release">https://www.joomla.org/announcements/release-news/5822-joomla-4-0-0-beta4-and-joomla-3-10-alpha2.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.0.0-beta3/Joomla_4.0.0-beta3-Beta-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.0.0-beta4/Joomla_4.0.0-beta4-Beta-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>beta</tag>
