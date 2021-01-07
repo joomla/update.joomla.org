@@ -52,9 +52,9 @@
 		<tags>
 			<tag>alpha</tag>
 		</tags>
-		<sha256>3077425ae712f4a1a13ad7a4e60f9bad9a40ebe4fbd6c93dd18685abfb60cd42</sha256>
-		<sha384>6e37e001dbd7efb9725f604b5c627d798f4fd4d1cbfcdcae1cdee83194b208ec43dd89fc0bbff84e87040e6f8c0fad6a</sha384>
-		<sha512>100dcf98147525fd7a9aed62183e0fbfe7ae8b428bc8c637d52f091e5cc8a6f9f01509f27fdc41dbe5bdc7bb71797045c7e4684f252d03e97468a74a3d25b61d</sha512>
+		<sha256>d22a2e683c99f4b4600a514bf356e0c761af81e7cf9d9a441aacaece2dd8f984</sha256>
+		<sha384>a53c41a7656b6347d6e7387f529f4a09022917c6a3688d0c994b9a6c3a3325e7f3740536bbfa6b304be89eff02e55d6e</sha384>
+		<sha512>58d4fc47a75bd97d7c2f0d3a24104bcf57da017b9ff7897428b19c8a02de5437bc9409f35af74f3076913add27d2ad9e116134790faf18631c435381715d8833</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.(9|10)" />
