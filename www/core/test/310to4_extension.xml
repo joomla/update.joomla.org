@@ -13,9 +13,9 @@
 		<tags>
 			<tag>beta</tag>
 		</tags>
-		<sha256>pleaseupdate</sha256>
-		<sha384>pleaseupdate</sha384>
-		<sha512>pleaseupdate</sha512>
+		<sha256>83d81dbd6b414c8f689513f139d59395edee3ab6f8c0d73c316efc238e441bc6</sha256>
+		<sha384>af9b10a3111726c304b41d0b8177d82d497bfc0fa693b5b274e1d4297f64ee8419efbab9ac915bd138f386fb5986539e</sha384>
+		<sha512>85aae15b905435b26865d7dfe25d3490d75b9181fe5df3379cfba2af6bd79e7227a569ce49f7633f84ab936dd00d34d552e1ec473afccc21b6f9ae6c57b81bf2</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
