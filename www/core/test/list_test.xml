@@ -7,7 +7,7 @@
 	<extension name="Joomla" element="joomla" type="file" version="3.9.24-rc2" targetplatformversion="3.7" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="3.9.24-rc2" targetplatformversion="3.8" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="3.9.24-rc2" targetplatformversion="3.9" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.10.0-alpha4" targetplatformversion="3.9" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.10.0-alpha4" targetplatformversion="3.10" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="4.0.0-beta6" targetplatformversion="4.0" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.10.0-alpha5" targetplatformversion="3.9" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.10.0-alpha5" targetplatformversion="3.10" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="4.0.0-beta7" targetplatformversion="4.0" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
 </extensionset>
