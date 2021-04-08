@@ -16,6 +16,8 @@
 	Header always set Referrer-Policy "no-referrer-when-downgrade"
 	# Strict-Transport-Security
 	Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+	# Cross-Origin-Opener-Policy
+	Header always set Cross-Origin-Opener-Policy "same-origin"
 	# Content Security Policy
 	Header always set Content-Security-Policy "default-src 'self'; style-src 'unsafe-inline'; script-src res://edgehtml.dll; report-uri https://community.joomla.org/scripts/csp-reporter.php?source=update.joomla.org"
 	# Allow CORS
