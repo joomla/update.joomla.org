@@ -8,9 +8,9 @@
 	<extension name="Joomla" element="joomla" type="file" version="3.6.5" targetplatformversion="3.3" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="3.6.5" targetplatformversion="3.4" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="3.6.5" targetplatformversion="3.5" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.9.25" targetplatformversion="3.6.5" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.9.26" targetplatformversion="3.6.5" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="3.6.5" targetplatformversion="3.6" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.9.25" targetplatformversion="3.7" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.9.25" targetplatformversion="3.8" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.9.25" targetplatformversion="3.9" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.9.26" targetplatformversion="3.7" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.9.26" targetplatformversion="3.8" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.9.26" targetplatformversion="3.9" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
 </extensionset>
