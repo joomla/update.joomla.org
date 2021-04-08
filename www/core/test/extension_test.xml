@@ -6,9 +6,9 @@
 		<element>joomla</element>
 		<type>file</type>
 		<version>3.9.24-rc2</version>
-		<infourl title="Joomla! 3.9.24-rc2">https://www.joomla.org</infourl>
+		<infourl title="Joomla! 3.9.26-rc">https://www.joomla.org</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.9.24-rc2/Joomla_3.9.24-rc2-Release_Candidate-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.9.26-rc/Joomla_3.9.26-rc-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -23,17 +23,17 @@
 		<description>Joomla! 3.9 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.9.24-rc2</version>
-		<infourl title="Joomla! 3.9.24-rc2">https://www.joomla.org</infourl>
+		<version>3.9.26-rc</version>
+		<infourl title="Joomla! 3.9.26-rc">https://www.joomla.org</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.9.24-rc2/Joomla_3.9.24-rc2-Release_Candidate-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.9.26-rc/Joomla_3.9.26-rc-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>bacf92211c716aaa8cd6f5f8a89f7df6c8920a2f05689658c6137cada61ab91e</sha256>
-		<sha384>481344a2bebfd009da0ebd23554e96e4408c1575bd5151306ed022fd7c6256ab0f3b66cc3c40ee9a4c4b639d4cd323b9</sha384>
-		<sha512>beb60a7be54cddb8d995ad4fe1845703f0a6170b17c61aa0951bd3821421a4352a15e3180db17a4d3f49f0b7f31c04925f213705c141c36c6b59a382291334f9</sha512>
+		<sha256>0e74579068607d8250b9c166754b3af52f4bd470d05ca988f33534fb2b95384d</sha256>
+		<sha384>936219b1561f833598ec9bdeb34e5bc3e9d16e40095bbc282ca319a731ceded8a242f21ca2629424a58ec75cf6f9616a</sha384>
+		<sha512>e8f3f07ede665aeb87990d20fd649ea75cba96ae979fac0870efc53e65bf2cccfd33163734cf6b5c192c5d20bdbc4cdd230e45eeb9f367c744c9ca4511a0a518</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.[789]"/>
