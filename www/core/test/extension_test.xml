@@ -52,9 +52,9 @@
 		<tags>
 			<tag>alpha</tag>
 		</tags>
-		<sha256>pleaseupdate</sha256>
-		<sha384>pleaseupdate</sha384>
-		<sha512>pleaseupdate</sha512>
+		<sha256>46876ee3ae7929a89a552e8b51e3187937251801c70b06b1ca75f4dbad64f6f4</sha256>
+		<sha384>2a19744f71c0e55ed9fc0c60acb1d112ffeb14058a0cfcdd2cb891d63b727d38a2d52a5de723dd8eb140df44b3fe1a82</sha384>
+		<sha512>f33bdd4e395d3a9320c741c1fb03fcf758d38cf2fe0fc2f2b5324d88f966577c2e74bb507e5dc363c5f0c270fdc3568ec8d9dd6bf257c7ec309c1d11d9d9eb76</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.(9|10)" />
