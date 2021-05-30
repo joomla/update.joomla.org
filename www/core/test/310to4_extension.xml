@@ -5,17 +5,17 @@
 		<description>Joomla! 4.0 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.0.0-beta7</version>
-		<infourl title="Joomla 4.0.0-beta7 Release">https://www.joomla.org/announcements/release-news/5833-joomla-4-0-0-beta7-and-joomla-3-10-alpha5.html</infourl>
+		<version>4.0.0-rc1</version>
+		<infourl title="Joomla 4.0.0-rc1 Release">https://www.joomla.org/announcements/release-news/XXXX-joomla-4-0-0-rc1-and-joomla-3-10-alpha6.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.0.0-beta7/Joomla_4.0.0-beta7-Beta-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.0.0-rc1/Joomla_4.0.0-rc-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
-			<tag>beta</tag>
+			<tag>rc</tag>
 		</tags>
-		<sha256>ff1ffa871040f3bacf38c2814dd7631010559b6aee290ecac3ee81d73d86ac7c</sha256>
-		<sha384>21ae25b738b07ce6bcacc69f045dcaeda9995b22f93d93d75b88e2fbad311eea09df9b7b8d984835478e55d1e7aa0e4c</sha384>
-		<sha512>12d0976d08af4ca6c9821c8ebece4ffab1a662480696b24ca30dd86efde0d8c12664d8e09f749cd7d24b05da36fa013b5d0d76ee7a7eaae20ca74894357bbe85</sha512>
+		<sha256>pleaseupdate</sha256>
+		<sha384>pleaseupdate</sha384>
+		<sha512>pleaseupdate</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
