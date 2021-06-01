@@ -1,0 +1,12 @@
+#######################################
+# The Mapper Template
+# 1. Copy file to conf/.mapper
+# 2. Update values if needed
+# 3. Use tab to separate the columns
+#######################################
+# VERSION  FILENAME   FOLDER
+10	translationlist_1	details1
+15	translationlist_1_5	details1_5
+25	translationlist	details
+30	translationlist_3	details3
+40	translationlist_4	details4
