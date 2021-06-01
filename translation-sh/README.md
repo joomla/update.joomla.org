@@ -113,9 +113,9 @@ Then add the following line, update the time as needed
 10 5 * * MON /home/username/translation-sh/run.sh >> /home/username/translation-sh/stream.log 2>&1
 ```
 
-### Free Software
+### License
 ```txt
-Copyright (C) 2019. All Rights Reserved
-GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html
+@copyright  Copyright (C) 2021 Open Source Matters, Inc. All rights reserved.
+@license    GNU General Public License version 2 or later; see LICENSE.txt
 ```
 
