@@ -25,10 +25,14 @@ function main() {
   # now get the mapper data
   while IFS=$'\t' read -r -a row; do
     [[ "$row" =~ ^#.*$ ]] && continue
+    # make sure we have no whitespace
+    VERSION_VAL=$(echo ${row[0]} | xargs)
+    FILENAME_VAL=$(echo ${row[1]} | xargs)
+    FOLDER_VAL=$(echo ${row[2]} | xargs)
     # set the url
-    URL_MAIN_LANG="${STREAM_ENDPOINT}&${URL_VERSION_KEY}=${row[0]}"
+    URL_MAIN_LANG="${STREAM_ENDPOINT}&${URL_VERSION_KEY}=${VERSION_VAL}"
     # set the path
-    PATH_MAIN_FILE="${TARGET_FOLDER}${row[1]}.xml"
+    PATH_MAIN_FILE="${TARGET_FOLDER}${FILENAME_VAL}.xml"
     # get the main translation file of this version
     showMessage "Downloading: ${URL_MAIN_LANG}\nStoring@: ${PATH_MAIN_FILE}"
     # do the work now
@@ -37,12 +41,14 @@ function main() {
     while readXML; do
       # get the language tag
       LANG=$(getElement)
+      # remove the pkg_ part of the element
+      LANG=$(printf '%s\n' ${LANG##pkg_})
       # act only if we have valid tag
       if [ -n "${LANG}" ]; then
         # set the url
-        URL_LANG="${STREAM_ENDPOINT}&${URL_VERSION_KEY}=${row[0]}&${URL_LANGUAGE_KEY}=${LANG}"
+        URL_LANG="${STREAM_ENDPOINT}&${URL_VERSION_KEY}=${VERSION_VAL}&${URL_LANGUAGE_KEY}=${LANG}"
         # set the path
-        PATH_LANG="${TARGET_FOLDER}${row[2]}"
+        PATH_LANG="${TARGET_FOLDER}${FOLDER_VAL}"
         # set the path
         PATH_FILE="${PATH_LANG}/${LANG}_details.xml"
         # get the language pack file
