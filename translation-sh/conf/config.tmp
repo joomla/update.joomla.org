@@ -1,0 +1,29 @@
+###############################
+# The Config Template
+# 1. Copy file to conf/.config
+# 2. Remove key=values not needed
+# 3. Update values of each key
+###############################
+key=value
+###############################
+
+# set the endpoint of the xml retrieval
+xml.stream.endpoint=https://downloads.joomla.org/index.php?option=com_languagepack&view=export&format=xml
+
+# set the version key used in URL
+xml.stream.url.version.key=cms_version
+
+# set the language key used in URL
+xml.stream.url.language.key=language_code
+
+# xml stream mapper file
+xml.stream.repo.mapper=/home/username/XML-stream/conf/.mapper
+
+# xml stream push xml updates back to git server 0->no; 1->yes (assumes user is having ssh access configured)
+xml.stream.repo.push=0
+
+# xml stream target folder where we place the XML static files
+xml.stream.target.folder=/home/username/XML-stream/src/
+
+# kill all messages 0->normal; 1->none
+xml.stream.build.quiet=0
