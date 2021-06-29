@@ -5,17 +5,17 @@
 		<description>Joomla! 4.0 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.0.0-rc2</version>
-		<infourl title="Joomla 4.0.0-rc2 Release">https://www.joomla.org/announcements/release-news/5838-joomla-4-0-0-rc2-and-joomla-3-10-alpha7.html</infourl>
+		<version>4.0.0-rc3</version>
+		<infourl title="Joomla 4.0.0-rc3 Release">https://www.joomla.org/announcements/release-news/5839-joomla-4-0-0-rc3-and-joomla-3-10-alpha8.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.0.0-rc2/Joomla_4.0.0-rc2-Release_Candidate-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.0.0-rc3/Joomla_4.0.0-rc3-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>rc</tag>
 		</tags>
-		<sha256>3548d805f1132e9b5dc484d56627cbdc4fe0aabfdf231bf1c4dc8cc651c90818</sha256>
-		<sha384>615d5c1e242e2e0a0691466827b98433f7c9dc1b59833df13d10aa64d35b5ff370304bd2dba8ca30f81feed34f5a2779</sha384>
-		<sha512>ab369f823049528bae2af37771fab630798781e4b461ef65ace70efe28535e773c7948330ff3c414e8cba8f06962500a5ed1f96f515e9191ed94454dde4a2404</sha512>
+		<sha256>bb153814bb00688a5b14e7678c0a0614a797975c83396b29c4bf190a3dec30af</sha256>
+		<sha384>64e0ca2af0b6192a5f0c466c92fd3219d2fa9ca4e31a8168c99ebf2a041fb3538ca3002e1035089b4d007f8024cf4fd8</sha384>
+		<sha512>ce9f08d512d7fdd7cca6cc36883f35d6666a434424f46949a308841975b7acb1068fba2a411989aa9a6e0b472ff83e6952c1d585759c16635c53fdb01243ebb5</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
