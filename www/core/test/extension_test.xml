@@ -50,7 +50,7 @@
 			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.0-rc1/Joomla_3.10.0-rc1-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
-			<tag>alpha</tag>
+			<tag>rc</tag>
 		</tags>
 		<sha256>a3057046cd4c0f8cea85cd0d478aab0e6fb949b3852fab7a94f1635c796b699b</sha256>
 		<sha384>2580ec03c0bbca471afa86f9475e31ed5550df4d6853293f737d6f57f44407bf3984e58af07197d4e89ccbd9bcad094d</sha384>
