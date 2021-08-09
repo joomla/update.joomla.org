@@ -31,9 +31,9 @@
 		<tags>
 			<tag>rc</tag>
 		</tags>
-		<sha256>da708f3a05b7be40666b19d89de9d6e884e31e52dd0a968e9f4ad9a118b0e891</sha256>
-		<sha384>c5dfc13acdc86445aeeb4157fe4b418c9085c3a76c8aab59e4756f6b7fa7f97e1881d18abd6daa5a2985a36104b995d4</sha384>
-		<sha512>73faeeea061a7d96bf75b972f762de4d9e2efc82bf911841012908ab7409f0c191f2c0a9e70d1d0184f9b015098f6794b6b330153f0e59303f551e3dedb76760</sha512>
+		<sha256>abb8ff1be44eaa7856795df35d92d652494b7f409b460c5965bfbacdd56970a7</sha256>
+		<sha384>919365661ec458a2b2c680b05d45d222062c937ef80afbc8918f8a6f43642cbf450224a165580189b5b898aba86dddc6</sha384>
+		<sha512>5f9996c4788d9c3806c6be94fbe8cf5e3417fd938b76a73a317009c5fe5d2956ee7e248cb0ac49d2e438cd8ed8fc4ec374cc40ebb26f237cf059c31c3458e596</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.([789]|10)" />
