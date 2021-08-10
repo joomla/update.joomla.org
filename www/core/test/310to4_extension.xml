@@ -13,9 +13,9 @@
 		<tags>
 			<tag>rc</tag>
 		</tags>
-		<sha256>pleaseupdate</sha256>
-		<sha384>pleaseupdate</sha384>
-		<sha512>pleaseupdate</sha512>
+		<sha256>312229736a241c0966b42a5be4ea3e8ef49726a5a18fe950c7d8c9e2c787eccc</sha256>
+		<sha384>420684c96ba890508de233ff540980c1c42156c60a1bb3f4446cf91742a90e0a8da156d68ffa351ff1147b02777882c9</sha384>
+		<sha512>92ab463f107ccbb87acf46aed62ed5fd819d6abaa95f728d4472938f28d1c85be4d1a76bdbf3c969359899ec35c89ee3597bf3bc4010d55166aa1d67896ec279</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
