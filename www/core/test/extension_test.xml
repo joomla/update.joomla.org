@@ -29,7 +29,7 @@
 			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.0-rc2/Joomla_3.10.0-rc2-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
-			<tag>rc</tag>
+			<tag>stable</tag>
 		</tags>
 		<sha256>abb8ff1be44eaa7856795df35d92d652494b7f409b460c5965bfbacdd56970a7</sha256>
 		<sha384>919365661ec458a2b2c680b05d45d222062c937ef80afbc8918f8a6f43642cbf450224a165580189b5b898aba86dddc6</sha384>
@@ -50,7 +50,7 @@
 			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.0.0-rc6/Joomla_4.0.0-rc6-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
-			<tag>rc</tag>
+			<tag>stable</tag>
 		</tags>
 		<sha256>312229736a241c0966b42a5be4ea3e8ef49726a5a18fe950c7d8c9e2c787eccc</sha256>
 		<sha384>420684c96ba890508de233ff540980c1c42156c60a1bb3f4446cf91742a90e0a8da156d68ffa351ff1147b02777882c9</sha384>
