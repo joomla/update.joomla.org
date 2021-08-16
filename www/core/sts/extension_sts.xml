@@ -1,201 +1,12 @@
 <?xml version="1.0" ?>
 <updates>
 	<update>
-		<name>Joomla! 3.1</name>
-		<description>Joomla! CMS</description>
-		<element>joomla</element>
-		<type>file</type>
-		<version>3.1.3</version>
-		<infourl title="Joomla!">https://www.joomla.org/</infourl>
-		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-1-3/Joomla_3.1.2_to_3.1.3-Stable-Patch_Package.tar.gz</downloadurl>
-		</downloads>
-		<tags>
-			<tag>stable</tag>
-		</tags>
-		<maintainer>Joomla! Production Department</maintainer>
-		<maintainerurl>https://www.joomla.org</maintainerurl>
-		<section>STS</section>
-		<targetplatform name="joomla" version="3.1" min_dev_level="2" max_dev_level="2"/>
-	</update>
-	<update>
-		<name>Joomla! 3.2</name>
-		<description>Joomla! CMS</description>
-		<element>joomla</element>
-		<type>file</type>
-		<version>3.2.7</version>
-		<infourl title="Joomla!">https://www.joomla.org/</infourl>
-		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-2-7/Joomla_3.2.7-Stable-Update_Package.zip</downloadurl>
-		</downloads>
-		<tags>
-			<tag>stable</tag>
-		</tags>
-		<maintainer>Joomla! Production Department</maintainer>
-		<maintainerurl>https://www.joomla.org</maintainerurl>
-		<section>STS</section>
-		<targetplatform name="joomla" version="3.0"/>
-	</update>
-	<update>
-		<name>Joomla! 3.2</name>
-		<description>Joomla! CMS</description>
-		<element>joomla</element>
-		<type>file</type>
-		<version>3.2.7</version>
-		<infourl title="Joomla!">https://www.joomla.org/</infourl>
-		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-2-7/Joomla_3.2.7-Stable-Update_Package.zip</downloadurl>
-		</downloads>
-		<tags>
-			<tag>stable</tag>
-		</tags>
-		<maintainer>Joomla! Production Department</maintainer>
-		<maintainerurl>https://www.joomla.org</maintainerurl>
-		<section>STS</section>
-		<targetplatform name="joomla" version="3.1" min_dev_level="0" max_dev_level="1"/>
-	</update>
-	<update>
-		<name>Joomla! 3.2</name>
-		<description>Joomla! CMS</description>
-		<element>joomla</element>
-		<type>file</type>
-		<version>3.2.7</version>
-		<infourl title="Joomla!">https://www.joomla.org/</infourl>
-		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-2-7/Joomla_3.2.7-Stable-Update_Package.zip</downloadurl>
-		</downloads>
-		<tags>
-			<tag>stable</tag>
-		</tags>
-		<maintainer>Joomla! Production Department</maintainer>
-		<maintainerurl>https://www.joomla.org</maintainerurl>
-		<section>STS</section>
-		<targetplatform name="joomla" version="3.1" min_dev_level="3"/>
-	</update>
-	<update>
-		<name>Joomla! 3.2</name>
-		<description>Joomla! CMS</description>
-		<element>joomla</element>
-		<type>file</type>
-		<version>3.2.7</version>
-		<infourl title="Joomla!">https://www.joomla.org/</infourl>
-		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-2-7/Joomla_3.2.x_to_3.2.7-Stable-Patch_Package.zip</downloadurl>
-		</downloads>
-		<tags>
-			<tag>stable</tag>
-		</tags>
-		<maintainer>Joomla! Production Department</maintainer>
-		<maintainerurl>https://www.joomla.org</maintainerurl>
-		<section>STS</section>
-		<targetplatform name="joomla" version="3.2" min_dev_level="0" max_dev_level="5" />
-	</update>
-	<update>
-		<name>Joomla! 3.2</name>
-		<description>Joomla! 3.2 CMS</description>
-		<element>joomla</element>
-		<type>file</type>
-		<version>3.2.7</version>
-		<infourl title="Joomla!">https://www.joomla.org/</infourl>
-		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-2-7/Joomla_3.2.6_to_3.2.7-Stable-Patch_Package.zip</downloadurl>
-		</downloads>
-		<tags>
-			<tag>stable</tag>
-		</tags>
-		<maintainer>Joomla! Production Department</maintainer>
-		<maintainerurl>https://www.joomla.org</maintainerurl>
-		<section>STS</section>
-		<targetplatform name="joomla" version="3.2" min_dev_level="6" />
-	</update>
-	<update>
-		<name>Joomla! 3.5</name>
-		<description>Joomla! 3.5 CMS</description>
-		<element>joomla</element>
-		<type>file</type>
-		<version>3.5.1</version>
-		<infourl title="Joomla! 3.5.1 Released">https://www.joomla.org/announcements/release-news/5655-joomla-3-5-1-released.html</infourl>
-		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-5-1/Joomla_3.5.1-Stable-Update_Package.zip</downloadurl>
-		</downloads>
-		<tags>
-			<tag>stable</tag>
-		</tags>
-		<maintainer>Joomla! Production Department</maintainer>
-		<maintainerurl>https://www.joomla.org</maintainerurl>
-		<section>STS</section>
-		<targetplatform name="joomla" version="2.5" />
-		<php_minimum>5.3.10</php_minimum>
-	</update>
- 	<update>
-		<name>Joomla! 3.6</name>
-		<description>Joomla! 3.6 CMS</description>
-		<element>joomla</element>
-		<type>file</type>
-		<version>3.6.5</version>
-		<infourl title="Joomla! 3.6.5 Released">https://www.joomla.org/announcements/release-news/5693-joomla-3-6-5-released.html</infourl>
-		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-6-5/Joomla_3.6.5-Stable-Update_Package.zip</downloadurl>
-		</downloads>
-		<tags>
-			<tag>stable</tag>
-		</tags>
-		<maintainer>Joomla! Production Department</maintainer>
-		<maintainerurl>https://www.joomla.org</maintainerurl>
-		<section>STS</section>
-		<targetplatform name="joomla" version="3.[23456]" />
-		<php_minimum>5.3.10</php_minimum>
-	</update>
-	<update>
-		<name>Joomla! 3.9</name>
-		<description>Joomla! 3.9 CMS</description>
-		<element>joomla</element>
-		<type>file</type>
-		<version>3.9.28</version>
-		<infourl title="Joomla 3.9.28 Release">https://www.joomla.org/announcements/release-news/5840-joomla-3-9-28.html</infourl>
-		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-9-28/Joomla_3.9.28-Stable-Update_Package.zip</downloadurl>
-		</downloads>
-		<tags>
-			<tag>stable</tag>
-		</tags>
-		<maintainer>Joomla! Production Department</maintainer>
-		<maintainerurl>https://www.joomla.org</maintainerurl>
-		<section>STS</section>
-		<targetplatform name="joomla" version="3.6.5" />
-		<php_minimum>5.3.10</php_minimum>
-	</update>
-	<update>
-		<name>Joomla! 3.10</name>
-		<description>Joomla! 3.10 CMS</description>
-		<element>joomla</element>
-		<type>file</type>
-		<version>3.10.0</version>
-		<infourl title="Joomla 3.10.0 Release">https://www.joomla.org/announcements/release-news/5845-joomla-4-0-and-joomla-3-10-are-here.html</infourl>
-		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-10-0/Joomla_3.10.0-Stable-Update_Package.zip</downloadurl>
-			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.0/Joomla_3.10.0-Stable-Update_Package.zip</downloadsource>
-			<downloadsource type="full" format="zip">https://update.joomla.org/releases/3.10.0/Joomla_3.10.0-Stable-Update_Package.zip</downloadsource>
-		</downloads>
-		<tags>
-			<tag>stable</tag>
-		</tags>
-		<sha256>835d4f1531d6f930a0a90042af31fae37e7ae56894591fb53d47ebe51416bd18</sha256>
-		<sha384>b77a05d8345b2e925f68c13d896a84670a160ac8cbd10a20d0ea1070a57761c8192dd8d51c861f8fc0a05fbabb17fc39</sha384>
-		<sha512>43df77e82fd48e2e5231cea2e21bd6deeb7e5ba4b78e21bd79642d982b39a1844d5dc947c4a7b17ff21e670105c3854d1aa7f3c09909e314e2266e92becf38ff</sha512>
-		<maintainer>Joomla! Production Department</maintainer>
-		<maintainerurl>https://www.joomla.org</maintainerurl>
-		<section>STS</section>
-		<targetplatform name="joomla" version="3.[789]" />
-		<php_minimum>5.3.10</php_minimum>
-	</update>
-	<update>
-		<name>Joomla! 4.0 Nightly Build</name>
+		<name>Joomla! 4.0</name>
 		<description>Joomla! 4.0 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
 		<version>4.0.0</version>
-		<infourl title="Joomla 3.10.0 Release">https://www.joomla.org/announcements/release-news/5845-joomla-4-0-and-joomla-3-10-are-here.html</infourl>
+		<infourl title="Joomla 4.0.0 Release">https://www.joomla.org/announcements/release-news/5845-joomla-4-0-and-joomla-3-10-are-here.html</infourl>
 		<downloads>
 			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-0-0/Joomla_4.0.0-Stable-Update_Package.zip</downloadurl>
 			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.0.0/Joomla_4.0.0-Stable-Update_Package.zip</downloadsource>
@@ -215,12 +26,12 @@
 		<targetplatform name="joomla" version="3.10" />
 	</update>
 	<update>
-		<name>Joomla! 4.0 Nightly Build</name>
+		<name>Joomla! 4.0</name>
 		<description>Joomla! 4.0 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
 		<version>4.0.0</version>
-		<infourl title="Joomla 3.10.0 Release">https://www.joomla.org/announcements/release-news/5845-joomla-4-0-and-joomla-3-10-are-here.html</infourl>
+		<infourl title="Joomla 4.0.0 Release">https://www.joomla.org/announcements/release-news/5845-joomla-4-0-and-joomla-3-10-are-here.html</infourl>
 		<downloads>
 			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-0-0/Joomla_4.0.0-Stable-Update_Package.zip</downloadurl>
 			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.0.0/Joomla_4.0.0-Stable-Update_Package.zip</downloadsource>
