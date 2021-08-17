@@ -11,11 +11,11 @@
 			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.0.0/Joomla_4.0.0-Stable-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
-			<tag>rc</tag>
+			<tag>stable</tag>
 		</tags>
-		<sha256>95deb67e4c57327e490310637d3b8cfdd81d0df42dfd26b9e632016360c19a71</sha256>
-		<sha384>2ae41d05ea5ff07bcf5e72264f9789fea6756a3f9561a703e6a5344371491187e9929d26c90e3a12b1f08946085e3e1b</sha384>
-		<sha512>3add078c535481c63b09de024e0a953db91947cf223406ad9b6dfd2b9c8e0db625211ed518168cddb68ca99547df5d609e81a111f7166582bc77d1f3fd13eb50</sha512>
+		<sha256>f7e536506e5576aff9dd00afba4e7ff77a968fd1263b2e9a6591ddf2c9fa2864</sha256>
+		<sha384>e2b0e9cc8d12fd447fcfda0dc84d02d14407dd9cb0b273fbc3f8e112d57f2453f520bb663cd168ed96808dcf387b8132</sha384>
+		<sha512>02b652535dff612cd84ead08a05d6664ea64602804794d8b0f4af80b72ef0541f2e9c4a1c97588857860aa4da81dbc113fc2e0905a719c7eac735affd95c4e17</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
