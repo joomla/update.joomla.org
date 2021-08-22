@@ -5,17 +5,17 @@
 		<description>Joomla! 3.10 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.10.0</version>
-		<infourl title="Joomla 3.10.0 Release">https://www.joomla.org/announcements/release-news/5846-joomla-4-0-1-and-joomla-3-10-1-are-here.html</infourl>
+		<version>3.10.1</version>
+		<infourl title="Joomla 3.10.1 Release">https://www.joomla.org/announcements/release-news/5846-joomla-4-0-1-and-joomla-3-10-1-are-here.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.0/Joomla_3.10.0-Stable-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.1/Joomla_3.10.1-Stable-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>835d4f1531d6f930a0a90042af31fae37e7ae56894591fb53d47ebe51416bd18</sha256>
-		<sha384>b77a05d8345b2e925f68c13d896a84670a160ac8cbd10a20d0ea1070a57761c8192dd8d51c861f8fc0a05fbabb17fc39</sha384>
-		<sha512>43df77e82fd48e2e5231cea2e21bd6deeb7e5ba4b78e21bd79642d982b39a1844d5dc947c4a7b17ff21e670105c3854d1aa7f3c09909e314e2266e92becf38ff</sha512>
+		<sha256>a9476e0ee26b77d7c65c94f939fef141f6dde8f4a0982dc3f96e28437f1f043c</sha256>
+		<sha384>33f7df1be91f65d61dd4ad53cf5e4fd129f8fd1258ae63594329d54c9acf4f2066e900c208f36c869342ea0ddf46a387</sha384>
+		<sha512>e9d852d816a28dbbd3dd068f7b0ac6a21b94036e5b9d667642dfb52d2b27d3787eb517958eb8ccf286975030d1080053281f2e22af3a0a15fee7d7048e11b7ef</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.6.5"/>
