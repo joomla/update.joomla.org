@@ -18,4 +18,25 @@
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.6"/>
 	</update>
+	<update>
+		<name>Joomla! Update Component Update</name>
+		<description>Joomla Update Component</description>
+		<element>com_joomlaupdate</element>
+		<type>component</type>
+		<client>administrator</client>
+		<version>3.10.1</version>
+		<infourl title="Joomla!">https://www.joomla.org/announcements/release-news/XXXX</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.1/com_joomlaupdate-3.10.1.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<sha256>695adefa2b04a59065ec2488fa55fc919f6ce38ceccf437fe2f3f253ca2b9c3c</sha256>
+		<sha384>cbf34dffe22341acd1f3f565f27a2885cc190b5b2f8a22566506f760b08e000e6a4744ac84fa7f5e2ce2c3493cae9613</sha384>
+		<sha512>6dda1b911d12697663ebdd4c290caa55ccf12b8aa8a3bac7f5b96879a3d6893dedda036019d648a0cee36e726688f90daf8600d185f14d38ef90ef810e993f2a</sha512>
+		<maintainer>Joomla! Production Department</maintainer>
+		<maintainerurl>https://www.joomla.org</maintainerurl>
+		<targetplatform name="joomla" version="3.10.0"/>
+	</update>
 </updates>
