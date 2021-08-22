@@ -32,9 +32,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>695adefa2b04a59065ec2488fa55fc919f6ce38ceccf437fe2f3f253ca2b9c3c</sha256>
-		<sha384>cbf34dffe22341acd1f3f565f27a2885cc190b5b2f8a22566506f760b08e000e6a4744ac84fa7f5e2ce2c3493cae9613</sha384>
-		<sha512>6dda1b911d12697663ebdd4c290caa55ccf12b8aa8a3bac7f5b96879a3d6893dedda036019d648a0cee36e726688f90daf8600d185f14d38ef90ef810e993f2a</sha512>
+		<sha256>83c476e7d6da65e4b05d25b37758f1f68686cff2acb04af4b5b5993e6af45bba</sha256>
+		<sha384>dbb48737e643dd56fefe127fcf90efb17973081613b4e91594b1f285c219b851be191d20886721fbd4f16c235d7dd9ac</sha384>
+		<sha512>39501785be202200e40f1f3c7ea6a1dcc9dc4656981c76a386759537ea8c6c7de439dc0e111e06d98356f54b7f9b6013a004b1c56fc698b80609c11cf6094f8c</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.10.0"/>
