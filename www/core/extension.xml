@@ -179,9 +179,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>08fb631de6494685cb90dd3bb37c5a04f500242dedade0566f998f064c09fea7</sha256>
-		<sha384>6e1dbd5da2fae74f58c6053f303cac4bee3c9d477a8a4fdfd324c0dd280ef882d850989fbdf5cc298bc615d600498012</sha384>
-		<sha512>1bdde1c705fea2af9c6b4e0d78d870ddd9d07712e5a62ad03fb86e465349d76d9974928366c8313dd2c9ce89a799ceadf8ff9a92581d6eda534671161bbba7fa</sha512>
+		<sha256>07994602251b5e73b342affc98cd73c45ddca378fc8ae79516f21cbd5d5176a5</sha256>
+		<sha384>10989567c164683bd3db6e4cc88250eb2fa0aa43b0851d72dc2bbda17b8209e3ae2aad8269a23c3dbc1b22b2ac0a14f5</sha384>
+		<sha512>e13d22dd1f73ab525b3def67b3ae879f0d88b3e1e84d20d1816ae320221656758e5b5adb678848879e057f097a37042ec2fadef72480e57ea6ef8a5142bf58a9</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
