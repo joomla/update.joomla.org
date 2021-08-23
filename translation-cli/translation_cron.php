@@ -71,7 +71,7 @@ final class TranslationCron
 	/**
 	 * The list of J4 language packs to mark them as comptible
 	 *
-	 * @var boolean
+	 * @var array
 	 */
 	private $j4LanguagePack = array(
 		'ar-AA',
