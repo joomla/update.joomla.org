@@ -69,7 +69,7 @@ final class TranslationCron
 	private $verbose = false;
 
 	/**
-	 * The list of J4 language packs to mark them as comptible
+	 * The list of J4 language packs to mark them as compatible
 	 *
 	 * @var array
 	 */
