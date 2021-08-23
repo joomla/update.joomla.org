@@ -13,9 +13,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>pleaseupdate</sha256>
-		<sha384>pleaseupdate</sha384>
-		<sha512>pleaseupdate</sha512>
+		<sha256>e04e326324b49ea770fe1ebdcdbe8ff6f98d8344de716d5304b7f73680c968de</sha256>
+		<sha384>b2bc33ab4af663b1312f0b43902998103a81e9acb0425cee63e0428c6a108c4bfd4deb6736511ebf2eadf0111f35dfeb</sha384>
+		<sha512>10317a83722c32ac026eb16a6a1f30ccb819ab4d8913ee57e10c69fec475b734beb4ff045a10209ef620c239c2122c51d4c18bf9a606bb7b347c9bae9f844d56</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
