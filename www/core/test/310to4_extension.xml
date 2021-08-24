@@ -22,7 +22,6 @@
 		<sha512>02b652535dff612cd84ead08a05d6664ea64602804794d8b0f4af80b72ef0541f2e9c4a1c97588857860aa4da81dbc113fc2e0905a719c7eac735affd95c4e17</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
-		<section>STS</section>
 		<targetplatform name="joomla" version="3.10" />
 	</update>
 </updates>
