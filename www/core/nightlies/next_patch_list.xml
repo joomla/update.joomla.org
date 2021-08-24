@@ -3,5 +3,5 @@
 	<extension name="Joomla" element="joomla" type="file" version="3.10.2-dev" targetplatformversion="3.8" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="3.10.2-dev" targetplatformversion="3.9" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="3.10.2-dev" targetplatformversion="3.10" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="4.0.2-dev" targetplatformversion="4.0" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="4.0.3-dev" targetplatformversion="4.0" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
 </extensionset>
