@@ -146,14 +146,14 @@
 		<php_minimum>5.3.10</php_minimum>
 	</update>
 	<update>
-		<name>Joomla! 3.9</name>
-		<description>Joomla! 3.9 CMS</description>
+		<name>Joomla! 3.10</name>
+		<description>Joomla! 3.10 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.9.28</version>
-		<infourl title="Joomla 3.9.28 Release">https://www.joomla.org/announcements/release-news/5840-joomla-3-9-28.html</infourl>
+		<version>3.10.2</version>
+		<infourl title="Joomla 3.10.2 Release">https://www.joomla.org/announcements/release-news/5848-joomla-4-0-3-and-joomla-3-10-2-are-here.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-9-28/Joomla_3.9.28-Stable-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-10-2/Joomla_3.10.2-Stable-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -169,19 +169,19 @@
 		<description>Joomla! 3.10 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.10.1</version>
-		<infourl title="Joomla 3.10.1 Release">https://www.joomla.org/announcements/release-news/5846-joomla-4-0-1-and-joomla-3-10-1-are-here.html</infourl>
+		<version>3.10.2</version>
+		<infourl title="Joomla 3.10.2 Release">https://www.joomla.org/announcements/release-news/5848-joomla-4-0-3-and-joomla-3-10-2-are-here.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-10-1/Joomla_3.10.1-Stable-Update_Package.zip</downloadurl>
-			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.1/Joomla_3.10.1-Stable-Update_Package.zip</downloadsource>
-			<downloadsource type="full" format="zip">https://update.joomla.org/releases/3.10.1/Joomla_3.10.1-Stable-Update_Package.zip</downloadsource>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-10-2/Joomla_3.10.2-Stable-Update_Package.zip</downloadurl>
+			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.2/Joomla_3.10.2-Stable-Update_Package.zip</downloadsource>
+			<downloadsource type="full" format="zip">https://update.joomla.org/releases/3.10.2/Joomla_3.10.2-Stable-Update_Package.zip</downloadsource>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>07994602251b5e73b342affc98cd73c45ddca378fc8ae79516f21cbd5d5176a5</sha256>
-		<sha384>10989567c164683bd3db6e4cc88250eb2fa0aa43b0851d72dc2bbda17b8209e3ae2aad8269a23c3dbc1b22b2ac0a14f5</sha384>
-		<sha512>e13d22dd1f73ab525b3def67b3ae879f0d88b3e1e84d20d1816ae320221656758e5b5adb678848879e057f097a37042ec2fadef72480e57ea6ef8a5142bf58a9</sha512>
+		<sha256>df69ac4d812c944306013f0f59f8418531e5f199641c2ccbf2be662ce5431b71</sha256>
+		<sha384>5eb8669f608650edc0ecae1522317c9d5832d73af34dfdf752657f546346bc86e8be683a3e090f951bfb476471c746e5</sha384>
+		<sha512>7e63c85dfd739154f7fa6b150e879f758e2d6ab853330a687320f5e06397c6a75ae9f05a47b68c78906d6e76573e6cd16a7f5cfed8ed63f8eeac49c142d8afe9</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
