@@ -55,9 +55,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>50c60b85bf05d98d2629c519125564f775154f37d479b68c1f26564e53d4233b</sha256>
-		<sha384>7cc33cc6146be0f6532353e0a85337557a010436516e60e862ea0dc8efe1584d118f0f43302bc301dd477e25029551f3</sha384>
-		<sha512>4b0bccbb77e6ec017dc8e6f7c0ad8e872db6fe96a9c3a1fb2f1771d0a1e00f6a9b7c73c7f4c6052672babf391499ddfde6519caf36ddc9603150abeecf712820</sha512>
+		<sha256>8c0add22dae843f5240a9c39a3ba12910faddc98b8432e514fc59736a078eff7</sha256>
+		<sha384>70215470ef0b9b3dcfcdffb0bfacefd6bbd0415dcd02a80f5305a3786356991a3238641c1648567c8ab1529cbd071f90</sha384>
+		<sha512>541aeaefbb913137f775a72bfe44b6fab35a62a5554c1fb318146812d2f5bc38b04eee8d7a5ce3409b67450b3692e57b6b1735c19aab4ff08fc1485ce1f9cae7</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
