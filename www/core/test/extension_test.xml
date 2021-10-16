@@ -13,9 +13,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>pleaseUpdate_3103rc</sha256>
-		<sha384>pleaseUpdate_3103rc</sha384>
-		<sha512>pleaseUpdate_3103rc</sha512>
+		<sha256>7dbf0dcd65562b4a3232fab93d052b1d1583c29e12c166f205c5be8fd75bb962</sha256>
+		<sha384>8e30655937c07d88568681f24db7e1b4fa0060bdb892f9ffccdb7b2d0113c892d3fcde6c13f89ec225654d90bac8f5e0</sha384>
+		<sha512>66be042e85f5cd43bca01527afd0041775a8d038a654bd5519e26bff9a66f77442e8c1f742a84635a7cb1e3c51be2cf4392fa0f82c2452724b8450ce06b28728</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.6.5"/>
@@ -34,9 +34,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>pleaseUpdate_3103rc</sha256>
-		<sha384>pleaseUpdate_3103rc</sha384>
-		<sha512>pleaseUpdate_3103rc</sha512>
+		<sha256>7dbf0dcd65562b4a3232fab93d052b1d1583c29e12c166f205c5be8fd75bb962</sha256>
+		<sha384>8e30655937c07d88568681f24db7e1b4fa0060bdb892f9ffccdb7b2d0113c892d3fcde6c13f89ec225654d90bac8f5e0</sha384>
+		<sha512>66be042e85f5cd43bca01527afd0041775a8d038a654bd5519e26bff9a66f77442e8c1f742a84635a7cb1e3c51be2cf4392fa0f82c2452724b8450ce06b28728</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.([789]|10)" />
