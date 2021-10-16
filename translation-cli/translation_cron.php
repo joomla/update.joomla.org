@@ -69,6 +69,55 @@ final class TranslationCron
 	private $verbose = false;
 
 	/**
+	 * The list of J4 language packs to mark them as compatible
+	 *
+	 * @var array
+	 */
+	private $j4LanguagePack = array(
+		'ar-AA',
+		'ca-ES',
+		'cy-GB',
+		'da-DK',
+		'de-AT',
+		'de-CH',
+		'de-DE',
+		'de-LI',
+		'de-LU',
+		'el-GR',
+		'en-AU',
+		'en-US',
+		'eo-XX',
+		'es-ES',
+		'eu-ES',
+		'fa-IR',
+		'fr-FR',
+		'hr-HR',
+		'hu-HU',
+		'id-ID',
+		'it-IT',
+		'ja-JP',
+		'ka-GE',
+		'km-KH',
+		'lv-LV',
+		'nb-NO',
+		'nl-BE',
+		'nl-NL',
+		'pl-PL',
+		'pt-PT',
+		'ro-RO',
+		'ru-RU',
+		'sk-SK',
+		'sl-SI',
+		'sv-SE',
+		'sw-KE',
+		'ta-IN',
+		'th-TH',
+		'uk-UA',
+		'zh-CN',
+		'zh-TW',
+	);
+
+	/**
 	 * Configuration with different values for different Joomla versions
 	 * Selected in the CLI argument
 	 *
@@ -277,7 +326,7 @@ final class TranslationCron
 									$downloadurl->addAttribute('format', 'zip');
 
 									// Set packages for 4.0
-									if ($this->versionConfig->detailsFolder === 'details3' && in_array($lang_tag, array('de-DE', 'fr-FR', 'fa-IR')))
+									if ($this->versionConfig->detailsFolder === 'details3' && in_array($lang_tag, $this->j4LanguagePack))
 									{
 										$target_version = '[34].' . $this->versionConfig->targetPlatformSuffix;
 									}
