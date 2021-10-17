@@ -55,9 +55,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>pleaseUpdate_404rc</sha256>
-		<sha384>pleaseUpdate_404rc</sha384>
-		<sha512>pleaseUpdate_404rc</sha512>
+		<sha256>18bb58ed5b45ba47a0fe8d8ce7dc80df4300741429def9b1e9a92b389cc5de06</sha256>
+		<sha384>e728bd8ffe547bd213bfeb504c91ccdf834413a103a56ff7ef34ad65a3a714e7be303ee40b0a80e11573a952b5f21863</sha384>
+		<sha512>aea2fdaa3b328efa6bd72d4a4d34473533c16d1861ff9820f72f6e23c01e7d6d13fb34b1e186ed64e836e15321fb819a24a556f071425c5fa7611ef2cade81c6</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
