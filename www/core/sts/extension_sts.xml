@@ -24,21 +24,21 @@
 		<description>Joomla! 4.0 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.0.3</version>
-		<infourl title="Joomla 4.0.3 Release">https://www.joomla.org/announcements/release-news/5848-joomla-4-0-3-and-joomla-3-10-2-are-here.html</infourl>
+		<version>4.0.4</version>
+		<infourl title="Joomla 4.0.4 Release">https://www.joomla.org/announcements/release-news/5849-joomla-4-0-4-and-joomla-3-10-3-are-here.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-0-3/Joomla_4.0.3-Stable-Update_Package.zip</downloadurl>
-			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.0.3/Joomla_4.0.3-Stable-Update_Package.zip</downloadsource>
-			<downloadsource type="full" format="zip">https://update.joomla.org/releases/4.0.3/Joomla_4.0.3-Stable-Update_Package.zip</downloadsource>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-0-4/Joomla_4.0.4-Stable-Update_Package.zip</downloadurl>
+			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.0.4/Joomla_4.0.4-Stable-Update_Package.zip</downloadsource>
+			<downloadsource type="full" format="zip">https://update.joomla.org/releases/4.0.4/Joomla_4.0.4-Stable-Update_Package.zip</downloadsource>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256>8c0add22dae843f5240a9c39a3ba12910faddc98b8432e514fc59736a078eff7</sha256>
-		<sha384>70215470ef0b9b3dcfcdffb0bfacefd6bbd0415dcd02a80f5305a3786356991a3238641c1648567c8ab1529cbd071f90</sha384>
-		<sha512>541aeaefbb913137f775a72bfe44b6fab35a62a5554c1fb318146812d2f5bc38b04eee8d7a5ce3409b67450b3692e57b6b1735c19aab4ff08fc1485ce1f9cae7</sha512>
+		<sha256>34a34e1ad2fdee76372d956cfe2353f033cf170fd80eb856ce01034d0ffc6503</sha256>
+		<sha384>4d0f765cdebb0a8e0bf3e005c8de4366a4520e629b54945686c53c9995470e272e71e92c96636151239ee116c47b6016</sha384>
+		<sha512>02fd1e464ce5543464cbf1c7ae270ee2afa1238eb1f92d2cfeac12154e782d0a56884d8a21dd5781b3b15a729922b7a2589db4a8718122961579a3aa8accd53f</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
@@ -49,21 +49,21 @@
 		<description>Joomla! 4.0 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.0.3</version>
-		<infourl title="Joomla 4.0.3 Release">https://www.joomla.org/announcements/release-news/5848-joomla-4-0-3-and-joomla-3-10-2-are-here.html</infourl>
+		<version>4.0.4</version>
+		<infourl title="Joomla 4.0.4 Release">https://www.joomla.org/announcements/release-news/5849-joomla-4-0-4-and-joomla-3-10-3-are-here.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-0-3/Joomla_4.0.3-Stable-Update_Package.zip</downloadurl>
-			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.0.3/Joomla_4.0.3-Stable-Update_Package.zip</downloadsource>
-			<downloadsource type="full" format="zip">https://update.joomla.org/releases/4.0.3/Joomla_4.0.3-Stable-Update_Package.zip</downloadsource>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-0-4/Joomla_4.0.4-Stable-Update_Package.zip</downloadurl>
+			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.0.4/Joomla_4.0.4-Stable-Update_Package.zip</downloadsource>
+			<downloadsource type="full" format="zip">https://update.joomla.org/releases/4.0.4/Joomla_4.0.4-Stable-Update_Package.zip</downloadsource>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256>8c0add22dae843f5240a9c39a3ba12910faddc98b8432e514fc59736a078eff7</sha256>
-		<sha384>70215470ef0b9b3dcfcdffb0bfacefd6bbd0415dcd02a80f5305a3786356991a3238641c1648567c8ab1529cbd071f90</sha384>
-		<sha512>541aeaefbb913137f775a72bfe44b6fab35a62a5554c1fb318146812d2f5bc38b04eee8d7a5ce3409b67450b3692e57b6b1735c19aab4ff08fc1485ce1f9cae7</sha512>
+		<sha256>34a34e1ad2fdee76372d956cfe2353f033cf170fd80eb856ce01034d0ffc6503</sha256>
+		<sha384>4d0f765cdebb0a8e0bf3e005c8de4366a4520e629b54945686c53c9995470e272e71e92c96636151239ee116c47b6016</sha384>
+		<sha512>02fd1e464ce5543464cbf1c7ae270ee2afa1238eb1f92d2cfeac12154e782d0a56884d8a21dd5781b3b15a729922b7a2589db4a8718122961579a3aa8accd53f</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
