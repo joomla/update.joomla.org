@@ -17,9 +17,9 @@
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256>ca10eca7980a148a729270479e80c8690d26272c2efb5336b39ad9ae5c652518</sha256>
-		<sha384>e356dc191d04c9047094d7bf93beea2d92e0b16cebbcb61f254e65eba7cc6057bcf5e0d0897cf2a3a4cc7cfa28119e2c</sha384>
-		<sha512>07fd9d8e3e1ddc8e9051b98f32cf5a16fe8a3ed1dcd6a58f7899f6cc894c8836590b725f42ab7f45b9ee8ca7c19f9e77bd7b1f5ef1c4ee617b28226141bec8af</sha512>
+		<sha256>c0bb31e21f1549e03919d7438d5ba6088b7ac10bf7e3736417a39004cd3c1689</sha256>
+		<sha384>0001cd732f0c6aa86c4652e04be2b80cea720a3ab31987e40fc526cedd564ad94d87a2eec5ab6c5326563e94dd9ab13d</sha384>
+		<sha512>f7f9e318ce902ef2398a548dced620b01a2ee15e959bf413c033f147f9529226a493f04c8fcfef16129ac75c06fce291ae456f80f3a94cbbf37a2561d04103d9</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.10" />
