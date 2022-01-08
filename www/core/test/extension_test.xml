@@ -5,17 +5,17 @@
 		<description>Joomla! 3.10 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.10.4-rc1</version>
-		<infourl title="Joomla 3.10.4-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/3.10.4-rc1</infourl>
+		<version>3.10.5-rc1</version>
+		<infourl title="Joomla 3.10.5-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/3.10.5-rc1</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.4-rc1/Joomla_3.10.4-rc1-Release_Candidate-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.5-rc1/Joomla_3.10.5-rc1-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>db88def7265af8ab32be27fa57d478bf28b916b22e80c69965f2ce2a436456fc</sha256>
-		<sha384>8ee3dfe70daa84bcc3b7006b2b9e12cd19bdb673a1e489201c1e1c348bbf902d64c73a7343abff8290450ee950ee9617</sha384>
-		<sha512>87d6829683f7b8d5f1662d3430a547be1dde2150a819cc9aa5c7edff5d58b49d17eadbb07a722849a8a9900637843471e3437348808176b7557fbfaca54fc30e</sha512>
+		<sha256>9b3ffa7baa4a9719e84f163c7bcfbdb5386771b14acc614c018ec301940c1777</sha256>
+		<sha384>a4cad55e77b96ee237a2606fcf323b31f19c32746970202ae9acc25ad4320017d614b97b88f40b3777ab3dfe9d8d0dd9</sha384>
+		<sha512>022342b4e71a92e6ebf58b879b699e80b61a895756d48567418f4af34b26293c0873aaffcc7dd9ce242e3ad1d4648a8436fcacbda953c8ec8e9f3e457e8f30f7</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.6.5"/>
@@ -26,17 +26,17 @@
 		<description>Joomla! 3.10 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.10.4-rc1</version>
-		<infourl title="Joomla 3.10.4-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/3.10.4-rc1</infourl>
+		<version>3.10.5-rc1</version>
+		<infourl title="Joomla 3.10.5-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/3.10.5-rc1</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.4-rc1/Joomla_3.10.4-rc1-Release_Candidate-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.5-rc1/Joomla_3.10.5-rc1-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>db88def7265af8ab32be27fa57d478bf28b916b22e80c69965f2ce2a436456fc</sha256>
-		<sha384>8ee3dfe70daa84bcc3b7006b2b9e12cd19bdb673a1e489201c1e1c348bbf902d64c73a7343abff8290450ee950ee9617</sha384>
-		<sha512>87d6829683f7b8d5f1662d3430a547be1dde2150a819cc9aa5c7edff5d58b49d17eadbb07a722849a8a9900637843471e3437348808176b7557fbfaca54fc30e</sha512>
+		<sha256>9b3ffa7baa4a9719e84f163c7bcfbdb5386771b14acc614c018ec301940c1777</sha256>
+		<sha384>a4cad55e77b96ee237a2606fcf323b31f19c32746970202ae9acc25ad4320017d614b97b88f40b3777ab3dfe9d8d0dd9</sha384>
+		<sha512>022342b4e71a92e6ebf58b879b699e80b61a895756d48567418f4af34b26293c0873aaffcc7dd9ce242e3ad1d4648a8436fcacbda953c8ec8e9f3e457e8f30f7</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.([789]|10)" />
@@ -47,17 +47,17 @@
 		<description>Joomla! 4.0 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.0.5-rc4</version>
-		<infourl title="Joomla 4.0.5-rc4 Release">https://github.com/joomla/joomla-cms/releases/tag/4.0.5-rc4</infourl>
+		<version>4.0.6-rc1</version>
+		<infourl title="Joomla 4.0.6-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/4.0.6-rc1</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.0.5-rc4/Joomla_4.0.5-rc4-Release_Candidate-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.0.6-rc1/Joomla_4.0.6-rc1-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>4b27e64b63a5dbc7ede5b482527e8e309b98a06a3a8d9bb680e512033ae5393d</sha256>
-		<sha384>54ec31962ea51310828dcdb313c53e29b2f7305433c14d2067bb171c8fb451077e26875dcf52fe806563f5b8dea70c8b</sha384>
-		<sha512>2c3587bad25b358b86cb7b68e114caebe894490a83286e89bf91597bc313d058eb3fa4f3cbaa5a1b8b27f544e1c59f858be1a49132377f5bf826d35bcc666236</sha512>
+		<sha256>fa4a88ba876e874ef4e81ad3597f34c3419840a02f1f9303a4292da0a2b120e5</sha256>
+		<sha384>84c7fe9fac83944cd303225bc91701871bafaf377def450c57a7d9a8be345bb118c7a77df625e4c050c3cd2fc9e7abcb</sha384>
+		<sha512>9f5462ba9fa60b518b5819ec78962cc7fe7d782e73033915ffe97c4fcfb787ecefec4ee6f9b532b6fad5e357100d8e6d08366f32133ba1943f54798b81c635da</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
