@@ -55,9 +55,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>406rc1</sha256>
-		<sha384>406rc1</sha384>
-		<sha512>406rc1</sha512>
+		<sha256>fa4a88ba876e874ef4e81ad3597f34c3419840a02f1f9303a4292da0a2b120e5</sha256>
+		<sha384>84c7fe9fac83944cd303225bc91701871bafaf377def450c57a7d9a8be345bb118c7a77df625e4c050c3cd2fc9e7abcb</sha384>
+		<sha512>9f5462ba9fa60b518b5819ec78962cc7fe7d782e73033915ffe97c4fcfb787ecefec4ee6f9b532b6fad5e357100d8e6d08366f32133ba1943f54798b81c635da</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
