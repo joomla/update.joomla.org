@@ -43,8 +43,8 @@
 		<php_minimum>5.3.10</php_minimum>
 	</update>
 	<update>
-		<name>Joomla! 4.0</name>
-		<description>Joomla! 4.0 CMS</description>
+		<name>Joomla! 4.1</name>
+		<description>Joomla! 4.1 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
 		<version>4.1.0-rc1</version>
