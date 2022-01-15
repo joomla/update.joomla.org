@@ -17,9 +17,9 @@
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256>406</sha256>
-		<sha384>406</sha384>
-		<sha512>406</sha512>
+		<sha256>dd259323be96261f7bf9eeae5417342160bec4fec94a01b91fdaf5c3194169ef</sha256>
+		<sha384>cc15ced93afc5ca2fc12b71ee1f94846a664fe774566fe632c37f91ceb1d96df042f226bc958e84f3b90024ebdcbb80c</sha384>
+		<sha512>4cb8d2c7394550e3420f4603761205aa083d3de77e8588bf311676fd7a9640813b93da5bfa803df873c3f27260fd07b10c458aa2dd1d25344dc5d8488a09c901</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.10" />
