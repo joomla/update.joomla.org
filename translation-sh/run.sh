@@ -16,7 +16,7 @@ HEADERTITLE="Joomla XML Stream v1.0"
 # main function ˘Ô≈ôﺣ
 function main() {
   # make sure we have a mapper file
-  if [ ! -f $REPO_MAPPER ]; then
+  if [ ! -f "$REPO_MAPPER" ]; then
     showMessage "${USER^}, you must have a mapper file, see help (${0##*/:-} -h)"
     exit 1
   fi
@@ -24,25 +24,40 @@ function main() {
   mkdir -p "${TARGET_FOLDER}"
   # now get the mapper data
   while IFS=$'\t' read -r -a row; do
+    # shellcheck disable=SC2128
     [[ "$row" =~ ^#.*$ ]] && continue
     # make sure we have no whitespace
-    VERSION_VAL=$(echo ${row[0]} | xargs)
-    FILENAME_VAL=$(echo ${row[1]} | xargs)
-    FOLDER_VAL=$(echo ${row[2]} | xargs)
+    VERSION_VAL=$(echo "${row[0]}" | xargs)
+    FILENAME_VAL=$(echo "${row[1]}" | xargs)
+    FOLDER_VAL=$(echo "${row[2]}" | xargs)
     # set the url
     URL_MAIN_LANG="${STREAM_ENDPOINT}&${URL_VERSION_KEY}=${VERSION_VAL}"
     # set the path
     PATH_MAIN_FILE="${TARGET_FOLDER}${FILENAME_VAL}.xml"
+    PATH_MAIN_FILE_TMP="${TARGET_FOLDER}${FILENAME_VAL}.tmp.xml"
     # get the main translation file of this version
-    showMessage "Downloading: ${URL_MAIN_LANG}\nStoring@: ${PATH_MAIN_FILE}"
+    showMessage "Downloading: ${URL_MAIN_LANG}"
     # do the work now
-    wget -q "${URL_MAIN_LANG}" --output-document="${PATH_MAIN_FILE}"
+    wget -q "${URL_MAIN_LANG}" --output-document="${PATH_MAIN_FILE_TMP}"
+    # check that we have valid XML
+    if validMainXML "${PATH_MAIN_FILE_TMP}"; then
+      # give indication of file storing location
+      showMessage "Storing@: ${PATH_MAIN_FILE}"
+      # no move file inplace
+      mv "${PATH_MAIN_FILE_TMP}" "${PATH_MAIN_FILE}"
+    else
+      # give notice of the invalid xml
+      showMessage "Invalid XML for version ${VERSION_VAL}, so the update of this version failed!"
+      # remove the temporal file
+      rm "${PATH_MAIN_FILE_TMP}"
+      continue
+    fi
     # now get each translation pack
     while readXML; do
       # get the language tag
       LANG=$(getElement)
       # remove the pkg_ part of the element
-      LANG=$(printf '%s\n' ${LANG##pkg_})
+      LANG=$(printf '%s\n' "${LANG##pkg_}")
       # act only if we have valid tag
       if [ -n "${LANG}" ]; then
         # set the url
@@ -51,12 +66,25 @@ function main() {
         PATH_LANG="${TARGET_FOLDER}${FOLDER_VAL}"
         # set the path
         PATH_FILE="${PATH_LANG}/${LANG}_details.xml"
-        # get the language pack file
-        showMessage "Downloading: ${URL_LANG}\nStoring@: ${PATH_FILE}"
+        PATH_FILE_TMP="${PATH_LANG}/${LANG}_details.tmp.xml"
         # make sure the directory is set
         mkdir -p "${PATH_LANG}"
+        # get the language pack file
+        showMessage "Downloading: ${URL_LANG}"
         # do the work now
-        wget -q "${URL_LANG}" --output-document="${PATH_FILE}"
+        wget -q "${URL_LANG}" --output-document="${PATH_FILE_TMP}"
+        # check that we have valid XML
+        if validUpdatesXML "${PATH_FILE_TMP}"; then
+          # give indication of file storing location
+          showMessage "Storing@: ${PATH_FILE}"
+          # no move file inplace
+          mv "${PATH_FILE_TMP}" "${PATH_FILE}"
+        else
+          # give notice of the invalid xml
+          showMessage "Invalid XML for version=${VERSION_VAL} lang=${LANG}, so the update of this language file failed!"
+          # remove the temporal file
+          rm "${PATH_FILE_TMP}"
+        fi
       fi
     done <"${PATH_MAIN_FILE}"
   done <"$REPO_MAPPER"
@@ -79,8 +107,6 @@ function completedBuildMessage() {
     # set the build time
     ENDBUILD=$(date +"%s")
     SECONDSBUILD=$((ENDBUILD - STARTBUILD))
-    # use UTC+00:00 time also called zulu
-    ENDDATE=$(TZ=":ZULU" date +"%m/%d/%Y @ %R (UTC)")
     echo "${HEADERTITLE} build on ${STARTDATE} is completed in ${SECONDSBUILD} seconds!"
   fi
 }
@@ -89,6 +115,8 @@ function completedBuildMessage() {
 # https://stackoverflow.com/a/7052168/1429677
 function readXML() {
   local IFS=\>
+  # shellcheck disable=SC2034
+  # shellcheck disable=SC2162
   read -d \< ENTITY CONTENT
   local ret=$?
   TAG_NAME=${ENTITY%% *}
@@ -97,16 +125,30 @@ function readXML() {
 }
 function getElement() {
   if [[ $TAG_NAME == "extension" ]]; then
-    eval local $ATTRIBUTES
+    eval local "$ATTRIBUTES"
+    # shellcheck disable=SC2154
     echo "$element"
   else
     echo ''
   fi
 }
 
+# basic validate lang version XML file
+function validMainXML() {
+  grep -Fxq '<?xml version="1.0" encoding="utf-8"?>' "$1" &&
+  grep -Fq '<extensionset' "$1" &&
+  grep -Fq "</extensionset>" "$1"
+}
+# basic validate lang updates XML file
+function validUpdatesXML() {
+  grep -Fxq '<?xml version="1.0" encoding="utf-8"?>' "$1" &&
+  grep -Fq "<updates>" "$1" &&
+  grep -Fq "</updates>" "$1"
+}
+
 # set any/all default config property
 function setDefaults() {
-  if [ -f $CONFIG_FILE ]; then
+  if [ -f "$CONFIG_FILE" ]; then
     # set all defaults
     STREAM_ENDPOINT=$(getDefault "xml.stream.endpoint" "${STREAM_ENDPOINT}")
     URL_VERSION_KEY=$(getDefault "xml.stream.url.version.key" "${URL_VERSION_KEY}")
@@ -120,7 +162,8 @@ function setDefaults() {
 # get default properties from config file
 function getDefault() {
   PROP_KEY="$1"
-  PROP_VALUE=$(cat $CONFIG_FILE | grep "$PROP_KEY" | cut -d'=' -f2)
+  # shellcheck disable=SC2002
+  PROP_VALUE=$(cat "$CONFIG_FILE" | grep "$PROP_KEY" | cut -d'=' -f2)
   echo "${PROP_VALUE:-$2}"
 }
 
