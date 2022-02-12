@@ -179,9 +179,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>3106</sha256>
-		<sha384>3106</sha384>
-		<sha512>3106</sha512>
+		<sha256>ba8c4140a612f716cde30285f5878085ec82ccc116e9a533e256023e6dd90dac</sha256>
+		<sha384>df0a1e76d346edd8468aedd24cbbeae082e210a873baa003d22cea6c96db62ba70cb546333b201dfcc4fcbe6375227fb</sha384>
+		<sha512>ea2e16d3c9cb248e2231c38f2579e6d9234d29f8e14d81c937f0e40aed571dcc1a2e4c1ac45d66c866a673fb4a357c78953ec3b71fff002ecbcec77f749db4a1</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
