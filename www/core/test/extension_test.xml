@@ -47,17 +47,17 @@
 		<description>Joomla! 4.1 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.1.0-rc3</version>
-		<infourl title="Joomla 4.1.0-rc3 Release">https://www.joomla.org/announcements/release-news/5853-joomla-4-1-0-rc2-help-make-it-stable.html</infourl>
+		<version>4.1.0-rc4</version>
+		<infourl title="Joomla 4.1.0-rc4 Release">https://www.joomla.org/announcements/release-news/5854-joomla-4-1-0-rc3-help-make-it-stable.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.1.0-rc3/Joomla_4.1.0-rc3-Release_Candidate-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.1.0-rc4/Joomla_4.1.0-rc4-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>83e683484fee4869ae9620a8c1aeaf1591216335c7037368b7931aa2f8206139</sha256>
-		<sha384>c0b0e66013f4b186e64b0d2c5f153b917744ce4f6b3d3d9916125799c9ff697b0202edc1545b15d05e4eabef0e2d3eda</sha384>
-		<sha512>3429c03461eedffca0bca13c1fb4f81e1aec58faf9b3a3190d9e4c4f9c15e7d0b9599ec4b1fe82a32429102bf3d3f89c6fcca8e8bb9673fda6d291eaeb375ce4</sha512>
+		<sha256>853fe69d47813ac6678d5a8c46aec1ebad1363ddb0e6ac837c101c7b99a173aa</sha256>
+		<sha384>9b51ccd96fd8fd022ad5a778c523c0d4fd5818bcb9d449d93e77358e3e403dbb040cece08ab438e829e0660e86e72c1b</sha384>
+		<sha512>2b23781408cb0e4a7c6f412a6de4c5756edcf5b905f0d43b11f0e8b1def5f7a48623febb67a175a15a5dd3ef92811170d5304ac92cf9c6faa1c55561ce3b75a8</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
