@@ -150,10 +150,10 @@
 		<description>Joomla! 3.10 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.10.6</version>
-		<infourl title="Joomla 3.10.6 Release">https://www.joomla.org/announcements/release-news/5855-joomla-4-1-0-stable-new-standards-in-accessible-website-design.html</infourl>
+		<version>3.10.7</version>
+		<infourl title="Joomla 3.10.7 Release">https://www.joomla.org/announcements/release-news/5857-joomla-4-1-1-and-3-10-7-release.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-10-6/Joomla_3.10.6-Stable-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-10-7/Joomla_3.10.7-Stable-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -169,19 +169,19 @@
 		<description>Joomla! 3.10 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.10.6</version>
-		<infourl title="Joomla 3.10.6 Release">https://www.joomla.org/announcements/release-news/5855-joomla-4-1-0-stable-new-standards-in-accessible-website-design.html</infourl>
+		<version>3.10.7</version>
+		<infourl title="Joomla 3.10.7 Release">https://www.joomla.org/announcements/release-news/5857-joomla-4-1-1-and-3-10-7-release.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-10-6/Joomla_3.10.6-Stable-Update_Package.zip</downloadurl>
-			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.6/Joomla_3.10.6-Stable-Update_Package.zip</downloadsource>
-			<downloadsource type="full" format="zip">https://update.joomla.org/releases/3.10.6/Joomla_3.10.6-Stable-Update_Package.zip</downloadsource>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla3/3-10-7/Joomla_3.10.7-Stable-Update_Package.zip</downloadurl>
+			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.7/Joomla_3.10.7-Stable-Update_Package.zip</downloadsource>
+			<downloadsource type="full" format="zip">https://update.joomla.org/releases/3.10.7/Joomla_3.10.7-Stable-Update_Package.zip</downloadsource>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>ba8c4140a612f716cde30285f5878085ec82ccc116e9a533e256023e6dd90dac</sha256>
-		<sha384>df0a1e76d346edd8468aedd24cbbeae082e210a873baa003d22cea6c96db62ba70cb546333b201dfcc4fcbe6375227fb</sha384>
-		<sha512>ea2e16d3c9cb248e2231c38f2579e6d9234d29f8e14d81c937f0e40aed571dcc1a2e4c1ac45d66c866a673fb4a357c78953ec3b71fff002ecbcec77f749db4a1</sha512>
+		<sha256>3107</sha256>
+		<sha384>3107</sha384>
+		<sha512>3107</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
