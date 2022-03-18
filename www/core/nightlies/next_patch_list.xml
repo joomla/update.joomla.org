@@ -1,8 +1,8 @@
 <extensionset name="Joomla! Core Nightly Builds" description="Joomla! Core Next Patch Nightly Builds">
-	<extension name="Joomla" element="joomla" type="file" version="3.10.7-dev" targetplatformversion="3.7" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.10.7-dev" targetplatformversion="3.8" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.10.7-dev" targetplatformversion="3.9" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="3.10.7-dev" targetplatformversion="3.10" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="4.1.1-dev" targetplatformversion="4.0" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="4.1.1-dev" targetplatformversion="4.1" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.10.7-rc2-dev" targetplatformversion="3.7" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.10.7-rc2-dev" targetplatformversion="3.8" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.10.7-rc2-dev" targetplatformversion="3.9" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="3.10.7-rc2-dev" targetplatformversion="3.10" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="4.1.1-rc2-dev" targetplatformversion="4.0" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="4.1.1-rc2-dev" targetplatformversion="4.1" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
 </extensionset>
