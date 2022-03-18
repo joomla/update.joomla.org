@@ -13,9 +13,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>3107rc1</sha256>
-		<sha384>3107rc1</sha384>
-		<sha512>3107rc1</sha512>
+		<sha256>63a9d4e70c0a3f3647a40efe506fc78fd8b3221cbdd97680fba1ecf5e5cde19d</sha256>
+		<sha384>cc106f24df7ccf1cdb580ff048073ab4de238784d44e857c54ae5b0f721be2ed1757b46843b608bf38a999281dd45c44</sha384>
+		<sha512>e63f2eedbfffa3ab6f73b171d7fbb516d4b52b7b0630f009083c95e7bd062c822dfe949351e13b1dc4f8e4833b09c8b1e427adaba4ef5f113a0a9964fd27ccae</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.6.5"/>
@@ -34,9 +34,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>3107rc1</sha256>
-		<sha384>3107rc1</sha384>
-		<sha512>3107rc1</sha512>
+		<sha256>63a9d4e70c0a3f3647a40efe506fc78fd8b3221cbdd97680fba1ecf5e5cde19d</sha256>
+		<sha384>cc106f24df7ccf1cdb580ff048073ab4de238784d44e857c54ae5b0f721be2ed1757b46843b608bf38a999281dd45c44</sha384>
+		<sha512>e63f2eedbfffa3ab6f73b171d7fbb516d4b52b7b0630f009083c95e7bd062c822dfe949351e13b1dc4f8e4833b09c8b1e427adaba4ef5f113a0a9964fd27ccae</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.([789]|10)" />
