@@ -5,10 +5,10 @@
 		<description>Joomla! CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.10.8-dev</version>
+		<version>3.10.7-rc2-dev</version>
 		<infourl title="Joomla! Nightly Builds">https://developer.joomla.org/nightly-builds.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://developer.joomla.org/nightlies/Joomla_3.10.8-dev-Development-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://developer.joomla.org/nightlies/Joomla_3.10.7-rc2-dev-Development-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -22,10 +22,10 @@
 		<description>Joomla! CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.1.2-dev</version>
+		<version>4.1.1-rc3-dev</version>
 		<infourl title="Joomla! Nightly Builds">https://developer.joomla.org/nightly-builds.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://developer.joomla.org/nightlies/Joomla_4.1.2-dev-Development-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://developer.joomla.org/nightlies/Joomla_4.1.1-rc3-dev-Development-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
