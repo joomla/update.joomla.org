@@ -179,9 +179,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>3109</sha256>
-		<sha384>3109</sha384>
-		<sha512>3109</sha512>
+		<sha256>a43cea501c624d38b8ffefce544301263674d33dfeeaa57a23a016a4f8d81304</sha256>
+		<sha384>3413a2d0635e7b9bb7f5e8a52e5ae35853b6bf4d7dd8c3ccf8a16a4726c52e791ba9689ed631a13215574c556f1988c5</sha384>
+		<sha512>b137b5d209eeda482def8a93b5e7faa4b1d9c457e4b2c14ed73da29afe8249d485c547cd3e2efc49d7064cbf9fbd3ab63bc2b4b01ffd697dab617de7036f4d43</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
