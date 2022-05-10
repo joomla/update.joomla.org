@@ -8,6 +8,7 @@
 		<version>3.10.10-dev</version>
 		<infourl title="Joomla! Nightly Builds">https://developer.joomla.org/nightly-builds.html</infourl>
 		<downloads>
+			<downloadurl type="full" format="zip">https://developer.joomla.org/nightlies/Joomla_3.10.10-dev-Development-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
