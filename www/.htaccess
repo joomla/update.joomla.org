@@ -1,10 +1,9 @@
 ##
-# @copyright  Copyright (C) 2014 - 2018 Open Source Matters, Inc. All rights reserved.
+# @copyright  Copyright (C) 2014 - 2022 Open Source Matters, Inc. All rights reserved.
 # @license    http://www.gnu.org/licenses/gpl-2.0.txt GNU General Public License Version 2 or Later
 ##
 
-##################### Security Header #####################
-
+##################### HTTP Security Headers #####################
 <IfModule mod_headers.c>
 	# X-XSS-Protection
 	Header always set X-XSS-Protection "1; mode=block"
@@ -25,7 +24,7 @@
 	Header always set Access-Control-Allow-Methods "GET"
 	Header always set Access-Control-Allow-Headers "*"
 </IfModule>
-##################### Security Header #####################
+##################### HTTP Security Headers #####################
 
 <FilesMatch "\.(txt|zip|html|gif|jpeg|png|flv|swf|ico)$">
 Header set Cache-Control: "max-age=600"
