@@ -1,0 +1,51 @@
+---
+kind: pipeline
+name: default
+
+clone:
+
+steps:
+  - name: deploy
+    image: joomlaprojects/docker-images:packager
+    environment:
+      update_host:
+        from_secret: update_host
+      update_user:
+        from_secret: update_user
+      update_key:
+        from_secret: update_key
+      RINGCENTRAL_WEBHOOK:
+        from_secret: notification_url
+    commands:
+      - mkdir -p ~/.ssh
+      - eval $(ssh-agent -s)
+      - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+      - echo "$update_key" > ~/.ssh/id_rsa
+      - chmod 600 ~/.ssh/id_rsa
+      - ssh-add
+      - rclone config create update sftp host $update_host user $update_user port 22
+      - rclone copy ./translation-cli/ update:/home/update1/translation-cli/
+      - rclone copy ./www/ update:/home/update1/public_html/
+      - /bin/notify
+
+  - name: buildfailure
+    image: joomlaprojects/docker-images:packager
+    environment:
+      RINGCENTRAL_WEBHOOK:
+        from_secret: notification_url
+    commands:
+      - /bin/notify
+    when:
+      status:
+        - failure
+
+trigger:
+  branch:
+    - master
+  event:
+    - push
+---
+kind: signature
+hmac: b37dfb32e5b500821a57dbbdc9ac62f97ece605897885421ba27772c3f70a2af
+
+...
