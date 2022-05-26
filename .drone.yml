@@ -25,7 +25,7 @@ steps:
       - ssh-add
       - rclone config create update sftp host $update_host user $update_user port 22
       - rclone copy ./translation-cli/ update:/home/update1/translation-cli/
-      - rclone copy ./www/ update:/home/update1/www/
+      - rclone copy ./www/ update:/home/update1/public_html/
       - /bin/notify
 
   - name: buildfailure
@@ -46,6 +46,6 @@ trigger:
     - push
 ---
 kind: signature
-hmac: 638b1ce311f80a48155183bc065667c783d7dad882768d7d447dcd80925c3933
+hmac: b37dfb32e5b500821a57dbbdc9ac62f97ece605897885421ba27772c3f70a2af
 
 ...
