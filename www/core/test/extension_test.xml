@@ -31,9 +31,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>31010rc1</sha256>
-		<sha384>31010rc1</sha384>
-		<sha512>31010rc1</sha512>
+		<sha256>264b9517d39a7a8cb56a067acc27cf102c77daca9f386abd59bee1dac6688608</sha256>
+		<sha384>808660465c875098ef9c54f18a5067abef093966a56b12fae0a59ae226802d837f665ea76fafad6169d024f07fc94267</sha384>
+		<sha512>a17fb590e459ecce16670383db1c48a095668803649a2cf202456dc16437b1be1205a6dcf8a280be147ea15c764b275e8adff5552d228c485f85ab56dbcb64e3</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.([789]|10)" />
