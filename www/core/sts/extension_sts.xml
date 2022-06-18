@@ -36,9 +36,9 @@
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256>415</sha256>
-		<sha384>415</sha384>
-		<sha512>415</sha512>
+		<sha256>4ca1dcb9a603ceaa851a233c5232ace618239c5348d89b89966b47830e12f0b7</sha256>
+		<sha384>ece47292198066d2d9049d23175e4635857f326262b3a581196817086c723e631296bf30d2791999e171ddd7009b57ea</sha384>
+		<sha512>7d05270e83420ccd76b1f463d485358affb21357cc26e23a1ea18161cf2b354ccf601e80c64abce509280a052e1154f84a8c802bbcb7f4355ae35fe5b32921d2</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
@@ -61,9 +61,9 @@
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256>415</sha256>
-		<sha384>415</sha384>
-		<sha512>415</sha512>
+		<sha256>4ca1dcb9a603ceaa851a233c5232ace618239c5348d89b89966b47830e12f0b7</sha256>
+		<sha384>ece47292198066d2d9049d23175e4635857f326262b3a581196817086c723e631296bf30d2791999e171ddd7009b57ea</sha384>
+		<sha512>7d05270e83420ccd76b1f463d485358affb21357cc26e23a1ea18161cf2b354ccf601e80c64abce509280a052e1154f84a8c802bbcb7f4355ae35fe5b32921d2</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
