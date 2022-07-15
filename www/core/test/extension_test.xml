@@ -5,10 +5,10 @@
 		<description>Joomla! 3.10 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.10.10-rc1</version>
-		<infourl title="Joomla 3.10.10-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/3.10.10-rc1</infourl>
+		<version>3.10.10</version>
+		<infourl title="Joomla 3.10.10 Release">https://github.com/joomla/joomla-cms/releases/tag/3.10.10</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.10-rc1/Joomla_3.10.10-rc1-Release_Candidate-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.10/Joomla_3.10.10-Stable-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -23,42 +23,42 @@
 		<description>Joomla! 3.10 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.10.10-rc1</version>
-		<infourl title="Joomla 3.10.10-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/3.10.10-rc1</infourl>
+		<version>3.10.10</version>
+		<infourl title="Joomla 3.10.10 Release">https://github.com/joomla/joomla-cms/releases/tag/3.10.10</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.10-rc1/Joomla_3.10.10-rc1-Release_Candidate-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.10/Joomla_3.10.10-Stable-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>264b9517d39a7a8cb56a067acc27cf102c77daca9f386abd59bee1dac6688608</sha256>
-		<sha384>808660465c875098ef9c54f18a5067abef093966a56b12fae0a59ae226802d837f665ea76fafad6169d024f07fc94267</sha384>
-		<sha512>a17fb590e459ecce16670383db1c48a095668803649a2cf202456dc16437b1be1205a6dcf8a280be147ea15c764b275e8adff5552d228c485f85ab56dbcb64e3</sha512>
+		<sha256>b5f8812397b238318b316820d7861e336ed4e7034b892ab0399208d4e26e7238</sha256>
+		<sha384>308182e41256554ffad4caa403c68a20bce520fc462c6a7f9ea06cc99033e20059d82c30b3def98e739a31334317893a</sha384>
+		<sha512>413160a0826ec0b0f260cf7377914d242638eac51cd8b261817b2f2ea1b3030ba9bc0da424e085d95254ccc4ecafaa4236f9e16e534dfd5938ccc88edaa67c21</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.([789]|10)" />
 		<php_minimum>5.3.10</php_minimum>
 	</update>
 	<update>
-		<name>Joomla! 4.1</name>
-		<description>Joomla! 4.1 CMS</description>
+		<name>Joomla! 4.2</name>
+		<description>Joomla! 4.2 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.1.5-rc2</version>
-		<infourl title="Joomla 4.1.3-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/4.1.5-rc2</infourl>
+		<version>4.2.0-rc1</version>
+		<infourl title="Joomla 4.2.0-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/4.2.0-rc1</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.1.5-rc2/Joomla_4.1.5-rc2-Release_Candidate-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.2.0-rc1/Joomla_4.2.0-rc1-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>a974dd5455d469ca45b66f699c772c962cfd571cea7f4f4c6e4de6e7f36388a0</sha256>
-		<sha384>5fa30567813c9cc91d3395b791fb04beb202bdf95cace6512b23c4df1f1a0fbf619e323ed90f7946cee60fdadb0cd9f1</sha384>
-		<sha512>22626229bf84d6ddde0b1b1dfc701c2e79b10eccb4bb70938eb3bdb4b7a879aca6110540f079720714d67ba49ab3d18051046a42156870607bde654778d00ce6</sha512>
+		<sha256>420rc1</sha256>
+		<sha384>420rc1</sha384>
+		<sha512>420rc1</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
-		<targetplatform name="joomla" version="4.[01]" />
+		<targetplatform name="joomla" version="4.[012]" />
 	</update>
 </updates>
