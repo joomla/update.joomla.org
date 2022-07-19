@@ -1,25 +1,23 @@
 <?xml version="1.0" ?>
 <updates>
 	<update>
-		<name>Joomla! 4.1</name>
-		<description>Joomla! 4.1 CMS</description>
+		<name>Joomla! 4.2</name>
+		<description>Joomla! 4.2 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.1.5</version>
-		<infourl title="Joomla 4.1.5 Release">https://www.joomla.org/announcements/release-news/5861-joomla-4-1-5-and-3-10-10-release.html</infourl>
+		<version>4.2.0-rc1</version>
+		<infourl title="Joomla 4.2.0-rc1 Release">https://www.joomla.org/announcements/release-news/5862-joomla-4-2-release-candidate-1-help-make-it-stable.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-1-5/Joomla_4.1.5-Stable-Update_Package.zip</downloadurl>
-			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.1.5/Joomla_4.1.5-Stable-Update_Package.zip</downloadsource>
-			<downloadsource type="full" format="zip">https://update.joomla.org/releases/4.1.5/Joomla_4.1.5-Stable-Update_Package.zip</downloadsource>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.2.0-rc1/Joomla_4.2.0-rc1-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256>4ca1dcb9a603ceaa851a233c5232ace618239c5348d89b89966b47830e12f0b7</sha256>
-		<sha384>ece47292198066d2d9049d23175e4635857f326262b3a581196817086c723e631296bf30d2791999e171ddd7009b57ea</sha384>
-		<sha512>7d05270e83420ccd76b1f463d485358affb21357cc26e23a1ea18161cf2b354ccf601e80c64abce509280a052e1154f84a8c802bbcb7f4355ae35fe5b32921d2</sha512>
+		<sha256>31fef4413830c29dbd5783570f95ee378b334ce4ec39fd21d0f2cf840782bebf</sha256>
+		<sha384>c95cfe31f1324f6e73716c438983a655732619dda9bad10717846dbdeace9b1fb2820bd3ebb1dcbbfbff2d487c4f9a03</sha384>
+		<sha512>881f80ad9317af8f8a205dd002b2c6d72e2942a6c21ab53d405678fe6508ee79cabcdffe2d86f5bcd253b21a45909f82b87d4569a5661f29683a3bddbf88eace</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.10" />
