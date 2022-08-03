@@ -14,8 +14,6 @@
 	<extension name="Joomla" element="joomla" type="file" version="3.10.10" targetplatformversion="3.8" detailsurl="https://update.joomla.org/core/extension.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="3.10.10" targetplatformversion="3.9" detailsurl="https://update.joomla.org/core/extension.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="3.10.10" targetplatformversion="3.10" detailsurl="https://update.joomla.org/core/extension.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="4.1.5" targetplatformversion="4.0" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="4.1.5" targetplatformversion="4.1" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="4.2.0" targetplatformversion="4.0" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="4.2.0" targetplatformversion="4.1" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="4.2.0" targetplatformversion="4.2" detailsurl="https://update.joomla.org/core/sts/extension_sts.xml" />
