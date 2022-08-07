@@ -5,10 +5,10 @@
 		<description>Joomla! 3.10 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.10.10</version>
-		<infourl title="Joomla 3.10.10 Release">https://github.com/joomla/joomla-cms/releases/tag/3.10.10</infourl>
+		<version>3.10.11-rc1</version>
+		<infourl title="Joomla 3.10.11-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/3.10.11-rc1</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.10/Joomla_3.10.10-Stable-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.11-rc1/Joomla_3.10.11-rc1-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -23,17 +23,17 @@
 		<description>Joomla! 3.10 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.10.10</version>
-		<infourl title="Joomla 3.10.10 Release">https://github.com/joomla/joomla-cms/releases/tag/3.10.10</infourl>
+		<version>3.10.11-rc1</version>
+		<infourl title="Joomla 3.10.11-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/3.10.11-rc1</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.10/Joomla_3.10.10-Stable-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.11-rc1/Joomla_3.10.11-rc1-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>b5f8812397b238318b316820d7861e336ed4e7034b892ab0399208d4e26e7238</sha256>
-		<sha384>308182e41256554ffad4caa403c68a20bce520fc462c6a7f9ea06cc99033e20059d82c30b3def98e739a31334317893a</sha384>
-		<sha512>413160a0826ec0b0f260cf7377914d242638eac51cd8b261817b2f2ea1b3030ba9bc0da424e085d95254ccc4ecafaa4236f9e16e534dfd5938ccc88edaa67c21</sha512>
+		<sha256>1a4fd2f0d2fc87d29fe095a6e85d4a2ceec9636a2836e0376a6192039d15ef53</sha256>
+		<sha384>bf49dff154ca37b2c58a211689823069529dfd33f4a703998c297ec97e89bcc05785558130036342dd932c17ee4141a6</sha384>
+		<sha512>7b285e87855f51617c37579fd2c74afedfafc962f68d525c6468fc566077a3ceb1ccccc62c418a17e493d8dc752ba3dea82c6a265e7d35fdf67f62ed9e9afa76</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.([789]|10)" />
