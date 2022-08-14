@@ -31,9 +31,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>TBD</sha256>
-		<sha384>TBD</sha384>
-		<sha512>TBD</sha512>
+		<sha256>12e0fe45ee53eedd776d3b062cda1cd8c38ce974f74e7f92eb1bad2e96ddabcd</sha256>
+		<sha384>93fa388435fd39e93d261216e8bb745139262a804ec45e9211aecd9086d15be73553ac288391237e4774ad9532adf655</sha384>
+		<sha512>742c8ba844e9f8d131a9a67202c77251dadab1664c84c161a8d1c2ac5503ac23be4ee7f73b2da7078ad0dccb8b70e1dd8e49ea0871cad78a6eb0da00ff29e505</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.([789]|10)" />
