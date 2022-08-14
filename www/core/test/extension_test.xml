@@ -52,9 +52,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>TBD</sha256>
-		<sha384>TBD</sha384>
-		<sha512>TBD</sha512>
+		<sha256>3bd5e0df5ae445f51c323b77e5ebe772e8777a5227f1e6e4d881092028f222c8</sha256>
+		<sha384>9092c2d18e9b01abca4a6e1a726eb4147e3a94daaeab8a972ee98ee7a51a36b6d61f9cdce299203d13273c4730f5b4db</sha384>
+		<sha512>76f8356a247cab8bb4e570b630ed1e33b028deb2aae4fda62823c4b9c452df2ea928afa8b0294d898606c3be26c646923b54af37788831265aa7df2bb816e1e6</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
