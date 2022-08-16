@@ -5,10 +5,10 @@
 		<description>Joomla! 3.10 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.10.11-rc1</version>
-		<infourl title="Joomla 3.10.11-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/3.10.11-rc1</infourl>
+		<version>3.10.11</version>
+		<infourl title="Joomla 3.10.11 Release">https://www.joomla.org/announcements/release-news/5865-joomla-4-2-release.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.11-rc1/Joomla_3.10.11-rc1-Release_Candidate-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.11/Joomla_3.10.11-Stable-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -23,17 +23,17 @@
 		<description>Joomla! 3.10 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>3.10.11-rc1</version>
-		<infourl title="Joomla 3.10.11-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/3.10.11-rc1</infourl>
+		<version>3.10.11</version>
+		<infourl title="Joomla 3.10.11 Release">https://www.joomla.org/announcements/release-news/5865-joomla-4-2-release.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.11-rc1/Joomla_3.10.11-rc1-Release_Candidate-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/3.10.10/Joomla_3.10.11-Stable-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>1a4fd2f0d2fc87d29fe095a6e85d4a2ceec9636a2836e0376a6192039d15ef53</sha256>
-		<sha384>bf49dff154ca37b2c58a211689823069529dfd33f4a703998c297ec97e89bcc05785558130036342dd932c17ee4141a6</sha384>
-		<sha512>7b285e87855f51617c37579fd2c74afedfafc962f68d525c6468fc566077a3ceb1ccccc62c418a17e493d8dc752ba3dea82c6a265e7d35fdf67f62ed9e9afa76</sha512>
+		<sha256>12e0fe45ee53eedd776d3b062cda1cd8c38ce974f74e7f92eb1bad2e96ddabcd</sha256>
+		<sha384>93fa388435fd39e93d261216e8bb745139262a804ec45e9211aecd9086d15be73553ac288391237e4774ad9532adf655</sha384>
+		<sha512>742c8ba844e9f8d131a9a67202c77251dadab1664c84c161a8d1c2ac5503ac23be4ee7f73b2da7078ad0dccb8b70e1dd8e49ea0871cad78a6eb0da00ff29e505</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="3.([789]|10)" />
@@ -44,17 +44,17 @@
 		<description>Joomla! 4.2 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.2.0-rc1</version>
-		<infourl title="Joomla 4.2.0-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/4.2.0-rc1</infourl>
+		<version>4.2.0</version>
+		<infourl title="Joomla 4.2.0 Release">https://www.joomla.org/announcements/release-news/5865-joomla-4-2-release.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.2.0-rc1/Joomla_4.2.0-rc1-Release_Candidate-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.2.0/Joomla_4.2.0-Stable-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>31fef4413830c29dbd5783570f95ee378b334ce4ec39fd21d0f2cf840782bebf</sha256>
-		<sha384>c95cfe31f1324f6e73716c438983a655732619dda9bad10717846dbdeace9b1fb2820bd3ebb1dcbbfbff2d487c4f9a03</sha384>
-		<sha512>881f80ad9317af8f8a205dd002b2c6d72e2942a6c21ab53d405678fe6508ee79cabcdffe2d86f5bcd253b21a45909f82b87d4569a5661f29683a3bddbf88eace</sha512>
+		<sha256>c754870168f207a002f5ec297b3274ac5066be44f55bedf2b699c623d7c30f84</sha256>
+		<sha384>23ff1208e528520301235aa2d75330d440a978a85d099d8f7da0d23655a5c83236943c501bc4f3ad0404babe2e72cab3</sha384>
+		<sha512>8a3d9967e54f6047f9525a0d0f2d24b80a22e343f5a63ea3d18739e3faa2abcecb6103c7f3764009c46a21669489d812b84182385f5b9bc68a41c95708537c74</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
