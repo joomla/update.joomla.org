@@ -44,17 +44,17 @@
 		<description>Joomla! 4.2 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.2.0</version>
-		<infourl title="Joomla 4.2.0 Release">https://www.joomla.org/announcements/release-news/5865-joomla-4-2-release.html</infourl>
+		<version>4.2.1-rc1</version>
+		<infourl title="Joomla 4.2.1-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/4.2.1-rc1</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.2.0/Joomla_4.2.0-Stable-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.2.1-rc1/Joomla_4.2.1-rc1-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>c754870168f207a002f5ec297b3274ac5066be44f55bedf2b699c623d7c30f84</sha256>
-		<sha384>23ff1208e528520301235aa2d75330d440a978a85d099d8f7da0d23655a5c83236943c501bc4f3ad0404babe2e72cab3</sha384>
-		<sha512>8a3d9967e54f6047f9525a0d0f2d24b80a22e343f5a63ea3d18739e3faa2abcecb6103c7f3764009c46a21669489d812b84182385f5b9bc68a41c95708537c74</sha512>
+		<sha256>421rc1</sha256>
+		<sha384>421rc1</sha384>
+		<sha512>421rc1</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
