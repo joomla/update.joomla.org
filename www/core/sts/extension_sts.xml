@@ -24,21 +24,21 @@
 		<description>Joomla! 4.2 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.2.1</version>
-		<infourl title="Joomla 4.2.1 Release">https://www.joomla.org/announcements/release-news/5866-joomla-4-2-1-release.html</infourl>
+		<version>4.2.2</version>
+		<infourl title="Joomla 4.2.2 Release">https://www.joomla.org/announcements/release-news/5867-joomla-4-2-2-bug-fix-release.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-2-1/Joomla_4.2.1-Stable-Update_Package.zip</downloadurl>
-			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.2.1/Joomla_4.2.1-Stable-Update_Package.zip</downloadsource>
-			<downloadsource type="full" format="zip">https://update.joomla.org/releases/4.2.1/Joomla_4.2.1-Stable-Update_Package.zip</downloadsource>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-2-2/Joomla_4.2.2-Stable-Update_Package.zip</downloadurl>
+			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.2.2/Joomla_4.2.2-Stable-Update_Package.zip</downloadsource>
+			<downloadsource type="full" format="zip">https://update.joomla.org/releases/4.2.2/Joomla_4.2.2-Stable-Update_Package.zip</downloadsource>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256>8bea7cdde816a1293a5f0aefa10aac13cbf8555aaf8c9b3f836c87999076496d</sha256>
-		<sha384>e4c0aa2234dfe834ea3d3076c5a0438fe3830e5d9097c2e0c28c38a85c857abd4d0a3254c8adab0d5a7e4b4e733263e5</sha384>
-		<sha512>803caa8766b6ec2613cedd8a5601ae6f633fb1a76124e66d72c966fb0cd731e3bab30ccf8375e8ca1aee27dda4c5c1de0239030ef80013669f4c7362c5a4a1ac</sha512>
+		<sha256>63f4e0728aa3346c8cb27b60efe89bb60526ab34d9a8b41f17636df12dc3b387</sha256>
+		<sha384>f503460d82f709bd403e5dca5cb6f85b6e51e2b69a1e4260a671c3e816dcbc31f0373a2c3e0769e9f25312fb74c12928</sha384>
+		<sha512>dadefa5b53229ff05ee82234d21f17c99227c6b0fae909faff2024eae1e9016a9a149a536469b397f91c5c606e8b6e675f2203c08cb0f2a093fde0525c259f95</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
@@ -74,21 +74,21 @@
 		<description>Joomla! 4.2 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.2.1</version>
-		<infourl title="Joomla 4.2.1 Release">https://www.joomla.org/announcements/release-news/5866-joomla-4-2-1-release.html</infourl>
+		<version>4.2.2</version>
+		<infourl title="Joomla 4.2.2 Release">https://www.joomla.org/announcements/release-news/5867-joomla-4-2-2-bug-fix-release.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-2-1/Joomla_4.2.1-Stable-Update_Package.zip</downloadurl>
-			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.2.1/Joomla_4.2.1-Stable-Update_Package.zip</downloadsource>
-			<downloadsource type="full" format="zip">https://update.joomla.org/releases/4.2.1/Joomla_4.2.1-Stable-Update_Package.zip</downloadsource>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-2-2/Joomla_4.2.2-Stable-Update_Package.zip</downloadurl>
+			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.2.2/Joomla_4.2.2-Stable-Update_Package.zip</downloadsource>
+			<downloadsource type="full" format="zip">https://update.joomla.org/releases/4.2.2/Joomla_4.2.2-Stable-Update_Package.zip</downloadsource>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256>8bea7cdde816a1293a5f0aefa10aac13cbf8555aaf8c9b3f836c87999076496d</sha256>
-		<sha384>e4c0aa2234dfe834ea3d3076c5a0438fe3830e5d9097c2e0c28c38a85c857abd4d0a3254c8adab0d5a7e4b4e733263e5</sha384>
-		<sha512>803caa8766b6ec2613cedd8a5601ae6f633fb1a76124e66d72c966fb0cd731e3bab30ccf8375e8ca1aee27dda4c5c1de0239030ef80013669f4c7362c5a4a1ac</sha512>
+		<sha256>63f4e0728aa3346c8cb27b60efe89bb60526ab34d9a8b41f17636df12dc3b387</sha256>
+		<sha384>f503460d82f709bd403e5dca5cb6f85b6e51e2b69a1e4260a671c3e816dcbc31f0373a2c3e0769e9f25312fb74c12928</sha384>
+		<sha512>dadefa5b53229ff05ee82234d21f17c99227c6b0fae909faff2024eae1e9016a9a149a536469b397f91c5c606e8b6e675f2203c08cb0f2a093fde0525c259f95</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
@@ -99,21 +99,21 @@
 		<description>Joomla! 4.2 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.2.1</version>
-		<infourl title="Joomla 4.2.1 Release">https://www.joomla.org/announcements/release-news/5866-joomla-4-2-1-release.html</infourl>
+		<version>4.2.2</version>
+		<infourl title="Joomla 4.2.2 Release">https://www.joomla.org/announcements/release-news/5867-joomla-4-2-2-bug-fix-release.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-2-1/Joomla_4.2.1-Stable-Update_Package.zip</downloadurl>
-			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.2.1/Joomla_4.2.1-Stable-Update_Package.zip</downloadsource>
-			<downloadsource type="full" format="zip">https://update.joomla.org/releases/4.2.1/Joomla_4.2.1-Stable-Update_Package.zip</downloadsource>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-2-2/Joomla_4.2.2-Stable-Update_Package.zip</downloadurl>
+			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.2.2/Joomla_4.2.2-Stable-Update_Package.zip</downloadsource>
+			<downloadsource type="full" format="zip">https://update.joomla.org/releases/4.2.2/Joomla_4.2.2-Stable-Update_Package.zip</downloadsource>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256>8bea7cdde816a1293a5f0aefa10aac13cbf8555aaf8c9b3f836c87999076496d</sha256>
-		<sha384>e4c0aa2234dfe834ea3d3076c5a0438fe3830e5d9097c2e0c28c38a85c857abd4d0a3254c8adab0d5a7e4b4e733263e5</sha384>
-		<sha512>803caa8766b6ec2613cedd8a5601ae6f633fb1a76124e66d72c966fb0cd731e3bab30ccf8375e8ca1aee27dda4c5c1de0239030ef80013669f4c7362c5a4a1ac</sha512>
+		<sha256>63f4e0728aa3346c8cb27b60efe89bb60526ab34d9a8b41f17636df12dc3b387</sha256>
+		<sha384>f503460d82f709bd403e5dca5cb6f85b6e51e2b69a1e4260a671c3e816dcbc31f0373a2c3e0769e9f25312fb74c12928</sha384>
+		<sha512>dadefa5b53229ff05ee82234d21f17c99227c6b0fae909faff2024eae1e9016a9a149a536469b397f91c5c606e8b6e675f2203c08cb0f2a093fde0525c259f95</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
