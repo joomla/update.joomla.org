@@ -36,9 +36,9 @@
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256>TODO</sha256>
-		<sha384>TODO</sha384>
-		<sha512>TODO</sha512>
+		<sha256>63f4e0728aa3346c8cb27b60efe89bb60526ab34d9a8b41f17636df12dc3b387</sha256>
+		<sha384>f503460d82f709bd403e5dca5cb6f85b6e51e2b69a1e4260a671c3e816dcbc31f0373a2c3e0769e9f25312fb74c12928</sha384>
+		<sha512>dadefa5b53229ff05ee82234d21f17c99227c6b0fae909faff2024eae1e9016a9a149a536469b397f91c5c606e8b6e675f2203c08cb0f2a093fde0525c259f95</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
@@ -86,9 +86,9 @@
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256>TODO</sha256>
-		<sha384>TODO</sha384>
-		<sha512>TODO</sha512>
+		<sha256>63f4e0728aa3346c8cb27b60efe89bb60526ab34d9a8b41f17636df12dc3b387</sha256>
+		<sha384>f503460d82f709bd403e5dca5cb6f85b6e51e2b69a1e4260a671c3e816dcbc31f0373a2c3e0769e9f25312fb74c12928</sha384>
+		<sha512>dadefa5b53229ff05ee82234d21f17c99227c6b0fae909faff2024eae1e9016a9a149a536469b397f91c5c606e8b6e675f2203c08cb0f2a093fde0525c259f95</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
@@ -111,9 +111,9 @@
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256>TODO</sha256>
-		<sha384>TODO</sha384>
-		<sha512>TODO</sha512>
+		<sha256>63f4e0728aa3346c8cb27b60efe89bb60526ab34d9a8b41f17636df12dc3b387</sha256>
+		<sha384>f503460d82f709bd403e5dca5cb6f85b6e51e2b69a1e4260a671c3e816dcbc31f0373a2c3e0769e9f25312fb74c12928</sha384>
+		<sha512>dadefa5b53229ff05ee82234d21f17c99227c6b0fae909faff2024eae1e9016a9a149a536469b397f91c5c606e8b6e675f2203c08cb0f2a093fde0525c259f95</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
