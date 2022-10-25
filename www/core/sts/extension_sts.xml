@@ -75,7 +75,7 @@
 		<element>joomla</element>
 		<type>file</type>
 		<version>4.2.4</version>
-		<infourl title="Joomla 4.2.4 Release">https://www.joomla.org/announcements/release-news/5869-joomla-4-2-3-bug-fix-release.html</infourl>
+		<infourl title="Joomla 4.2.4 Release">https://www.joomla.org/announcements/release-news/5870-joomla-4-2-4-security-release.html</infourl>
 		<downloads>
 			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-2-4/Joomla_4.2.4-Stable-Update_Package.zip</downloadurl>
 			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.2.4/Joomla_4.2.4-Stable-Update_Package.zip</downloadsource>
@@ -86,9 +86,9 @@
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256>TBD</sha256>
-		<sha384>TBD</sha384>
-		<sha512>TBD</sha512>
+		<sha256>ceaaf1954d2feb729cbb68ec96edeea2b393e9213f16f9095bf50e723b8ca932</sha256>
+		<sha384>85baa823e22a2615a5f832e8b3adf748cfb23a6b8d1cf38a3c93a0bf31601e6c8bffef8763103bb5fe7c41bb2b22e8ed</sha384>
+		<sha512>12199347a252c56a21e72276bc49bebb606b7c4fcbd15ef9934be977daca6069ee4d9a67ea377d59e727637dd202500b9f61921a68732e242f64bc06c2664703</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
@@ -100,7 +100,7 @@
 		<element>joomla</element>
 		<type>file</type>
 		<version>4.2.4</version>
-		<infourl title="Joomla 4.2.4 Release">https://www.joomla.org/announcements/release-news/5869-joomla-4-2-3-bug-fix-release.html</infourl>
+		<infourl title="Joomla 4.2.4 Release">https://www.joomla.org/announcements/release-news/5870-joomla-4-2-4-security-release.html</infourl>
 		<downloads>
 			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-2-4/Joomla_4.2.4-Stable-Update_Package.zip</downloadurl>
 			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.2.4/Joomla_4.2.4-Stable-Update_Package.zip</downloadsource>
@@ -111,9 +111,9 @@
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256>TBD</sha256>
-		<sha384>TBD</sha384>
-		<sha512>TBD</sha512>
+		<sha256>ceaaf1954d2feb729cbb68ec96edeea2b393e9213f16f9095bf50e723b8ca932</sha256>
+		<sha384>85baa823e22a2615a5f832e8b3adf748cfb23a6b8d1cf38a3c93a0bf31601e6c8bffef8763103bb5fe7c41bb2b22e8ed</sha384>
+		<sha512>12199347a252c56a21e72276bc49bebb606b7c4fcbd15ef9934be977daca6069ee4d9a67ea377d59e727637dd202500b9f61921a68732e242f64bc06c2664703</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
