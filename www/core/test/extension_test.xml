@@ -38,9 +38,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256></sha256>
-		<sha384></sha384>
-		<sha512></sha512>
+		<sha256>TODO</sha256>
+		<sha384>TODO</sha384>
+		<sha512>TODO</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
@@ -60,9 +60,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256></sha256>
-		<sha384></sha384>
-		<sha512></sha512>
+		<sha256>TODO</sha256>
+		<sha384>TODO</sha384>
+		<sha512>TODO</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
