@@ -42,7 +42,7 @@
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
-		<targetplatform name="joomla" version="4.0.[0-3]" />
+		<targetplatform name="joomla" version="4.0.[0123]" />
 	</update>
 	<update>
 		<name>Joomla! 4.3 Nightly Build</name>
