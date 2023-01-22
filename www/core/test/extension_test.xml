@@ -38,9 +38,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>TODO</sha256>
-		<sha384>TODO</sha384>
-		<sha512>TODO</sha512>
+		<sha256>594f9a2bbaeeacef0f30809de8e112cfd013f6faf99bab38b6db589bd8948580</sha256>
+		<sha384>d12fa683687834aed33778dc157f2fb6eea074def04bac8b74dec6da7cee2b4b7ade90374baa551e32adf475e56a4919</sha384>
+		<sha512>e288fd65105b31d0d8d0814de0fb55eded236866b7dfca87c8d5a06e88925eaecfd0336bfc3d97893a639936876de6a39296526ca08cae637670097165166a52</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
@@ -60,9 +60,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>TODO</sha256>
-		<sha384>TODO</sha384>
-		<sha512>TODO</sha512>
+		<sha256>594f9a2bbaeeacef0f30809de8e112cfd013f6faf99bab38b6db589bd8948580</sha256>
+		<sha384>d12fa683687834aed33778dc157f2fb6eea074def04bac8b74dec6da7cee2b4b7ade90374baa551e32adf475e56a4919</sha384>
+		<sha512>e288fd65105b31d0d8d0814de0fb55eded236866b7dfca87c8d5a06e88925eaecfd0336bfc3d97893a639936876de6a39296526ca08cae637670097165166a52</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
