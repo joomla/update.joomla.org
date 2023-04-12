@@ -30,17 +30,17 @@
 		<description>Joomla! 4.3 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.3.0-rc2</version>
-		<infourl title="Joomla 4.3.0-rc2 Release">https://github.com/joomla/joomla-cms/releases/tag/4.3.0-rc2</infourl>
+		<version>4.3.0-rc3</version>
+		<infourl title="Joomla 4.3.0-rc3 Release">https://github.com/joomla/joomla-cms/releases/tag/4.3.0-rc3</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.3.0-rc2/Joomla_4.3.0-rc2-Release_Candidate-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.3.0-rc3/Joomla_4.3.0-rc3-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>a6c3edbe56195d5c08225c2acd30ea3b83ab98da826990e1e899f78041ec1050</sha256>
-		<sha384>7eede4dbfc4b5a770e7c558caecd435dc6690a938b5c72bbfe89f5dca87018658f3ed16d30e1a9bdd0bd189305290279</sha384>
-		<sha512>2eefbe2c2d290d9b2c18d42fbf5d07bc3f3185b51ab96ebb4861c78562fc641f082469d64f3898a0bbfab835717f74c839a204df7edfc654c8f51cc8ae6a7755</sha512>
+		<sha256>c1626c5014b4f89a1125e88a2c52a07053f071117aa1a3b4aac74b3c920bb833</sha256>
+		<sha384>371ae80d967b48d95a515e1ba0f17e0b32be9417ee61d4dfcf99be75451b1bedde973c266ea52ec436b34b3800003e86</sha384>
+		<sha512>2b6682608dc813beabce825e22ca38a6b130dde1bf84a86b9c31a4cbda8f8f209110b96aa62cf5e2e79a3799f20dda9144f7d0b08c3c430b0d1871a9b4ee087f</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
@@ -52,17 +52,17 @@
 		<description>Joomla! 4.3 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.3.0-rc2</version>
-		<infourl title="Joomla 4.3.0-rc2 Release">https://github.com/joomla/joomla-cms/releases/tag/4.3.0-rc2</infourl>
+		<version>4.3.0-rc3</version>
+		<infourl title="Joomla 4.3.0-rc3 Release">https://github.com/joomla/joomla-cms/releases/tag/4.3.0-rc3</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.3.0-rc2/Joomla_4.3.0-rc2-Release_Candidate-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.3.0-rc3/Joomla_4.3.0-rc3-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>a6c3edbe56195d5c08225c2acd30ea3b83ab98da826990e1e899f78041ec1050</sha256>
-		<sha384>7eede4dbfc4b5a770e7c558caecd435dc6690a938b5c72bbfe89f5dca87018658f3ed16d30e1a9bdd0bd189305290279</sha384>
-		<sha512>2eefbe2c2d290d9b2c18d42fbf5d07bc3f3185b51ab96ebb4861c78562fc641f082469d64f3898a0bbfab835717f74c839a204df7edfc654c8f51cc8ae6a7755</sha512>
+		<sha256>c1626c5014b4f89a1125e88a2c52a07053f071117aa1a3b4aac74b3c920bb833</sha256>
+		<sha384>371ae80d967b48d95a515e1ba0f17e0b32be9417ee61d4dfcf99be75451b1bedde973c266ea52ec436b34b3800003e86</sha384>
+		<sha512>2b6682608dc813beabce825e22ca38a6b130dde1bf84a86b9c31a4cbda8f8f209110b96aa62cf5e2e79a3799f20dda9144f7d0b08c3c430b0d1871a9b4ee087f</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
