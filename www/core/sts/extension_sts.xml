@@ -36,9 +36,9 @@
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256></sha256>
-		<sha384></sha384>
-		<sha512></sha512>
+		<sha256>ba9684fe49cd59705866dbeeff0f1cdae61d297e0fff14f65b38e11a04459794</sha256>
+		<sha384>f0d6e8f589149faa9d9dfbf352c563aeeaf771b7aa81e685760fc3023633e9c8095a9b80af47017922d6ac52ac0b7ca9</sha384>
+		<sha512>0b8287d32cb873ecf28f06b2605a5e49d1c31368b2c59de14837481a761776a1778779fad22a621a23b1cc87868acd5ecea4813cf75aec7e38ff896db3d1d4b7</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
@@ -86,9 +86,9 @@
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256></sha256>
-		<sha384></sha384>
-		<sha512></sha512>
+		<sha256>ba9684fe49cd59705866dbeeff0f1cdae61d297e0fff14f65b38e11a04459794</sha256>
+		<sha384>f0d6e8f589149faa9d9dfbf352c563aeeaf771b7aa81e685760fc3023633e9c8095a9b80af47017922d6ac52ac0b7ca9</sha384>
+		<sha512>0b8287d32cb873ecf28f06b2605a5e49d1c31368b2c59de14837481a761776a1778779fad22a621a23b1cc87868acd5ecea4813cf75aec7e38ff896db3d1d4b7</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
@@ -111,9 +111,9 @@
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256></sha256>
-		<sha384></sha384>
-		<sha512></sha512>
+		<sha256>ba9684fe49cd59705866dbeeff0f1cdae61d297e0fff14f65b38e11a04459794</sha256>
+		<sha384>f0d6e8f589149faa9d9dfbf352c563aeeaf771b7aa81e685760fc3023633e9c8095a9b80af47017922d6ac52ac0b7ca9</sha384>
+		<sha512>0b8287d32cb873ecf28f06b2605a5e49d1c31368b2c59de14837481a761776a1778779fad22a621a23b1cc87868acd5ecea4813cf75aec7e38ff896db3d1d4b7</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
