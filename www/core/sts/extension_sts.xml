@@ -24,21 +24,21 @@
 		<description>Joomla! 4.3 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.3.0</version>
-		<infourl title="Joomla 4.3.0 Release">https://www.joomla.org/announcements/release-news/5882-joomla-4-3-0-stable-featuring-guided-tours.html</infourl>
+		<version>4.3.1</version>
+		<infourl title="Joomla 4.3.1 Release">https://www.joomla.org/announcements/release-news/5884-joomla-4-3-1-bug-fix-release.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-3-0/Joomla_4.3.0-Stable-Update_Package.zip</downloadurl>
-			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.3.0/Joomla_4.3.0-Stable-Update_Package.zip</downloadsource>
-			<downloadsource type="full" format="zip">https://update.joomla.org/releases/4.3.0/Joomla_4.3.0-Stable-Update_Package.zip</downloadsource>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-3-1/Joomla_4.3.1-Stable-Update_Package.zip</downloadurl>
+			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.3.1/Joomla_4.3.1-Stable-Update_Package.zip</downloadsource>
+			<downloadsource type="full" format="zip">https://update.joomla.org/releases/4.3.1/Joomla_4.3.1-Stable-Update_Package.zip</downloadsource>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256>ba9684fe49cd59705866dbeeff0f1cdae61d297e0fff14f65b38e11a04459794</sha256>
-		<sha384>f0d6e8f589149faa9d9dfbf352c563aeeaf771b7aa81e685760fc3023633e9c8095a9b80af47017922d6ac52ac0b7ca9</sha384>
-		<sha512>0b8287d32cb873ecf28f06b2605a5e49d1c31368b2c59de14837481a761776a1778779fad22a621a23b1cc87868acd5ecea4813cf75aec7e38ff896db3d1d4b7</sha512>
+		<sha256>c09304ed397bea3df9e7121a0bf6df041d68f015bccdad1d623727e971df714f</sha256>
+		<sha384>678134878f0ddd3c80d6b516008deb7788637179a902e6d28580ba38af2ce8c56295e292f3e02411477d1b4fdab50f96</sha384>
+		<sha512>c94d71df9ff645a59317b47ed0e230e464a6c2a6bee7966267d1250fee5303f79daf2d55645a1a21d334cbbe3360ac228dcc791883c32c16cc5241b441616a36</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
@@ -74,21 +74,21 @@
 		<description>Joomla! 4.3 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.3.0</version>
-		<infourl title="Joomla 4.3.0 Release">https://www.joomla.org/announcements/release-news/5882-joomla-4-3-0-stable-featuring-guided-tours.html</infourl>
+		<version>4.3.1</version>
+		<infourl title="Joomla 4.3.1 Release">https://www.joomla.org/announcements/release-news/5884-joomla-4-3-1-bug-fix-release.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-3-0/Joomla_4.3.0-Stable-Update_Package.zip</downloadurl>
-			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.3.0/Joomla_4.3.0-Stable-Update_Package.zip</downloadsource>
-			<downloadsource type="full" format="zip">https://update.joomla.org/releases/4.3.0/Joomla_4.3.0-Stable-Update_Package.zip</downloadsource>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-3-1/Joomla_4.3.1-Stable-Update_Package.zip</downloadurl>
+			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.3.1/Joomla_4.3.1-Stable-Update_Package.zip</downloadsource>
+			<downloadsource type="full" format="zip">https://update.joomla.org/releases/4.3.1/Joomla_4.3.1-Stable-Update_Package.zip</downloadsource>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256>ba9684fe49cd59705866dbeeff0f1cdae61d297e0fff14f65b38e11a04459794</sha256>
-		<sha384>f0d6e8f589149faa9d9dfbf352c563aeeaf771b7aa81e685760fc3023633e9c8095a9b80af47017922d6ac52ac0b7ca9</sha384>
-		<sha512>0b8287d32cb873ecf28f06b2605a5e49d1c31368b2c59de14837481a761776a1778779fad22a621a23b1cc87868acd5ecea4813cf75aec7e38ff896db3d1d4b7</sha512>
+		<sha256>c09304ed397bea3df9e7121a0bf6df041d68f015bccdad1d623727e971df714f</sha256>
+		<sha384>678134878f0ddd3c80d6b516008deb7788637179a902e6d28580ba38af2ce8c56295e292f3e02411477d1b4fdab50f96</sha384>
+		<sha512>c94d71df9ff645a59317b47ed0e230e464a6c2a6bee7966267d1250fee5303f79daf2d55645a1a21d334cbbe3360ac228dcc791883c32c16cc5241b441616a36</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
@@ -99,21 +99,21 @@
 		<description>Joomla! 4.3 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.3.0</version>
-		<infourl title="Joomla 4.3.0 Release">https://www.joomla.org/announcements/release-news/5882-joomla-4-3-0-stable-featuring-guided-tours.html</infourl>
+		<version>4.3.1</version>
+		<infourl title="Joomla 4.3.1 Release">https://www.joomla.org/announcements/release-news/5884-joomla-4-3-1-bug-fix-release.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-3-0/Joomla_4.3.0-Stable-Update_Package.zip</downloadurl>
-			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.3.0/Joomla_4.3.0-Stable-Update_Package.zip</downloadsource>
-			<downloadsource type="full" format="zip">https://update.joomla.org/releases/4.3.0/Joomla_4.3.0-Stable-Update_Package.zip</downloadsource>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-3-1/Joomla_4.3.1-Stable-Update_Package.zip</downloadurl>
+			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.3.1/Joomla_4.3.1-Stable-Update_Package.zip</downloadsource>
+			<downloadsource type="full" format="zip">https://update.joomla.org/releases/4.3.1/Joomla_4.3.1-Stable-Update_Package.zip</downloadsource>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256>ba9684fe49cd59705866dbeeff0f1cdae61d297e0fff14f65b38e11a04459794</sha256>
-		<sha384>f0d6e8f589149faa9d9dfbf352c563aeeaf771b7aa81e685760fc3023633e9c8095a9b80af47017922d6ac52ac0b7ca9</sha384>
-		<sha512>0b8287d32cb873ecf28f06b2605a5e49d1c31368b2c59de14837481a761776a1778779fad22a621a23b1cc87868acd5ecea4813cf75aec7e38ff896db3d1d4b7</sha512>
+		<sha256>c09304ed397bea3df9e7121a0bf6df041d68f015bccdad1d623727e971df714f</sha256>
+		<sha384>678134878f0ddd3c80d6b516008deb7788637179a902e6d28580ba38af2ce8c56295e292f3e02411477d1b4fdab50f96</sha384>
+		<sha512>c94d71df9ff645a59317b47ed0e230e464a6c2a6bee7966267d1250fee5303f79daf2d55645a1a21d334cbbe3360ac228dcc791883c32c16cc5241b441616a36</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
