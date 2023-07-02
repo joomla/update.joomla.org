@@ -33,7 +33,7 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>TODO</sha256>
+		<sha256>45d1a5fca652deebb53add115dd45757d7b6b848f9909f6c2e588ac015e82678</sha256>
 		<sha384>d91dbba02109072e60b745368570671be6bce80d8c47e04939ab903f85c8cc1c2b29472cca342d1899c72ff3f68fad46</sha384>
 		<sha512>a17aac42b786d0c8ca4a6158e8319173c908f9b60a85f91414ea32e39194460a9ce9fdcd466f5a750ecf196767465a5c56f374040a6fde2c51a8fdef8460e5a4</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
