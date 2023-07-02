@@ -38,7 +38,7 @@
 		<sha512>TODO</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
-		<targetplatform name="joomla" version="3.([789]|10)" />
+		<targetplatform name="joomla" version="3.([789]|10|11)" />
 		<php_minimum>5.3.10</php_minimum>
 	</update>
 	<update>
