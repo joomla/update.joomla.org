@@ -1,5 +1,6 @@
 <?xml version="1.0" ?>
 <updates>
+	<update>
 		<name>Joomla! 3.10</name>
 		<description>Joomla! 3.10 CMS</description>
 		<element>joomla</element>
