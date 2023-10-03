@@ -13,9 +13,9 @@
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>3c468f6337391b006673e2f16563bf3d6f17bc73595fca2c40b6144085180679</sha256>
-		<sha384>abc821177cb35a8bdc950bc865f6238c2c32f8b835cb262467f25d11b3b07157a3987ac70536764b7d64a557878dc9b3</sha384>
-		<sha512>d0854eb7f0144faa181b442b6cc86692718072caa27d74250d8e3c6f0fa2e25f068a5cf03a494c8396a1c7ab5d9a338ae92a13c6ab12020fd122ba5e4b00398a</sha512>
+		<sha256>13838fe929d26e7b69937f05b307ae82fd3e0fa4db6738790555823819d51aaa</sha256>
+		<sha384>8d52f0acd4c2eb8d2cc3be404dd83132939aa01c861225f686269f189fba60b09d8775cc536f20e98b365b929deae6e6</sha384>
+		<sha512>d742074915def86b59034803c941d81188b566a6c70790ccf688175a6036aa24a3d2ce3d4b9163d1a23b0cce1b41984f75c7146b1ae0e57dd81d0794d2191b91</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
@@ -23,8 +23,8 @@
 		<targetplatform name="joomla" version="4.0.[456]" />
 	</update>
 	<update>
-		<name>Joomla! 4.3</name>
-		<description>Joomla! 4.3 CMS</description>
+		<name>Joomla! 4.4</name>
+		<description>Joomla! 4.4 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
 		<version>4.4.0-rc1</version>
@@ -43,5 +43,27 @@
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="4.[123]" />
+	</update>
+	<update>
+		<name>Joomla! 5.0</name>
+		<description>Joomla! 5.0 CMS</description>
+		<element>joomla</element>
+		<type>file</type>
+		<version>5.0.0-rc</version>
+		<infourl title="Joomla 5.0.0-rc Release">https://github.com/joomla/joomla-cms/releases/tag/5.0.0-rc</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/5.0.0-rc/Joomla_5.0.0-rc-Release_Candidate-Update_Package.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<sha256>70e13841d0fdf3522e69f32616a57683e0ec5888ff0ee7ce1a55fb132dc337e1</sha256>
+		<sha384>194fa75df0d4a49237e7e0a51390bee37bb586556e85a1e9fa2b93d3d95197bdb2294cb71f0b34695d9d27a3d25bbce5</sha384>
+		<sha512>fe5ab4a1969ad0bb96451e7258f014d65250d22d42da041ba25493c0c8c278bb820bbef67a5c443d85360c0636339b9b563e8c41827c587beb6a9df103d825d8</sha512>
+		<supported_databases mysql="8.0.13" mariadb="10.4.0" postgresql="12.0" />
+		<php_minimum>8.1.0</php_minimum>
+		<maintainer>Joomla! Production Department</maintainer>
+		<maintainerurl>https://www.joomla.org</maintainerurl>
+		<targetplatform name="joomla" version="4.4" />
 	</update>
 </updates>
