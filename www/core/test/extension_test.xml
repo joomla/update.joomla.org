@@ -1,14 +1,15 @@
 <?xml version="1.0" ?>
 <updates>
+	<!--
 	<update>
 		<name>Joomla! 4.4</name>
 		<description>Joomla! 4.4 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.4.0-rc1</version>
-		<infourl title="Joomla 4.4.0-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/4.4.0-rc1</infourl>
+		<version>4.4.1-rc</version>
+		<infourl title="Joomla 4.4.1-rc Release">https://github.com/joomla/joomla-cms/releases/tag/4.4.1-rc</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.4.0-rc1/Joomla_4.4.0-rc1-Release_Candidate-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.4.1-rc/Joomla_4.4.1-rc-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -27,10 +28,10 @@
 		<description>Joomla! 4.4 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.4.0-rc1</version>
-		<infourl title="Joomla 4.4.0-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/4.4.0-rc1</infourl>
+		<version>4.4.1-rc</version>
+		<infourl title="Joomla 4.4.1-rc Release">https://github.com/joomla/joomla-cms/releases/tag/4.4.1-rc</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.4.0-rc1/Joomla_4.4.0-rc1-Release_Candidate-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.4.1-rc/Joomla_4.4.1-rc-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -42,17 +43,17 @@
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
-		<targetplatform name="joomla" version="4.[123]" />
+		<targetplatform name="joomla" version="4.[1234]" />
 	</update>
 	<update>
 		<name>Joomla! 5.0</name>
 		<description>Joomla! 5.0 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>5.0.0-rc2</version>
-		<infourl title="Joomla 5.0.0-rc2 Release">https://github.com/joomla/joomla-cms/releases/tag/5.0.0-rc2</infourl>
+		<version>5.0.1-rc</version>
+		<infourl title="Joomla 5.0.1-rc Release">https://github.com/joomla/joomla-cms/releases/tag/5.0.1-rc</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/5.0.0-rc2/Joomla_5.0.0-rc2-Release_Candidate-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/5.0.1-rc/Joomla_5.0.1-rc-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -66,4 +67,5 @@
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="5.0" />
 	</update>
+	-->
 </updates>
