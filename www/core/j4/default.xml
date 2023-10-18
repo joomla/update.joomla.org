@@ -98,6 +98,6 @@
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
-		<targetplatform name="joomla" version="4.[0123]"/>
+		<targetplatform name="joomla" version="4.[1230]"/>
 	</update>
 </updates>
