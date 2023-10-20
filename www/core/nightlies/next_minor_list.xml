@@ -8,5 +8,5 @@
 	<extension name="Joomla" element="joomla" type="file" version="4.4.1-dev" targetplatformversion="4.2" detailsurl="https://update.joomla.org/core/j4/minor.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="4.4.1-dev" targetplatformversion="4.3" detailsurl="https://update.joomla.org/core/j4/minor.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="5.1.0-dev" targetplatformversion="4.4" detailsurl="https://update.joomla.org/core/j4/minor.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="5.1.0-dev" targetplatformversion="5.0" detailsurl="https://update.joomla.org/core/j4/minor.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="5.1.0-dev" targetplatformversion="5.0" detailsurl="https://update.joomla.org/core/j5/minor.xml" />
 </extensionset>
