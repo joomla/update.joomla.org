@@ -2,7 +2,7 @@
 	<extension name="Joomla" element="joomla" type="file" version="4.4.1-dev" targetplatformversion="4.0.4" detailsurl="https://update.joomla.org/core/j4/patch.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="4.4.1-dev" targetplatformversion="4.0.5" detailsurl="https://update.joomla.org/core/j4/patch.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="4.4.1-dev" targetplatformversion="4.0.6" detailsurl="https://update.joomla.org/core/j4/patch.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="4.0.4" targetplatformversion="4.0" detailsurl="https://update.joomla.org/core/j4/patch.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="4.0.4" targetplatformversion="4.0" detailsurl="https://update.joomla.org/core/j4/default.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="4.4.1-dev" targetplatformversion="4.1" detailsurl="https://update.joomla.org/core/j4/patch.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="4.4.1-dev" targetplatformversion="4.2" detailsurl="https://update.joomla.org/core/j4/patch.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="4.4.1-dev" targetplatformversion="4.3" detailsurl="https://update.joomla.org/core/j4/patch.xml" />
