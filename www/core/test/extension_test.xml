@@ -60,7 +60,7 @@
 		<sha256>ab2572c90e8f6fcf82ba15589b544cf88add8f983195afe7b57923992d7cdbc1</sha256>
 		<sha384>6c2a8354502e5679851c7583fdb210d5c4ad98a4e105db324b6c9d82b66f75e1e87c2c1123a137dfc24bdfe56475919c</sha384>
 		<sha512>61b623b8f3a3670dd3aa6d69929756272f96816bce04f321f2cced9f5373f6749aff1c092942176162f9c41d8e1deb0494c1df799fe163f757a2f05994f4deb1</sha512>
-		<supported_databases mysql="8.0.13" mariadb="10.4" postgresql="12.0" />
+		<supported_databases mysql="8.0.13" mariadb="10.4.0" postgresql="12.0" />
 		<php_minimum>8.1.0</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
