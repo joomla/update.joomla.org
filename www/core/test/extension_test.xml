@@ -49,17 +49,17 @@
 		<description>Joomla! 5.0 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>5.0.2-rc1</version>
-		<infourl title="Joomla 5.0.2-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/5.0.2-rc1</infourl>
+		<version>5.0.2-rc2</version>
+		<infourl title="Joomla 5.0.2-rc2 Release">https://github.com/joomla/joomla-cms/releases/tag/5.0.2-rc2</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/5.0.2-rc1/Joomla_5.0.2-rc1-Release_Candidate-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/5.0.2-rc2/Joomla_5.0.2-rc2-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>ab2572c90e8f6fcf82ba15589b544cf88add8f983195afe7b57923992d7cdbc1</sha256>
-		<sha384>6c2a8354502e5679851c7583fdb210d5c4ad98a4e105db324b6c9d82b66f75e1e87c2c1123a137dfc24bdfe56475919c</sha384>
-		<sha512>61b623b8f3a3670dd3aa6d69929756272f96816bce04f321f2cced9f5373f6749aff1c092942176162f9c41d8e1deb0494c1df799fe163f757a2f05994f4deb1</sha512>
+		<sha256>9b3264ea2b7acf896047cdccf45a32e9666a03aa6cedf3ea2a58aefd78fde9d1</sha256>
+		<sha384>c1758c41051554b86d528539b30545236ac03786eb959f04c1022fef370ceb7555f98bc94ab84fa119eeab1f8ea1fc60</sha384>
+		<sha512>8e179848f302024c922cd56cc51ec85bf57cecfe36e10d5e9ad2141117371655b6ced3cbc2bdb74ada5c655d78209d001373576bd3854b2c850b3da8dfe44e03</sha512>
 		<supported_databases mysql="8.0.13" mariadb="10.4.0" postgresql="12.0" />
 		<php_minimum>8.1.0</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
