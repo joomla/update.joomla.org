@@ -38,7 +38,8 @@
 		<php_minimum>7.2.5</php_minimum>
 		<sha256>a161d8e92db82038cea196808ad766e3af5ab5a8d1e53df37027784ac6e8066e</sha256>
 		<sha384>450ab1f7a0ee1354f003779e2d0eff4106a3eefeaa5e5d8bc2e2dc9a15a5d400837d28c4ef113bd8dcea96afa93995e3</sha384>
-		<sha512>69f177b9e5a84583faa39def46095ad504353a566ffb9e80e33c3cac2c4d1352dae755153aba14a0747a00b979b1545023c730a5931ae1e1c43cc84fef622222</sha512>		<maintainer>Joomla! Production Department</maintainer>
+		<sha512>69f177b9e5a84583faa39def46095ad504353a566ffb9e80e33c3cac2c4d1352dae755153aba14a0747a00b979b1545023c730a5931ae1e1c43cc84fef622222</sha512>
+		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
 		<targetplatform name="joomla" version="3.10" />
