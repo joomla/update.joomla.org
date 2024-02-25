@@ -5,24 +5,24 @@
 		<description>Joomla! 5.0 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>5.0.2</version>
-		<infourl title="Joomla 5.0.2 Release">https://www.joomla.org/announcements/release-news/5902-joomla-5-0-2-and-4-4-2-bug-fix-release.html</infourl>
+		<version>5.0.3</version>
+		<infourl title="Joomla 5.0.3 Release">https://www.joomla.org/announcements/release-news/5904-joomla-5-0-3-and-4-4-3-security-and-bug-fix-release.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla5/5-0-2/Joomla_5.0.2-Stable-Update_Package.zip</downloadurl>
-			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/5.0.2/Joomla_5.0.2-Stable-Update_Package.zip</downloadsource>
-			<downloadsource type="full" format="zip">https://update.joomla.org/releases/5.0.2/Joomla_5.0.2-Stable-Update_Package.zip</downloadsource>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla5/5-0-3/Joomla_5.0.3-Stable-Update_Package.zip</downloadurl>
+			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/5.0.3/Joomla_5.0.3-Stable-Update_Package.zip</downloadsource>
+			<downloadsource type="full" format="zip">https://update.joomla.org/releases/5.0.3/Joomla_5.0.3-Stable-Update_Package.zip</downloadsource>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
 		<supported_databases mysql="8.0.13" mariadb="10.4" postgresql="12.0" />
 		<php_minimum>8.1.0</php_minimum>
-		<sha256>07a7c3d330c79f6482deaf93e4358cc1a77438c0cbed7f9d6770c56a8ca7177f</sha256>
-		<sha384>17246b56c577a6ab08aa0ad1143ec54dac0ad5281f59581b89baaa675338927f68a1f5b3fb5f91300ade1aed37118149</sha384>
-		<sha512>452675519bc567460bafc3a1de72601e8c6b7c763e858878453a6198440e229d9ffe1936d59aa74f2e07d0c8dedd9077b5144fc481b012513ec80398dcda9086</sha512>
+		<sha256>ab3d2aa8f937f92f1954c2dd15eb24e67b91fe93e531a97c30738ae2a63e1112</sha256>
+		<sha384>0eccde774894fe1f2243d160954ae1f0a1c5ffe5a41fa9f123b92987f3a8753b0880b172f4cb06f0060ef20d43601da8</sha384>
+		<sha512>05a5bae178487cd1b5e3a9fdf2bf10ce9a882e3c5e8ffef44fdb8ad6979b5057202bce0da6f5628e8d0448d03cce345bbd8f5f181dc4e7139a342d64594bdb74</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
-		<targetplatform name="joomla" version="4.4.2"/>
+		<targetplatform name="joomla" version="4.4.3"/>
 	</update>
 </updates>
