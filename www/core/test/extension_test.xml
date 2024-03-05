@@ -71,17 +71,17 @@
 		<description>Joomla! 5.1 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>5.1.0-alpha4</version>
-		<infourl title="Joomla 5.1.0-alpha4 Release">https://github.com/joomla/joomla-cms/releases/tag/5.1.0-alpha4</infourl>
+		<version>5.1.0-beta1</version>
+		<infourl title="Joomla 5.1.0-alpha4 Release">https://github.com/joomla/joomla-cms/releases/tag/5.1.0-beta1</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/5.1.0-alpha4/Joomla_5.1.0-alpha4-Alpha-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/5.1.0-beta1/Joomla_5.1.0-beta1-Beta-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
-			<tag>alpha</tag>
+			<tag>beta</tag>
 		</tags>
-		<sha256>0b6dd460618d777b86eddabe223eb7853763280c824577d087818a41d1008852</sha256>
-		<sha384>032523dab46e85dcf18e968b852e1499e729a6910a4c9b1eb19972090baac5cc708fe276a1dd41e9b2b2f4c0b4a7e3a3</sha384>
-		<sha512>bb9c7cfa2317023001f8635c23b7f3db9786cc300ff639845f4a9faf3c3b8eac8d2854530bbde831b80164ec57b0721508d0ab8c47057e0dfedc0d4b6998b731</sha512>
+		<sha256>5bed3ff4a42799a5a4820c56b333f3d660b5d5ded33a74a79613bdb4e54135c4</sha256>
+		<sha384>7f4f4b238a70194c8482df5b78d93ece0867d29045dbd367863c67ce538dc368029f8779338f212938a4eae73e9b919b</sha384>
+		<sha512>676f890bd0c5b8f94a472d00abbfe71b60acd9e16b24bda861c42ebbd57b475b56b997c810db1ceb41bdfa714e40753bb52029f62c32f6cb02f72270c4e9bd0e</sha512>
 		<supported_databases mysql="8.0.13" mariadb="10.4.0" postgresql="12.0" />
 		<php_minimum>8.1.0</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
@@ -93,17 +93,17 @@
 		<description>Joomla! 5.1 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>5.1.0-alpha4</version>
-		<infourl title="Joomla 5.1.0-alpha4 Release">https://github.com/joomla/joomla-cms/releases/tag/5.1.0-alpha4</infourl>
+		<version>5.1.0-beta1</version>
+		<infourl title="Joomla 5.1.0-alpha4 Release">https://github.com/joomla/joomla-cms/releases/tag/5.1.0-beta1</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/5.1.0-alpha4/Joomla_5.1.0-alpha4-Alpha-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/5.1.0-beta1/Joomla_5.1.0-beta1-Beta-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
-			<tag>alpha</tag>
+			<tag>beta</tag>
 		</tags>
-		<sha256>0b6dd460618d777b86eddabe223eb7853763280c824577d087818a41d1008852</sha256>
-		<sha384>032523dab46e85dcf18e968b852e1499e729a6910a4c9b1eb19972090baac5cc708fe276a1dd41e9b2b2f4c0b4a7e3a3</sha384>
-		<sha512>bb9c7cfa2317023001f8635c23b7f3db9786cc300ff639845f4a9faf3c3b8eac8d2854530bbde831b80164ec57b0721508d0ab8c47057e0dfedc0d4b6998b731</sha512>
+		<sha256>5bed3ff4a42799a5a4820c56b333f3d660b5d5ded33a74a79613bdb4e54135c4</sha256>
+		<sha384>7f4f4b238a70194c8482df5b78d93ece0867d29045dbd367863c67ce538dc368029f8779338f212938a4eae73e9b919b</sha384>
+		<sha512>676f890bd0c5b8f94a472d00abbfe71b60acd9e16b24bda861c42ebbd57b475b56b997c810db1ceb41bdfa714e40753bb52029f62c32f6cb02f72270c4e9bd0e</sha512>
 		<supported_databases mysql="8.0.13" mariadb="10.4.0" postgresql="12.0" />
 		<php_minimum>8.1.0</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
