@@ -101,9 +101,9 @@
 		<tags>
 			<tag>beta</tag>
 		</tags>
-		<sha256>c8f2bab6b752bdb708fb50f5b5475e852d5d6dfd596b7973485279ff3d65d14b</sha256>
-		<sha384>f820845cb12b031331c2190007658912d57a3dfb75498c815b387cbcf69b11fa51be835d4f4d31ec28031163d1b105dd</sha384>
-		<sha512>9112e8385cf5f926323e830210f4f46e4c6882e057db4f5e3f3ff1e21391f84f412b4a55f16b2f69a0891e55a5f70c0a3283865baacada22d313476ef3527dd1</sha512>
+		<sha256>35f67e6941b6785a373eae948e2fadd22c09a0c8695b1f66bafefecda33aa098</sha256>
+                <sha384>cac4e8ad7a9550b50c1958523bb96d425231653320b382325610b0808b5f05c00ab40f0e64b05597d530e5891d5ba912</sha384>
+                <sha512>a0f0c66de9daf7d2b5b4c8cc7456632efef42816119217c5ba5ce4cbfa5b2184e817baf265e32fb94fc0b871b1ce2525e45174c085b9b5aa85abfb8092f64712</sha512>
 		<supported_databases mysql="8.0.13" mariadb="10.4.0" postgresql="12.0" />
 		<php_minimum>8.1.0</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
