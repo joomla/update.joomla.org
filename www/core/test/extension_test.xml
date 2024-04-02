@@ -6,16 +6,16 @@
 		<element>joomla</element>
 		<type>file</type>
 		<version>4.4.3-rc1</version>
-		<infourl title="Joomla 4.4.3-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/4.4.3-rc1</infourl>
+		<infourl title="Joomla 4.4.4-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/4.4.4-rc1</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.4.3-rc1/Joomla_4.4.3-rc1-Release_Candidate-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.4.4-rc1/Joomla_4.4.4-rc1-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>7caa7e90750667fb7acada74c906ec7191b2862b126772005d78806e51b3fe63</sha256>
-		<sha384>5a48a33b740c24e749e7f95bd33ba0566b86692392dc28b3bb20f50014802ecf808e5df3235dabe0d6200d84a0ba7d72</sha384>
-		<sha512>6f781d48fce7e1aa7a66c70d05a5b03a8cd556ec3a35744141f07c5176ac447e15a91800ddfe80a41d0ec73f450896efb06f1f059130655c4e2787820e9fd108</sha512>
+		<sha256>###replace hash####</sha256>
+		<sha384>###replace hash####</sha384>
+		<sha512>###replace hash####</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
@@ -27,17 +27,17 @@
 		<description>Joomla! 4.4 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.4.3-rc1</version>
-		<infourl title="Joomla 4.4.3-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/4.4.3-rc1</infourl>
+		<version>4.4.4-rc1</version>
+		<infourl title="Joomla 4.4.4-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/4.4.4-rc1</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.4.3-rc1/Joomla_4.4.3-rc1-Release_Candidate-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.4.4-rc1/Joomla_4.4.4-rc1-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>7caa7e90750667fb7acada74c906ec7191b2862b126772005d78806e51b3fe63</sha256>
-		<sha384>5a48a33b740c24e749e7f95bd33ba0566b86692392dc28b3bb20f50014802ecf808e5df3235dabe0d6200d84a0ba7d72</sha384>
-		<sha512>6f781d48fce7e1aa7a66c70d05a5b03a8cd556ec3a35744141f07c5176ac447e15a91800ddfe80a41d0ec73f450896efb06f1f059130655c4e2787820e9fd108</sha512>
+		<sha256>###replace hash####</sha256>
+		<sha384>###replace hash####</sha384>
+		<sha512>###replace hash####</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
@@ -45,43 +45,21 @@
 		<targetplatform name="joomla" version="4.[1234]" />
 	</update>
 	<update>
-		<name>Joomla! 5.0</name>
-		<description>Joomla! 5.0 CMS</description>
-		<element>joomla</element>
-		<type>file</type>
-		<version>5.0.3-rc1</version>
-		<infourl title="Joomla 5.0.3-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/5.0.3-rc1</infourl>
-		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/5.0.3-rc1/Joomla_5.0.3-rc1-Release_Candidate-Update_Package.zip</downloadurl>
-		</downloads>
-		<tags>
-			<tag>stable</tag>
-		</tags>
-		<sha256>df05248db1bc270791ce8ea34178ae4dc9cf8f2edb8bba4b28cbaa6fe9b36b89</sha256>
-		<sha384>70849de3ad4266232362781e264f6dbc2e8e475bf9b3ef276499fd5bbb8835577d2be412551bf8293a33cf0545c5a02d</sha384>
-		<sha512>903ad1da6164626e97fadb95b47f3a7fe8a9f5ba8506de6c4329e0e156df8e3fc3a6263eda8a2b375809691f2d9cc902f264489bb89c4c8d1bbd40be99cbe280</sha512>
-		<supported_databases mysql="8.0.13" mariadb="10.4.0" postgresql="12.0" />
-		<php_minimum>8.1.0</php_minimum>
-		<maintainer>Joomla! Production Department</maintainer>
-		<maintainerurl>https://www.joomla.org</maintainerurl>
-		<targetplatform name="joomla" version="5.0" />
-	</update>
-	<update>
 		<name>Joomla! 5.1</name>
 		<description>Joomla! 5.1 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>5.1.0-beta2</version>
-		<infourl title="Joomla 5.1.0-beta2 Release">https://github.com/joomla/joomla-cms/releases/tag/5.1.0-beta2</infourl>
+		<version>5.1.0-rc1</version>
+		<infourl title="Joomla 5.1.0-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/5.1.0-rc1</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/5.1.0-beta2/Joomla_5.1.0-beta2-Beta-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/5.1.0-rc1/Joomla_5.1.0-rc1-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
-			<tag>beta</tag>
+			<tag>stable</tag>
 		</tags>
-		<sha256>35f67e6941b6785a373eae948e2fadd22c09a0c8695b1f66bafefecda33aa098</sha256>
-                <sha384>cac4e8ad7a9550b50c1958523bb96d425231653320b382325610b0808b5f05c00ab40f0e64b05597d530e5891d5ba912</sha384>
-                <sha512>a0f0c66de9daf7d2b5b4c8cc7456632efef42816119217c5ba5ce4cbfa5b2184e817baf265e32fb94fc0b871b1ce2525e45174c085b9b5aa85abfb8092f64712</sha512>
+		<sha256>cfc960dc0dcd4ba5aaa7c7f0cc5a8e1b827015dbcabf6d4165f37dede9bfb449</sha256>
+		<sha384>1b26c58d85bbfbc4d69e3e21040a167e717be8b53341d984c131c3dc03666b8101386c389eeb3ef5a2c0ae8e53622877</sha384>
+		<sha512>ee6e5218140222ceea53154c9f6c2367bcd854862ea147213af4afb469aca12a7719adf507f81003f53e1dafe79adbcfa6c1417861686a2617f8d6f4df8d3b40</sha512>
 		<supported_databases mysql="8.0.13" mariadb="10.4.0" postgresql="12.0" />
 		<php_minimum>8.1.0</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
@@ -93,17 +71,17 @@
 		<description>Joomla! 5.1 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>5.1.0-beta2</version>
-		<infourl title="Joomla 5.1.0-beta2 Release">https://github.com/joomla/joomla-cms/releases/tag/5.1.0-beta2</infourl>
+		<version>5.1.0-rc1</version>
+		<infourl title="Joomla 5.1.0-rc1 Release">https://github.com/joomla/joomla-cms/releases/tag/5.1.0-rc1</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/5.1.0-beta2/Joomla_5.1.0-beta2-Beta-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/5.1.0-rc1/Joomla_5.1.0-rc1-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
-			<tag>beta</tag>
+			<tag>stable</tag>
 		</tags>
-		<sha256>35f67e6941b6785a373eae948e2fadd22c09a0c8695b1f66bafefecda33aa098</sha256>
-                <sha384>cac4e8ad7a9550b50c1958523bb96d425231653320b382325610b0808b5f05c00ab40f0e64b05597d530e5891d5ba912</sha384>
-                <sha512>a0f0c66de9daf7d2b5b4c8cc7456632efef42816119217c5ba5ce4cbfa5b2184e817baf265e32fb94fc0b871b1ce2525e45174c085b9b5aa85abfb8092f64712</sha512>
+		<sha256>cfc960dc0dcd4ba5aaa7c7f0cc5a8e1b827015dbcabf6d4165f37dede9bfb449</sha256>
+		<sha384>1b26c58d85bbfbc4d69e3e21040a167e717be8b53341d984c131c3dc03666b8101386c389eeb3ef5a2c0ae8e53622877</sha384>
+		<sha512>ee6e5218140222ceea53154c9f6c2367bcd854862ea147213af4afb469aca12a7719adf507f81003f53e1dafe79adbcfa6c1417861686a2617f8d6f4df8d3b40</sha512>
 		<supported_databases mysql="8.0.13" mariadb="10.4.0" postgresql="12.0" />
 		<php_minimum>8.1.0</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
