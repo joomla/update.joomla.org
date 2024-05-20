@@ -6,6 +6,6 @@
 	<extension name="Joomla" element="joomla" type="file" version="4.4.4-rc2" targetplatformversion="4.2" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="4.4.4-rc2" targetplatformversion="4.3" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="4.4.4-rc2" targetplatformversion="4.4" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="5.1.0-rc2" targetplatformversion="5.0" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="5.1.0-rc2" targetplatformversion="5.1" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="5.1.1-rc1" targetplatformversion="5.0" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="5.1.1-rc1" targetplatformversion="5.1" detailsurl="https://update.joomla.org/core/test/extension_test.xml" />
 </extensionset>
