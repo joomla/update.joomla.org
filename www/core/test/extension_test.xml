@@ -5,17 +5,17 @@
 		<description>Joomla! 4.4 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.4.4-rc2</version>
-		<infourl title="Joomla 4.4.4-rc2 Release 2">https://github.com/joomla/joomla-cms/releases/tag/4.4.4-rc2</infourl>
+		<version>4.4.5-rc1</version>
+		<infourl title="Joomla 4.4.5-rc1 Release Candidate 1">https://github.com/joomla/joomla-cms/releases/tag/4.4.5-rc1</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.4.4-rc2/Joomla_4.4.4-rc2-Release_Candidate-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.4.5-rc1/Joomla_4.4.5-rc1-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>daaa476bdb5bf617d20c216bcd22658340f1b3f674236fe5a6b006fade89195b</sha256>
-		<sha384>f746089e1e94f49281c7edba7031a68f910eda6f20b4b953d1ead78e51ee6f5e5784d082c0d1db1551d28b4476140aa8</sha384>
-		<sha512>aa868b75d6df51fa65c0f90feb2397118daa3767c8cbb97248c0fe45369a4cbced1ebe4d8517a12c8e6c02b553fbd088a3cd66a99dd517acfaa9ba4e3a717c3b</sha512>
+		<sha256>e2a996fba2578c83a422ce405249ea2f2636b9b2f942fd3b20cc8afdf03b5ff4</sha256>
+		<sha384>05e893690b44a41ad2eaa0cc609fcf73b5193050fe8a2c493f25b4fa0fb45fa3612763027e710765a90ddfa426d4e3c5</sha384>
+		<sha512>1203b0f00b0b77ed39269201b8e92f7313c68a8e91e0e80afc5386eae1c5f2b80baa24df9d322a246576c862bdf07fc3973cfacfe3ce910f7dd2fc6059131ae7</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
@@ -27,17 +27,17 @@
 		<description>Joomla! 4.4 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>4.4.4-rc2</version>
-		<infourl title="Joomla 4.4.4-rc2 Release 2">https://github.com/joomla/joomla-cms/releases/tag/4.4.4-rc2</infourl>
+		<version>4.4.5-rc1</version>
+		<infourl title="Joomla 4.4.5-rc1 Release Candidate 1">https://github.com/joomla/joomla-cms/releases/tag/4.4.5-rc1</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.4.4-rc2/Joomla_4.4.4-rc2-Release_Candidate-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.4.5-rc1/Joomla_4.4.5-rc1-Release_Candidate-Update_Package.zip</downloadurl>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
-		<sha256>daaa476bdb5bf617d20c216bcd22658340f1b3f674236fe5a6b006fade89195b</sha256>
-		<sha384>f746089e1e94f49281c7edba7031a68f910eda6f20b4b953d1ead78e51ee6f5e5784d082c0d1db1551d28b4476140aa8</sha384>
-		<sha512>aa868b75d6df51fa65c0f90feb2397118daa3767c8cbb97248c0fe45369a4cbced1ebe4d8517a12c8e6c02b553fbd088a3cd66a99dd517acfaa9ba4e3a717c3b</sha512>
+		<sha256>e2a996fba2578c83a422ce405249ea2f2636b9b2f942fd3b20cc8afdf03b5ff4</sha256>
+		<sha384>05e893690b44a41ad2eaa0cc609fcf73b5193050fe8a2c493f25b4fa0fb45fa3612763027e710765a90ddfa426d4e3c5</sha384>
+		<sha512>1203b0f00b0b77ed39269201b8e92f7313c68a8e91e0e80afc5386eae1c5f2b80baa24df9d322a246576c862bdf07fc3973cfacfe3ce910f7dd2fc6059131ae7</sha512>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
 		<maintainer>Joomla! Production Department</maintainer>
