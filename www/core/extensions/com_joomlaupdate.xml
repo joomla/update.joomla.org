@@ -43,4 +43,29 @@
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<targetplatform name="joomla" version="4.0.1"/>
 	</update>
+	<update>
+		<name>Joomla! Update Component Update</name>
+		<description>Joomla Update Component</description>
+		<element>com_joomlaupdate</element>
+		<type>component</type>
+		<client>administrator</client>
+		<version>5.1.2</version>
+		<infourl title="Joomla!">https://www.joomla.org/announcements/release-news/XXXX-joomla-5-1-2-and-joomla-4-4-6-are-here.html</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla5/5-1-2/com_joomlaupdate-5.1.2.zip</downloadurl>
+			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/5.1.2/com_joomlaupdate-5.1.2.zip</downloadsource>
+			<downloadsource type="full" format="zip">https://update.joomla.org/releases/5.1.2/com_joomlaupdate-5.1.2.zip</downloadsource>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<supported_databases mysql="8.0.13" mariadb="10.4" postgresql="12.0" />
+		<php_minimum>8.1.0</php_minimum>
+		<sha256>cb035ff0e5c934097e4b7b901f156f8bf5001e690ea5dc3adabd8b892e8d6d18</sha256>
+		<sha384>220594500388441b481c49327531f97a960be641ea8cb3e8ddbbb2d6d99ddcb16228450081639f36f3dba4c2abca7bef</sha384>
+		<sha512>7a193a850ed5812ce2bbdb81091aaf282e11d6eb3c909c3b2d950ad8aa5075d7654e0c67556311ebb51fd5a15ee38ac25d5cb44fcecb43f9bb5817c30ac31d18</sha512>
+		<maintainer>Joomla! Production Department</maintainer>
+		<maintainerurl>https://www.joomla.org</maintainerurl>
+		<targetplatform name="joomla" version="5.1.[012]"/>
+	</update>
 </updates>
