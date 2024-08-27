@@ -8,7 +8,7 @@
 		<version>4.4.8</version>
 		<infourl title="Joomla 4.4.8 Release">https://www.joomla.org/announcements/release-news/5911-joomla-5-1-4-and-joomla-4-4-8-are-here.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-4-7/Joomla_4.4.8-Stable-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-4-8/Joomla_4.4.8-Stable-Update_Package.zip</downloadurl>
 			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.4.8/Joomla_4.4.8-Stable-Update_Package.zip</downloadsource>
 			<downloadsource type="full" format="zip">https://update.joomla.org/releases/4.4.8/Joomla_4.4.8-Stable-Update_Package.zip</downloadsource>
 		</downloads>
@@ -17,9 +17,9 @@
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256>TODO</sha256>
-		<sha384>TODO</sha384>
-		<sha512>TODO</sha512>
+		<sha256>71a1024756ac6d2d87cb40b81d2e0bf8c52391a8956b35f174c9d2bfeb2ecef0</sha256>
+		<sha384>1541604038b1f9ca51b66b3748b60e984d7462a8e93d1c92792e1cff41624bd6156dcd95a8e13655daef81e004a47cc6</sha384>
+		<sha512>090228bc2bd4af8f81e9a0d8a805d4ae1ddbe06b6707eb92f766fcd7e9da9eae36cdd5b8ce354a53e29bd9d13da4fdf261142725180e5ea5f61dd20f6c00e611</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
@@ -56,9 +56,9 @@
 		<element>joomla</element>
 		<type>file</type>
 		<version>4.4.8</version>
-		<infourl title="Joomla 4.4.8 Release">https://www.joomla.org/announcements/release-news/5910-joomla-5-1-3-and-4-4-7-security-and-bug-fix-release.html</infourl>
+		<infourl title="Joomla 4.4.8 Release">https://www.joomla.org/announcements/release-news/5911-joomla-5-1-4-and-joomla-4-4-8-are-here.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-4-7/Joomla_4.4.8-Stable-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-4-8/Joomla_4.4.8-Stable-Update_Package.zip</downloadurl>
 			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.4.8/Joomla_4.4.8-Stable-Update_Package.zip</downloadsource>
 			<downloadsource type="full" format="zip">https://update.joomla.org/releases/4.4.8/Joomla_4.4.8-Stable-Update_Package.zip</downloadsource>
 		</downloads>
@@ -67,9 +67,9 @@
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256>TODO</sha256>
-		<sha384>TODO</sha384>
-		<sha512>TODO</sha512>
+		<sha256>71a1024756ac6d2d87cb40b81d2e0bf8c52391a8956b35f174c9d2bfeb2ecef0</sha256>
+		<sha384>1541604038b1f9ca51b66b3748b60e984d7462a8e93d1c92792e1cff41624bd6156dcd95a8e13655daef81e004a47cc6</sha384>
+		<sha512>090228bc2bd4af8f81e9a0d8a805d4ae1ddbe06b6707eb92f766fcd7e9da9eae36cdd5b8ce354a53e29bd9d13da4fdf261142725180e5ea5f61dd20f6c00e611</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
@@ -81,9 +81,9 @@
 		<element>joomla</element>
 		<type>file</type>
 		<version>4.4.8</version>
-		<infourl title="Joomla 4.4.8 Release">https://www.joomla.org/announcements/release-news/5910-joomla-5-1-3-and-4-4-7-security-and-bug-fix-release.html</infourl>
+		<infourl title="Joomla 4.4.8 Release">https://www.joomla.org/announcements/release-news/5911-joomla-5-1-4-and-joomla-4-4-8-are-here.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-4-7/Joomla_4.4.8-Stable-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla4/4-4-8/Joomla_4.4.8-Stable-Update_Package.zip</downloadurl>
 			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/4.4.8/Joomla_4.4.8-Stable-Update_Package.zip</downloadsource>
 			<downloadsource type="full" format="zip">https://update.joomla.org/releases/4.4.8/Joomla_4.4.8-Stable-Update_Package.zip</downloadsource>
 		</downloads>
@@ -92,9 +92,9 @@
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256>TODO</sha256>
-		<sha384>TODO</sha384>
-		<sha512>TODO</sha512>
+		<sha256>71a1024756ac6d2d87cb40b81d2e0bf8c52391a8956b35f174c9d2bfeb2ecef0</sha256>
+		<sha384>1541604038b1f9ca51b66b3748b60e984d7462a8e93d1c92792e1cff41624bd6156dcd95a8e13655daef81e004a47cc6</sha384>
+		<sha512>090228bc2bd4af8f81e9a0d8a805d4ae1ddbe06b6707eb92f766fcd7e9da9eae36cdd5b8ce354a53e29bd9d13da4fdf261142725180e5ea5f61dd20f6c00e611</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
