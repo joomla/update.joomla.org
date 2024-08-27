@@ -5,12 +5,12 @@
 		<description>Joomla! 5.1 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>5.1.3</version>
-		<infourl title="Joomla 5.1.3 Release">https://www.joomla.org/announcements/release-news/5910-joomla-5-1-3-and-4-4-7-security-and-bug-fix-release.html</infourl>
+		<version>5.1.4</version>
+		<infourl title="Joomla 5.1.3 Release">https://www.joomla.org/announcements/release-news/5911-joomla-5-1-4-and-joomla-4-4-8-are-here.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla5/5-1-3/Joomla_5.1.3-Stable-Update_Package.zip</downloadurl>
-			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/5.1.3/Joomla_5.1.3-Stable-Update_Package.zip</downloadsource>
-			<downloadsource type="full" format="zip">https://update.joomla.org/releases/5.1.3/Joomla_5.1.3-Stable-Update_Package.zip</downloadsource>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla5/5-1-4/Joomla_5.1.4-Stable-Update_Package.zip</downloadurl>
+			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/5.1.4/Joomla_5.1.4-Stable-Update_Package.zip</downloadsource>
+			<downloadsource type="full" format="zip">https://update.joomla.org/releases/5.1.4/Joomla_5.1.4-Stable-Update_Package.zip</downloadsource>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
@@ -19,9 +19,10 @@
 		<php_minimum>8.1.0</php_minimum>
 		<sha256>3d2a2e95c6024cf4df010f493c6e77c1d5e5c44a575e616df5247e9657a17b6f</sha256>
 		<sha384>731d333f2325d7b95e677ca33c7080e5d99d2c51eaa4a349842817d90fc57f23b7c7c97dc4f816364fda6f05cacbfd00</sha384>
-		<sha512>db1a2de75ab75230235a64956ef6f4f26a44eb1784248eeb728cee01c81e1978581e8f8e793c2378412609039d52d5fcc0f2d16d499cb85914d9253413a1a85b</sha512>		<maintainer>Joomla! Production Department</maintainer>
+		<sha512>db1a2de75ab75230235a64956ef6f4f26a44eb1784248eeb728cee01c81e1978581e8f8e793c2378412609039d52d5fcc0f2d16d499cb85914d9253413a1a85b</sha512>
+		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
-		<targetplatform name="joomla" version="4.4.7"/>
+		<targetplatform name="joomla" version="4.4.8"/>
 	</update>
 </updates>
