@@ -23,6 +23,6 @@
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
-		<targetplatform name="joomla" version="4.4.8"/>
+		<targetplatform name="joomla" version="4.4.8" />
 	</update>
 </updates>

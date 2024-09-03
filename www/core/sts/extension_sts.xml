@@ -36,9 +36,10 @@
 		</tags>
 		<supported_databases mysql="5.6" mariadb="10.1" postgresql="11.0" />
 		<php_minimum>7.2.5</php_minimum>
-		<sha256>f9b0b39d57a57c19e6d26014a71b320f6d732472c6eaf28db86e0a913ff44bc4</sha256>
-		<sha384>20e0bf8d563966c24fe6215ca98a6bbbd6e2a14348b7107cbb4a6886f8ca601ae7e85f41a0842a90a70ed8c4cf0d14e5</sha384>
-		<sha512>67be5bb1dce1aae008a7e02968ff927e66250a117f11357c7a82c9d0f8cbd979fc904c570106f5ee1cee0dd169ada923a8ae35cc530c8d0b816317867404a8e5</sha512>		<maintainer>Joomla! Production Department</maintainer>
+		<sha256>71a1024756ac6d2d87cb40b81d2e0bf8c52391a8956b35f174c9d2bfeb2ecef0</sha256>
+		<sha384>1541604038b1f9ca51b66b3748b60e984d7462a8e93d1c92792e1cff41624bd6156dcd95a8e13655daef81e004a47cc6</sha384>
+		<sha512>090228bc2bd4af8f81e9a0d8a805d4ae1ddbe06b6707eb92f766fcd7e9da9eae36cdd5b8ce354a53e29bd9d13da4fdf261142725180e5ea5f61dd20f6c00e611</sha512>
+		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
 		<targetplatform name="joomla" version="3.10" />
