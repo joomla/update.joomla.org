@@ -1,28 +1,28 @@
 <?xml version="1.0" ?>
 <updates>
 	<update>
-		<name>Joomla! 5.1</name>
-		<description>Joomla! 5.1 CMS</description>
+		<name>Joomla! 5.2</name>
+		<description>Joomla! 5.2 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>5.1.4</version>
-		<infourl title="Joomla 5.1.4 Release">https://www.joomla.org/announcements/release-news/5911-joomla-5-1-4-and-joomla-4-4-8-are-here.html</infourl>
+		<version>5.2.0</version>
+		<infourl title="Joomla 5.2.0 Release">https://www.joomla.org/announcements/release-news/5916-joomla-5-2-0-and-joomla-4-4-9-are-here.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla5/5-1-4/Joomla_5.1.4-Stable-Update_Package.zip</downloadurl>
-			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/5.1.4/Joomla_5.1.4-Stable-Update_Package.zip</downloadsource>
-			<downloadsource type="full" format="zip">https://update.joomla.org/releases/5.1.4/Joomla_5.1.4-Stable-Update_Package.zip</downloadsource>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla5/5-2-0/Joomla_5.2.0-Stable-Update_Package.zip</downloadurl>
+			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/5.2.0/Joomla_5.2.0-Stable-Update_Package.zip</downloadsource>
+			<downloadsource type="full" format="zip">https://update.joomla.org/releases/5.2.0/Joomla_5.2.0-Stable-Update_Package.zip</downloadsource>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
 		<supported_databases mysql="8.0.13" mariadb="10.4" postgresql="12.0" />
 		<php_minimum>8.1.0</php_minimum>
-		<sha256>764988c6506d4f62d0bf43b69f2e5fda02ebe99c3f98aa58cc82ab087810c920</sha256>
-		<sha384>848467b83b44f82f4534bcf40e9bebe700b9a5aeae43cfefc84980fe7f31e7576b709c968395cd0871896a9b71961d85</sha384>
-		<sha512>97c556bddd77604d89106077e09e43845927e0507179bfca7646aadddaf69246079d71e83ceb33b714f4437d836deac8d3ec12fc103024524e2ae1ae41885104</sha512>
+		<sha256>3fe4c44966c5ef49d9602423ac590b144e961ee6e221d877805047119368649f</sha256>
+		<sha384>ac0b32e3ed2703ef7b8b49d95c88748e0d54a0fb801138448cd514c463acefd9068c4dedc7b7a810050409ec689aebcd</sha384>
+		<sha512>f6d0bdeb9362d18fd570a0ec06e24eebbc8bf88db74d7abd3995f939b2af91edd95e8fa31fbab325877b3d0eae49e3fe3e592a0d3d3ee7942570f3c05b97f75f</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
-		<targetplatform name="joomla" version="5.[01]" />
+		<targetplatform name="joomla" version="5.[012]" />
 	</update>
 </updates>
