@@ -23,9 +23,9 @@
 	<extension name="Joomla" element="joomla" type="file" version="4.4.9" targetplatformversion="4.1" detailsurl="https://update.joomla.org/core/j4/default.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="4.4.9" targetplatformversion="4.2" detailsurl="https://update.joomla.org/core/j4/default.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="4.4.9" targetplatformversion="4.3" detailsurl="https://update.joomla.org/core/j4/default.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="5.2.0" targetplatformversion="4.4.9" detailsurl="https://update.joomla.org/core/j4/next.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="5.2.1" targetplatformversion="4.4.9" detailsurl="https://update.joomla.org/core/j4/next.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="4.4.9" targetplatformversion="4.4" detailsurl="https://update.joomla.org/core/j4/default.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="5.2.0" targetplatformversion="5.0" detailsurl="https://update.joomla.org/core/j5/next.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="5.2.0" targetplatformversion="5.1" detailsurl="https://update.joomla.org/core/j5/next.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="5.2.0" targetplatformversion="5.2" detailsurl="https://update.joomla.org/core/j5/next.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="5.2.1" targetplatformversion="5.0" detailsurl="https://update.joomla.org/core/j5/next.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="5.2.1" targetplatformversion="5.1" detailsurl="https://update.joomla.org/core/j5/next.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="5.2.1" targetplatformversion="5.2" detailsurl="https://update.joomla.org/core/j5/next.xml" />
 </extensionset>
