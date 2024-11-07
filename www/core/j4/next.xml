@@ -17,9 +17,9 @@
 		</tags>
 		<supported_databases mysql="8.0.13" mariadb="10.4" postgresql="12.0" />
 		<php_minimum>8.1.0</php_minimum>
-		<sha256>747b14cae029dbecb421f73b4a9e0b131f6022c41ac2f40f3d17b90a4ed9f0de</sha256>
-		<sha384>b2da752fa18d22e935ccc5518dceb0f3680a9f901e1f835239646cc4a5212c6473a77b5e819a8eb900ba169e9b82e802</sha384>
-		<sha512>371998b9a96c7710ca7d75d574b0ff851f9624b12335a9482f4d8eff003c6a4febba0df238f119f55099e5563eadcd0281c62ca52bc01ea6a429a913060bc2bb</sha512>
+		<sha256>c7e358dd1e5e4d8c1db1de6d41c939ef3fb4002ddac778669689a5f9ecb3c6f5</sha256>
+		<sha384>2e38ac7649c7f3034789ce537085a99a2048127794bf3bb9ddb8a5bc45dc5f1fe2891bf86204e802724e9fca01cc6c8e</sha384>
+		<sha512>9e846affcbf04a4d1c60d6cb54182e6800defb56aa90c8c5664be317ee4fc2fffe6b9986c875403fe54a488427969861b0c4ed2c839abd1c3f1a91a91131abae</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
