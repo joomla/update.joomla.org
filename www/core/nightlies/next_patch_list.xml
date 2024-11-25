@@ -9,7 +9,7 @@
 	<extension name="Joomla" element="joomla" type="file" version="4.4.10-dev" targetplatformversion="4.3" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="5.2.2-dev" targetplatformversion="4.4.10" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="4.4.10-dev" targetplatformversion="4.4" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="5.2.2-dev" targetplatformversion="5.0" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="5.2.2-dev" targetplatformversion="5.1" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="5.2.2-dev" targetplatformversion="5.2" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="5.2.3-dev" targetplatformversion="5.0" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="5.2.3-dev" targetplatformversion="5.1" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="5.2.3-dev" targetplatformversion="5.2" detailsurl="https://update.joomla.org/core/nightlies/next_patch_extension.xml" />
 </extensionset>
