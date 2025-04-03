@@ -16,6 +16,10 @@ steps:
         from_secret: update_key
       RINGCENTRAL_WEBHOOK:
         from_secret: notification_url
+      CLOUDFLARE_TOKEN:
+        from_secret: CLOUDFLARE_TOKEN
+      CLOUDFLARE_ZONE_ID:
+        from_secret: CLOUDFLARE_ZONE_ID
     commands:
       - mkdir -p ~/.ssh
       - eval $(ssh-agent -s)
@@ -26,6 +30,7 @@ steps:
       - rclone config create update sftp host $update_host user $update_user port 22
       - rclone copy ./translation-cli/ update:/home/update1/translation-cli/
       - rclone copy ./www/ update:/home/update1/public_html/
+      - /bin/cloudflare_clear_cache updates.joomla.org/translation-cli updates.joomla.org/www
       - /bin/notify
 
   - name: buildfailure
@@ -46,6 +51,6 @@ trigger:
     - push
 ---
 kind: signature
-hmac: b37dfb32e5b500821a57dbbdc9ac62f97ece605897885421ba27772c3f70a2af
+hmac: 659f3d2bf43c2100544c027c77a0f14da95511c54bd43a3c999009282cd7f60a
 
 ...
