@@ -30,7 +30,7 @@ steps:
       - rclone config create update sftp host $update_host user $update_user port 22
       - rclone copy ./translation-cli/ update:/home/update1/translation-cli/
       - rclone copy ./www/ update:/home/update1/public_html/
-      - /bin/cloudflare_clear_cache update.joomla.org/translation-cli update.joomla.org/www
+      - /bin/cloudflare_clear_cache update.joomla.org/core
       - /bin/notify
 
   - name: buildfailure
@@ -51,6 +51,6 @@ trigger:
     - push
 ---
 kind: signature
-hmac: 14edbb0c2eb34e411ff2e680a7dd9bd8534c3ad893d8bf6074a0a0a7817811c9
+hmac: da22e793d280a553b7d3d37baaf150299b965a8e3aafdd6e4d8998872a2fe39c
 
 ...
