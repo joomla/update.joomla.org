@@ -1,4 +1,4 @@
 <extensionset name="Joomla! Core Nightly Builds" description="Joomla! Core Next Major Nightly Builds">
-	<extension name="Joomla" element="joomla" type="file" version="6.0.0-alpha1-dev" targetplatformversion="5.4" detailsurl="https://update.joomla.org/core/nightlies/next_major_extension.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="6.0.0-alpha1-dev" targetplatformversion="6.0" detailsurl="https://update.joomla.org/core/nightlies/next_major_extension.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="6.0.0-alpha2-dev" targetplatformversion="5.4" detailsurl="https://update.joomla.org/core/nightlies/next_major_extension.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="6.0.0-alpha2-dev" targetplatformversion="6.0" detailsurl="https://update.joomla.org/core/nightlies/next_major_extension.xml" />
 </extensionset>
