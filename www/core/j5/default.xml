@@ -8,7 +8,7 @@
 		<version>5.3.1</version>
 		<infourl title="Joomla 5.3.1 Release">https://www.joomla.org/announcements/release-news/5928-joomla-5-3-1-bugfix-release.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla5/5-3-0/Joomla_5.3.1-Stable-Update_Package.zip</downloadurl>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla5/5-3-1/Joomla_5.3.1-Stable-Update_Package.zip</downloadurl>
 			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/5.3.1/Joomla_5.3.1-Stable-Update_Package.zip</downloadsource>
 			<downloadsource type="full" format="zip">https://update.joomla.org/releases/5.3.1/Joomla_5.3.1-Stable-Update_Package.zip</downloadsource>
 		</downloads>
