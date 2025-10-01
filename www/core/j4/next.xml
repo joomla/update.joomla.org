@@ -1,25 +1,25 @@
 <?xml version="1.0" ?>
 <updates>
 	<update>
-		<name>Joomla! 5.3</name>
-		<description>Joomla! 5.3 CMS</description>
+		<name>Joomla! 5.4</name>
+		<description>Joomla! 5.4 CMS</description>
 		<element>joomla</element>
 		<type>file</type>
-		<version>5.3.4</version>
-		<infourl title="Joomla 5.3.4 Release">https://www.joomla.org/announcements/release-news/5936-joomla-5-3-4-security-bugfix-release.html</infourl>
+		<version>5.4.0</version>
+		<infourl title="Joomla 5.4.0 Release">https://www.joomla.org/announcements/release-news/5939-joomla-6-0-and-joomla-5-4-are-here.html</infourl>
 		<downloads>
-			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla5/5-3-4/Joomla_5.3.4-Stable-Update_Package.zip</downloadurl>
-			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/5.3.4/Joomla_5.3.4-Stable-Update_Package.zip</downloadsource>
-			<downloadsource type="full" format="zip">https://update.joomla.org/releases/5.3.4/Joomla_5.3.4-Stable-Update_Package.zip</downloadsource>
+			<downloadurl type="full" format="zip">https://downloads.joomla.org/cms/joomla5/5-4-0/Joomla_5.4.0-Stable-Update_Package.zip</downloadurl>
+			<downloadsource type="full" format="zip">https://github.com/joomla/joomla-cms/releases/download/5.4.0/Joomla_5.4.0-Stable-Update_Package.zip</downloadsource>
+			<downloadsource type="full" format="zip">https://update.joomla.org/releases/5.4.0/Joomla_5.4.0-Stable-Update_Package.zip</downloadsource>
 		</downloads>
 		<tags>
 			<tag>stable</tag>
 		</tags>
 		<supported_databases mysql="8.0.13" mariadb="10.4" postgresql="12.0" />
 		<php_minimum>8.1.0</php_minimum>
-		<sha256>ec22816bd07df15c1c361d8350c6885bc2558d699c805b7ca79459a4be8203a9</sha256>
-		<sha384>08de732cd0d8701d29124b51aaad6c9e7f10122d8ff1a8ffe3d1066bfda0eb8473f97be96226658dc2722861376208e8</sha384>
-		<sha512>12a386645464b4f973ec28b40252cca28f56fdbe3f89efa37a4deaebb3334088c427e74bb90fa3068efc2df785a96510befde496f6341bd83f2a1b45b3d693ea</sha512>
+		<sha256>66eaef60b588764d762c290b16be7c625d677a3bed8a92ef628b2cdbaa2f32d7</sha256>
+		<sha384>065066e4b7d6a8529add7a0da0016b715c4864885745eabddb9b1f658e48e8b909ef2e939f50aa18756d1ac760290150</sha384>
+		<sha512>c862b2674acd3f7da6062ea2a0defa35c2c5c9091eaf742106f6cf5793d321ed7a9b99901c7ad15845cef4e4cb7e2806af64794fdcf5a30b7e1c4db60bcd10ae</sha512>
 		<maintainer>Joomla! Production Department</maintainer>
 		<maintainerurl>https://www.joomla.org</maintainerurl>
 		<section>STS</section>
