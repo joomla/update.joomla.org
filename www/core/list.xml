@@ -22,10 +22,10 @@
 	<extension name="Joomla" element="joomla" type="file" version="4.4.14" targetplatformversion="4.2" detailsurl="https://update.joomla.org/core/j4/default.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="4.4.14" targetplatformversion="4.3" detailsurl="https://update.joomla.org/core/j4/default.xml" />
 	<extension name="Joomla" element="joomla" type="file" version="4.4.14" targetplatformversion="4.4" detailsurl="https://update.joomla.org/core/j4/default.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="5.4.2" targetplatformversion="5.0" detailsurl="https://update.joomla.org/core/j5/default.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="5.4.2" targetplatformversion="5.1" detailsurl="https://update.joomla.org/core/j5/default.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="5.4.2" targetplatformversion="5.2" detailsurl="https://update.joomla.org/core/j5/default.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="5.4.2" targetplatformversion="5.3" detailsurl="https://update.joomla.org/core/j5/default.xml" />
-	<extension name="Joomla" element="joomla" type="file" version="5.4.2" targetplatformversion="5.4" detailsurl="https://update.joomla.org/core/j5/default.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="5.4.3" targetplatformversion="5.0" detailsurl="https://update.joomla.org/core/j5/default.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="5.4.3" targetplatformversion="5.1" detailsurl="https://update.joomla.org/core/j5/default.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="5.4.3" targetplatformversion="5.2" detailsurl="https://update.joomla.org/core/j5/default.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="5.4.3" targetplatformversion="5.3" detailsurl="https://update.joomla.org/core/j5/default.xml" />
+	<extension name="Joomla" element="joomla" type="file" version="5.4.3" targetplatformversion="5.4" detailsurl="https://update.joomla.org/core/j5/default.xml" />
 </extensionset>
 
